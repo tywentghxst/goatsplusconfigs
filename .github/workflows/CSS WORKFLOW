@@ -1,0 +1,268 @@
+/*MY CODE */
+@import url("https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/Font%20Awesome/regular.css");
+
+
+.section0 .cardScalable {
+    display: none
+}
+
+
+/* remove My Media title */
+.section0 .sectionTitle {display: none}
+
+.layout-desktop
+.section0 .itemsContainer {
+    align-items: center;
+ justify-content: center;
+    margin-top: 0px;
+}
+
+.layout-mobile
+.section0 .itemsContainer {
+    margin-top: 0px;
+}
+
+
+
+
+
+
+.layout-desktop
+.section0 button.itemAction.textActionButton {
+    height: 3.5em;
+position: relative;
+  color: var(--textColor2);
+  border-radius: 26px;
+  background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
+  background-size: 400%;
+  background-position: 0% 0%;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 20px;
+letter-spacing: 5px;
+word-spacing: 3px;
+color: #FFFFFF;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
+
+
+.layout-mobile
+.section0 button.itemAction.textActionButton {
+    height: 3.5em;
+position: relative;
+  color: var(--textColor2);
+  border-radius: 26px;
+  background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
+  background-size: 400%;
+  background-position: 0% 0%;
+}
+
+
+
+
+
+
+.layout-mobile
+.section0 .overflowBackdropCard,
+.section0 .overflowSmallBackdropCard {
+    max-width: 33vw
+}
+
+.layout-desktop
+.section0 .overflowBackdropCard,
+.section0 .overflowSmallBackdropCard {
+    max-width: 40vw
+}
+
+
+
+
+
+.section0 .emby-scroller {
+    margin-right: 0
+}
+
+.section0 .section0 .itemsContainer {
+    flex-wrap: wrap
+}
+
+@media (max-width:75em) and (orientation:auto) {
+    .section0 {
+        display: none
+    }
+}
+
+
+
+.playedIndicator { background: #5dd000; }
+
+
+
+
+
+
+
+.backdropImage { display: none; }
+
+.backgroundContainer {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("https://static.wixstatic.com/media/e1e776_d29dc1ef4c9642f99bfeed30344e92e7~mv2.gif");
+  filter: blur(10px);
+  background-size: cover;
+}
+
+
+
+
+
+
+
+/*APP LOGO*/
+.adminDrawerLogo img { content: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; } imgLogoIcon { content: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; } .pageTitleWithLogo { background-image: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; }
+
+
+
+
+
+
+
+
+/*Banner transparency and larger font, adjust both "size-adjust" and "size" to modify font size*/
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {background:none; background-color:rgba(0, 0, 0, 0);}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {background:none; background-color: rgba(0, 0, 0, 0);}
+.headerTabs.sectionTabs {text-size-adjust: 110%;  font-size: 110%;}
+.pageTitle {margin-top: auto; margin-bottom: auto;}
+.emby-tab-button {padding: 1.75em 1.7em;}
+
+
+
+
+
+
+
+/*Universal - Rounded corners and square hover buttons*/
+.cardContent-button, 
+.cardContent-shadow, 
+.itemDetailImage, 
+.cardOverlayButton-hover, 
+.cardOverlayContainer,
+.cardImageContainer,
+.cardPadder,
+.listItemImage,
+.listItemImageButton,
+.listItemButton,
+.headerButton,
+.paper-icon-button-light,
+.innerCardFooter,
+.blurhash-canvas,
+.actionSheetMenuItem:hover,
+.dialog
+{border-radius: 10px !important;}
+
+
+
+
+
+
+
+/*Library Page - Align Posters to Center */
+.layout-desktop
+.padded-right-withalphapicker {padding-right:2.5% !important;}
+
+
+
+
+
+
+/*transparent top bar*/
+.skinHeader-withBackground {background-color: #20202000 !important;}
+
+
+
+
+
+
+/*Partialy transparent side bar*/
+div.mainDrawer {background: rgb(63,94,251);
+background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379726890756303) 100%); !important;}
+
+
+
+
+
+
+/*Center the play and pause rewind and fast forward button*/
+
+.layout-mobile
+.btnPause {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.layout-mobile
+.material-icons.pause:before {
+    font-size: 5em;
+}
+.layout-mobile
+.xlargePaperIconButton.material-icons.play_arrow:before {
+    font-size: 5em;
+}
+.layout-mobile
+.btnRewind {
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.layout-mobile
+.btnFastForward {
+    position: fixed;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.layout-mobile
+.xlargePaperIconButton.material-icons.fast_forward {
+    font-size: 5em;
+}
+.layout-mobile
+.xlargePaperIconButton.material-icons.fast_rewind {
+    font-size: 5em;
+}
+.layout-mobile
+@media (max-width: 50em) {
+.videoOsdBottom .btnFastForward, .videoOsdBottom .btnRewind {
+  display: block !important;
+}
+}
+
+
+
+
+
+/* Tv background wallpaper*/
+.layout-tv
+.backgroundContainer {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("https://static.wixstatic.com/media/e1e776_f890af4b1ae94e578f84b7cb72a55f8f~mv2.png/v1/fill/w_560,h_314,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ddwzfge-f71202e3-9ee1-4a25-8ad6-4c42f09ac1db.png");
+  filter: blur(1px);
+  background-size: cover;
+}
+
+
+
+/*END OF MY CODE ALL BELOW IS TEST CODE*/
+
+
+
+
+
+
+
