@@ -26,6 +26,7 @@
 
 
 
+
 .layout-desktop
 .section0 button.itemAction.textActionButton {
     height: 3.5em;
@@ -98,11 +99,10 @@ position: relative;
 
 .playedIndicator { background: #5dd000; }
 
-#loginPage {
-  background: url("https://static.wixstatic.com/media/e1e776_d29dc1ef4c9642f99bfeed30344e92e7~mv2.gif");
 
-  background-size: cover;
-}
+
+
+
 
 
 .backdropImage { display: none; }
@@ -114,7 +114,19 @@ position: relative;
   background-size: cover;
 }
 
+
+
+
+
+
+
+/*APP LOGO*/
 .adminDrawerLogo img { content: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; } imgLogoIcon { content: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; } .pageTitleWithLogo { background-image: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; }
+
+
+
+
+
 
 
 
@@ -124,6 +136,11 @@ position: relative;
 .headerTabs.sectionTabs {text-size-adjust: 110%;  font-size: 110%;}
 .pageTitle {margin-top: auto; margin-bottom: auto;}
 .emby-tab-button {padding: 1.75em 1.7em;}
+
+
+
+
+
 
 
 /*Universal - Rounded corners and square hover buttons*/
@@ -146,13 +163,26 @@ position: relative;
 {border-radius: 10px !important;}
 
 
+
+
+
+
+
 /*Library Page - Align Posters to Center */
 .layout-desktop
 .padded-right-withalphapicker {padding-right:2.5% !important;}
 
 
+
+
+
+
 /*transparent top bar*/
 .skinHeader-withBackground {background-color: #20202000 !important;}
+
+
+
+
 
 
 /*Partialy transparent side bar*/
@@ -161,7 +191,12 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 
 
 
+
+
+
 /*Center the play and pause rewind and fast forward button*/
+
+.layout-mobile
 .btnPause {
     position: fixed;
     top: 50%;
@@ -169,12 +204,15 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
 }
+.layout-mobile
 .material-icons.pause:before {
     font-size: 5em;
 }
+.layout-mobile
 .xlargePaperIconButton.material-icons.play_arrow:before {
     font-size: 5em;
 }
+.layout-mobile
 .btnRewind {
     position: fixed;
     top: 50%;
@@ -182,6 +220,7 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
 }
+.layout-mobile
 .btnFastForward {
     position: fixed;
     top: 50%;
@@ -189,19 +228,40 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
 }
+.layout-mobile
 .xlargePaperIconButton.material-icons.fast_forward {
     font-size: 5em;
 }
+.layout-mobile
 .xlargePaperIconButton.material-icons.fast_rewind {
     font-size: 5em;
 }
+.layout-mobile
 @media (max-width: 50em) {
 .videoOsdBottom .btnFastForward, .videoOsdBottom .btnRewind {
   display: block !important;
 }
 }
 
+
+
+
+
+/* Tv background wallpaper*/
+.layout-tv
+.backgroundContainer {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("https://static.wixstatic.com/media/e1e776_f890af4b1ae94e578f84b7cb72a55f8f~mv2.png/v1/fill/w_560,h_314,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ddwzfge-f71202e3-9ee1-4a25-8ad6-4c42f09ac1db.png");
+  filter: blur(1px);
+  background-size: cover;
+}
+
+
+
 /*END OF MY CODE ALL BELOW IS TEST CODE*/
+
+
+
 
 
 
