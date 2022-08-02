@@ -194,8 +194,7 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 
 
 
-/*Center the play and pause rewind and fast forward button*/
-
+/*Center the play and pause rewind and fast forward button (MOBILE)*/
 .layout-mobile
 .btnPause {
     position: fixed;
@@ -242,6 +241,55 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
   display: block !important;
 }
 }
+
+/*Center the play and pause rewind and fast forward button (DESKTOP)*/
+.layout-desktop
+.btnPause {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.layout-desktop
+.material-icons.pause:before {
+    font-size: 5em;
+}
+.layout-desktop
+.xlargePaperIconButton.material-icons.play_arrow:before {
+    font-size: 5em;
+}
+.layout-desktop
+.btnRewind {
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.layout-desktop
+.btnFastForward {
+    position: fixed;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.layout-desktop
+.xlargePaperIconButton.material-icons.fast_forward {
+    font-size: 5em;
+}
+.layout-desktop
+.xlargePaperIconButton.material-icons.fast_rewind {
+    font-size: 5em;
+}
+.layout-desktop
+@media (max-width: 50em) {
+.videoOsdBottom .btnFastForward, .videoOsdBottom .btnRewind {
+  display: block !important;
+}
+}
+
 
 
 
