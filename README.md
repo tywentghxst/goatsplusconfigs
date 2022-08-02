@@ -1,37 +1,317 @@
-## Welcome to GitHub Pages
+/*MY CODE */
+@import url("https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/Font%20Awesome/regular.css");
 
-You can use the [editor on GitHub](https://github.com/tywentghxst/goatsplusconfigs/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+.section0 .cardScalable {
+    display: none
+}
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+/* remove My Media title */
+.section0 .sectionTitle {display: none}
 
-```markdown
-Syntax highlighted code block
+.layout-desktop
+.section0 .itemsContainer {
+    align-items: center;
+ justify-content: center;
+    margin-top: 0px;
+}
 
-# Header 1
-## Header 2
-### Header 3
+.layout-mobile
+.section0 .itemsContainer {
+    margin-top: 0px;
+}
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
+.layout-desktop
+.section0 button.itemAction.textActionButton {
+    height: 3.5em;
+position: relative;
+  color: var(--textColor2);
+  border-radius: 26px;
+  background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
+  background-size: 400%;
+  background-position: 0% 0%;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 20px;
+letter-spacing: 5px;
+word-spacing: 3px;
+color: #FFFFFF;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tywentghxst/goatsplusconfigs/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+.layout-mobile
+.section0 button.itemAction.textActionButton {
+    height: 3.5em;
+position: relative;
+  color: var(--textColor2);
+  border-radius: 26px;
+  background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
+  background-size: 400%;
+  background-position: 0% 0%;
+}
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+
+
+
+
+.layout-mobile
+.section0 .overflowBackdropCard,
+.section0 .overflowSmallBackdropCard {
+    max-width: 33vw
+}
+
+.layout-desktop
+.section0 .overflowBackdropCard,
+.section0 .overflowSmallBackdropCard {
+    max-width: 40vw
+}
+
+
+
+
+
+.section0 .emby-scroller {
+    margin-right: 0
+}
+
+.section0 .section0 .itemsContainer {
+    flex-wrap: wrap
+}
+
+@media (max-width:75em) and (orientation:auto) {
+    .section0 {
+        display: none
+    }
+}
+
+
+
+.playedIndicator { background: #5dd000; }
+
+
+
+
+
+
+
+.backdropImage { display: none; }
+
+.backgroundContainer {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("https://static.wixstatic.com/media/e1e776_d29dc1ef4c9642f99bfeed30344e92e7~mv2.gif");
+  filter: blur(10px);
+  background-size: cover;
+}
+
+
+
+
+
+
+
+/*APP LOGO*/
+.adminDrawerLogo img { content: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; } imgLogoIcon { content: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; } .pageTitleWithLogo { background-image: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; }
+
+
+
+
+
+
+
+
+/*Banner transparency and larger font, adjust both "size-adjust" and "size" to modify font size*/
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {background:none; background-color:rgba(0, 0, 0, 0);}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {background:none; background-color: rgba(0, 0, 0, 0);}
+.headerTabs.sectionTabs {text-size-adjust: 110%;  font-size: 110%;}
+.pageTitle {margin-top: auto; margin-bottom: auto;}
+.emby-tab-button {padding: 1.75em 1.7em;}
+
+
+
+
+
+
+
+/*Universal - Rounded corners and square hover buttons*/
+.cardContent-button, 
+.cardContent-shadow, 
+.itemDetailImage, 
+.cardOverlayButton-hover, 
+.cardOverlayContainer,
+.cardImageContainer,
+.cardPadder,
+.listItemImage,
+.listItemImageButton,
+.listItemButton,
+.headerButton,
+.paper-icon-button-light,
+.innerCardFooter,
+.blurhash-canvas,
+.actionSheetMenuItem:hover,
+.dialog
+{border-radius: 10px !important;}
+
+
+
+
+
+
+
+/*Library Page - Align Posters to Center */
+.layout-desktop
+.padded-right-withalphapicker {padding-right:2.5% !important;}
+
+
+
+
+
+
+/*transparent top bar*/
+.skinHeader-withBackground {background-color: #20202000 !important;}
+
+
+
+
+
+
+/*Partialy transparent side bar*/
+div.mainDrawer {background: rgb(63,94,251);
+background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379726890756303) 100%); !important;}
+
+
+
+
+
+
+/*Center the play and pause rewind and fast forward button (MOBILE)*/
+.layout-mobile
+.btnPause {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.layout-mobile
+.material-icons.pause:before {
+    font-size: 5em;
+}
+.layout-mobile
+.xlargePaperIconButton.material-icons.play_arrow:before {
+    font-size: 5em;
+}
+.layout-mobile
+.btnRewind {
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.layout-mobile
+.btnFastForward {
+    position: fixed;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.layout-mobile
+.xlargePaperIconButton.material-icons.fast_forward {
+    font-size: 5em;
+}
+.layout-mobile
+.xlargePaperIconButton.material-icons.fast_rewind {
+    font-size: 5em;
+}
+.layout-mobile
+@media (max-width: 50em) {
+.videoOsdBottom .btnFastForward, .videoOsdBottom .btnRewind {
+  display: block !important;
+}
+}
+
+/*Center the play and pause rewind and fast forward button (DESKTOP)*/
+.layout-desktop
+.btnPause {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.layout-desktop
+.material-icons.pause:before {
+    font-size: 5em;
+}
+.layout-desktop
+.xlargePaperIconButton.material-icons.play_arrow:before {
+    font-size: 5em;
+}
+.layout-desktop
+.btnRewind {
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.layout-desktop
+.btnFastForward {
+    position: fixed;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.layout-desktop
+.xlargePaperIconButton.material-icons.fast_forward {
+    font-size: 5em;
+}
+.layout-desktop
+.xlargePaperIconButton.material-icons.fast_rewind {
+    font-size: 5em;
+}
+.layout-desktop
+@media (max-width: 50em) {
+.videoOsdBottom .btnFastForward, .videoOsdBottom .btnRewind {
+  display: block !important;
+}
+}
+
+
+
+
+
+
+/* Tv background wallpaper*/
+.layout-tv
+.backgroundContainer {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("https://static.wixstatic.com/media/e1e776_f890af4b1ae94e578f84b7cb72a55f8f~mv2.png/v1/fill/w_560,h_314,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ddwzfge-f71202e3-9ee1-4a25-8ad6-4c42f09ac1db.png");
+  filter: blur(1px);
+  background-size: cover;
+}
+
+
+
+/*END OF MY CODE ALL BELOW IS TEST CODE*/
+
+
+
+
+
+
+
+
