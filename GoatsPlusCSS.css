@@ -2,7 +2,6 @@
 @import url("https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/Font%20Awesome/regular.css");
 
 
-
 /* Changes top my media cards (movies/shows/collections) */
 .layout-mobile
 .section0 .cardScalable {
@@ -104,17 +103,12 @@ position: relative;
 }
 
 
-
+/*Change watched indicator color*/
 .playedIndicator { background: #5dd000; }
 
 
-
-
-
-
-
+/*Background site wide*/
 .backdropImage { display: none; }
-
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
   background-image: url("https://static.wixstatic.com/media/e1e776_d29dc1ef4c9642f99bfeed30344e92e7~mv2.gif");
@@ -124,17 +118,8 @@ position: relative;
 
 
 
-
-
-
-
 /*APP LOGO*/
 .adminDrawerLogo img { content: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; } imgLogoIcon { content: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; } .pageTitleWithLogo { background-image: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; }
-
-
-
-
-
 
 
 
@@ -144,11 +129,6 @@ position: relative;
 .headerTabs.sectionTabs {text-size-adjust: 110%;  font-size: 110%;}
 .pageTitle {margin-top: auto; margin-bottom: auto;}
 .emby-tab-button {padding: 1.75em 1.7em;}
-
-
-
-
-
 
 
 /*Universal - Rounded corners and square hover buttons*/
@@ -171,35 +151,18 @@ position: relative;
 {border-radius: 10px !important;}
 
 
-
-
-
-
-
 /*Library Page - Align Posters to Center */
 .layout-desktop
 .padded-right-withalphapicker {padding-right:2.5% !important;}
-
-
-
-
 
 
 /*transparent top bar*/
 .skinHeader-withBackground {background-color: #20202000 !important;}
 
 
-
-
-
-
 /*Partialy transparent side bar*/
 div.mainDrawer {background: rgb(63,94,251);
 background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379726890756303) 100%); !important;}
-
-
-
-
 
 
 /*Center the play and pause rewind and fast forward button (MOBILE)*/
@@ -249,6 +212,7 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
   display: block !important;
 }
 }
+
 
 /*Center the play and pause rewind and fast forward button (DESKTOP)*/
 .layout-desktop
@@ -300,9 +264,6 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 
 
 
-
-
-
 /* Tv background wallpaper*/
 .layout-tv
 .backgroundContainer {
@@ -317,14 +278,7 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 /*END OF MY CODE ALL BELOW IS TEST CODE*/
 
 
-
-
-
-
-
-
-
-
+/*ALL CODE BELOW IS STILL WORK IN PROGRESS TESTING CODE*/
 
 
 
