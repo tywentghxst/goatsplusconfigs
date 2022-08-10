@@ -112,7 +112,7 @@ position: relative;
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
   background-image: url("https://static.wixstatic.com/media/e1e776_d29dc1ef4c9642f99bfeed30344e92e7~mv2.gif");
-  filter: blur(10px);
+  filter: blur(17px);
   background-size: cover;
 }
 
