@@ -273,7 +273,9 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
   background-size: cover;
 }
 
-
+/*Remove Alphabet column for Tv*/
+.layout-tv
+.alphaPicker {display: none;}
 
 /*END OF MY CODE ALL BELOW IS TEST CODE*/
 
