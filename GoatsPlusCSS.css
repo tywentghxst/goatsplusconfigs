@@ -41,7 +41,7 @@
     height: 3.5em;
 position: relative;
   color: var(--textColor2);
-  border-radius: 5px;
+  border-radius: 7px;
   background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
   background-size: 400%;
   background-position: 0% 0%;
@@ -63,7 +63,19 @@ text-transform: uppercase;
     height: 3.5em;
 position: relative;
   color: var(--textColor2);
-  border-radius: 26px;
+  border-radius: 7px;
+  background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
+  background-size: 400%;
+  background-position: 0% 0%;
+}
+
+
+.layout-tv
+.section0 button.itemAction.textActionButton {
+    height: 3.5em;
+position: relative;
+  color: var(--textColor2);
+  border-radius: 7px;
   background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
   background-size: 400%;
   background-position: 0% 0%;
