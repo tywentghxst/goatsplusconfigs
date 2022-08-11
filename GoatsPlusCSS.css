@@ -281,7 +281,13 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 .layout-tv
 .padded-right-withalphapicker {padding-right:4% !important;}
 
-
+/*Item Page for TV - resize episode preview images in a more compact way*/
+.layout-tv
+.listItemImage.listItemImage-large.itemAction.lazy {height: 110px;}
+.layout-tv
+.listItem-content {height: 115px;}
+.layout-tv
+.secondary.listItem-overview.listItemBodyText {height: 61px; margin: 0;}
 
 
 
