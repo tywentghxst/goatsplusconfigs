@@ -341,17 +341,11 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
     overflow: hidden;
 }
 
-.layout-mobile .card:hover .cardBox {
-    background: rgba(0, 0, 0, 0.25) !important;
-}
 
 .layout-mobile .cardImageContainer {
     background-size: cover;
 }
 
-.layout-mobile .card:hover .cardImageContainer {
-    background-size: cover;
-}
 
 
 
