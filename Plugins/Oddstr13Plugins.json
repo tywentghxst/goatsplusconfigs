@@ -1,0 +1,2406 @@
+[
+    {
+        "guid": "a4df60c5-6ab4-412a-8f79-2cab93fb2bc5",
+        "name": "Anime",
+        "description": "Manage your anime in Jellyfin. This plugin supports several different metadata providers and options for organizing your collection.\n",
+        "overview": "Manage your anime from Jellyfin",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "11.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anime/anime_11.2012.0600.2703.zip",
+                "checksum": "a99079012c638b7fd156b85bd269b1a8",
+                "timestamp": "2020-12-06T00:27:07Z"
+            },
+            {
+                "version": "11.2012.0500.0608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anime/anime_11.2012.0500.0608.zip",
+                "checksum": "aa999aca788a0b908039a155a6a2eeef",
+                "timestamp": "2020-12-05T00:06:19Z"
+            },
+            {
+                "version": "11.2012.0423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anime/anime_11.2012.0423.2030.zip",
+                "checksum": "688c9b2ec2d1e45a3f1aeac441a27a09",
+                "timestamp": "2020-12-04T23:20:37Z"
+            },
+            {
+                "version": "11.2012.0420.2457",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anime/anime_11.2012.0420.2457.zip",
+                "checksum": "f655252df79dbfb7b8755a9aaec339a5",
+                "timestamp": "2020-12-04T20:25:05Z"
+            },
+            {
+                "version": "11.2012.0417.3737",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anime/anime_11.2012.0417.3737.zip",
+                "checksum": "2181208a98d102af6657f72fa36653d3",
+                "timestamp": "2020-12-04T17:37:42Z"
+            },
+            {
+                "version": "11.2012.0417.1812",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anime/anime_11.2012.0417.1812.zip",
+                "checksum": "301b7577efa3efe51893f8f3adb4d906",
+                "timestamp": "2020-12-04T17:18:19Z"
+            },
+            {
+                "version": "11.2012.0416.4938",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anime/anime_11.2012.0416.4938.zip",
+                "checksum": "603ec02cc10d8dad5b3eea6f9f10fdfe",
+                "timestamp": "2020-12-04T16:49:46Z"
+            },
+            {
+                "version": "11.2012.0320.3016",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anime/anime_11.2012.0320.3016.zip",
+                "checksum": "231c8b3fbefbde8884b0334441e86582",
+                "timestamp": "2020-12-03T20:30:22Z"
+            },
+            {
+                "version": "11.2012.0311.1919",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anime/anime_11.2012.0311.1919.zip",
+                "checksum": "f36a3563325dbc207d537f54e4620a66",
+                "timestamp": "2020-12-03T11:19:23Z"
+            }
+        ]
+    },
+    {
+        "guid": "9c4e63f1-031b-4f25-988b-4f7d78a8b53e",
+        "name": "Bookshelf",
+        "description": "Supports several different metadata providers and options for organizing your collection.\n",
+        "overview": "Manage your books",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "5.2103.2821.0743",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/bookshelf/bookshelf_5.2103.2821.0743.zip",
+                "checksum": "e25366b829387006c288b1920f64cc24",
+                "timestamp": "2021-03-28T21:08:28Z"
+            },
+            {
+                "version": "5.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/bookshelf/bookshelf_5.2012.0600.2703.zip",
+                "checksum": "1e572c3b1a48ddd715b87fa9fee72129",
+                "timestamp": "2020-12-06T00:27:20Z"
+            },
+            {
+                "version": "5.2012.0500.0608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/bookshelf/bookshelf_5.2012.0500.0608.zip",
+                "checksum": "b8b6693c72fa422ac5d04c13d342768d",
+                "timestamp": "2020-12-05T00:06:40Z"
+            },
+            {
+                "version": "5.2012.0423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/bookshelf/bookshelf_5.2012.0423.2030.zip",
+                "checksum": "42bc025f48f16b78cf83672937f00b8d",
+                "timestamp": "2020-12-04T23:20:50Z"
+            },
+            {
+                "version": "5.2012.0420.2457",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/bookshelf/bookshelf_5.2012.0420.2457.zip",
+                "checksum": "ae50a6705035f8ca45af1c4947354da8",
+                "timestamp": "2020-12-04T20:25:16Z"
+            },
+            {
+                "version": "5.2012.0417.3737",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/bookshelf/bookshelf_5.2012.0417.3737.zip",
+                "checksum": "879a66b5dbea31d72a6a30d2a411a9d6",
+                "timestamp": "2020-12-04T17:37:53Z"
+            },
+            {
+                "version": "5.2012.0417.1812",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/bookshelf/bookshelf_5.2012.0417.1812.zip",
+                "checksum": "2cacf8cceccea46752b8a628877d4a1c",
+                "timestamp": "2020-12-04T17:18:32Z"
+            },
+            {
+                "version": "5.2012.0416.4938",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/bookshelf/bookshelf_5.2012.0416.4938.zip",
+                "checksum": "2a709a0dd3b83a319d6f25868aeba36e",
+                "timestamp": "2020-12-04T16:49:57Z"
+            },
+            {
+                "version": "5.2012.0311.1919",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/bookshelf/bookshelf_5.2012.0311.1919.zip",
+                "checksum": "1c6b6a5dd440bf8f4f9866bbf81503e8",
+                "timestamp": "2020-12-03T11:19:32Z"
+            }
+        ]
+    },
+    {
+        "guid": "8119f3c6-cfc2-4d9c-a0ba-028f1d93e526",
+        "name": "Cover Art Archive",
+        "description": "This plugin provides images from the Cover Art Archive https://musicbrainz.org/doc/Cover_Art_Archive and depends on the MusicBrainz metadata provider to know what images belong where\n",
+        "overview": "MusicBrainz Cover Art Archive",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-coverartarchive.png",
+        "versions": [
+            {
+                "version": "3.0.0.0",
+                "changelog": "### New features and improvements ###\n- chore: plugin images (#5) @h1dden-da3m0n\n\n### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#4) @dependabot\n\n### CI & build changes ###\n- Create release prep PR on release draft update (#7) @oddstr13\n- Add analyzers and remove all warnings (#3) @crobibero\n- Let there be CI (#2) @oddstr13",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/cover-art-archive/cover-art-archive_3.0.0.0.zip",
+                "checksum": "2713e534ffce9d76ee78cabda0f970dc",
+                "timestamp": "2021-06-27T15:46:57Z"
+            },
+            {
+                "version": "2.2103.2821.743",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/cover-art-archive/cover-art-archive_2.2103.2821.0743.zip",
+                "checksum": "ff444adab12ffab316bee7490981a203",
+                "timestamp": "2021-03-28T21:08:34Z"
+            },
+            {
+                "version": "2.2103.1320.5818",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/cover-art-archive/cover-art-archive_2.2103.1320.5818.zip",
+                "checksum": "97e4195cd40014a8625c827efaaab240",
+                "timestamp": "2021-03-13T20:58:25Z"
+            },
+            {
+                "version": "2.2012.600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/cover-art-archive/cover-art-archive_2.2012.0600.2703.zip",
+                "checksum": "812e8ca573041107c6a21bc362454a3a",
+                "timestamp": "2020-12-06T00:27:26Z"
+            },
+            {
+                "version": "2.2012.500.608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/cover-art-archive/cover-art-archive_2.2012.0500.0608.zip",
+                "checksum": "ef9bdaeea839adfdc5a81532b39be84d",
+                "timestamp": "2020-12-05T00:06:50Z"
+            },
+            {
+                "version": "2.2012.423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/cover-art-archive/cover-art-archive_2.2012.0423.2030.zip",
+                "checksum": "1a9dff251b7b67f47f9d61f48dbd53de",
+                "timestamp": "2020-12-04T23:20:56Z"
+            },
+            {
+                "version": "2.2012.420.2457",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/cover-art-archive/cover-art-archive_2.2012.0420.2457.zip",
+                "checksum": "dc2cc64218ae68637f342c82d47af85f",
+                "timestamp": "2020-12-04T20:25:23Z"
+            },
+            {
+                "version": "2.2012.417.3737",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/cover-art-archive/cover-art-archive_2.2012.0417.3737.zip",
+                "checksum": "5a40230085108ccb72dee956445ecb4d",
+                "timestamp": "2020-12-04T17:37:59Z"
+            },
+            {
+                "version": "2.2012.417.1812",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/cover-art-archive/cover-art-archive_2.2012.0417.1812.zip",
+                "checksum": "238adf42034d963be713b2c505e7d575",
+                "timestamp": "2020-12-04T17:18:38Z"
+            },
+            {
+                "version": "2.2012.416.4938",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/cover-art-archive/cover-art-archive_2.2012.0416.4938.zip",
+                "checksum": "dbe83c9cf44309f2a6b0cfcf712ab5fa",
+                "timestamp": "2020-12-04T16:50:07Z"
+            },
+            {
+                "version": "2.2012.311.1919",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/cover-art-archive/cover-art-archive_2.2012.0311.1919.zip",
+                "checksum": "c2bca2b9a69a702c8c21ec211363d6d4",
+                "timestamp": "2020-12-03T11:19:37Z"
+            }
+        ]
+    },
+    {
+        "guid": "cfa0f7f4-4155-4d71-849b-d6598dc4c5bb",
+        "name": "Email",
+        "description": "Send SMTP email notifications",
+        "overview": "Send SMTP email notifications",
+        "owner": "jellyfin",
+        "category": "Notifications",
+        "versions": [
+            {
+                "version": "9.2103.2821.0743",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/email/email_9.2103.2821.0743.zip",
+                "checksum": "4ecd5a57485f92f3b82d4ebdb43d36bd",
+                "timestamp": "2021-03-28T21:08:40Z"
+            },
+            {
+                "version": "9.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/email/email_9.2012.0600.2703.zip",
+                "checksum": "3d57eee067d6707c274884e20aa20049",
+                "timestamp": "2020-12-06T00:27:33Z"
+            },
+            {
+                "version": "9.2012.0500.0608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/email/email_9.2012.0500.0608.zip",
+                "checksum": "ad4ba6425c9b79b054797047daa1bdee",
+                "timestamp": "2020-12-05T00:07:00Z"
+            },
+            {
+                "version": "9.2012.0423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/email/email_9.2012.0423.2030.zip",
+                "checksum": "53882a60ec98c37e3bc167778960dd1a",
+                "timestamp": "2020-12-04T23:21:03Z"
+            },
+            {
+                "version": "9.2012.0420.2457",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/email/email_9.2012.0420.2457.zip",
+                "checksum": "21bb4b6255f9607c38e1c3ced30038ac",
+                "timestamp": "2020-12-04T20:25:29Z"
+            },
+            {
+                "version": "9.2012.0417.3737",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/email/email_9.2012.0417.3737.zip",
+                "checksum": "40b821c5bbb08baf4601bddf9ccf1bdf",
+                "timestamp": "2020-12-04T17:38:05Z"
+            },
+            {
+                "version": "9.2012.0417.1812",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/email/email_9.2012.0417.1812.zip",
+                "checksum": "f144671a3e4987d1b3c5bbd0159cb0ae",
+                "timestamp": "2020-12-04T17:18:45Z"
+            },
+            {
+                "version": "9.2012.0416.4938",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/email/email_9.2012.0416.4938.zip",
+                "checksum": "3adbd63d7b806f1c5478b647975b6b7a",
+                "timestamp": "2020-12-04T16:50:13Z"
+            },
+            {
+                "version": "9.2012.0319.3614",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/email/email_9.2012.0319.3614.zip",
+                "checksum": "01f76a9a15348afff3a924a0166a9a92",
+                "timestamp": "2020-12-03T19:36:42Z"
+            },
+            {
+                "version": "8.2012.0311.1919",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/email/email_8.2012.0311.1919.zip",
+                "checksum": "5f842680fd7c7a967838b415ae8dd979",
+                "timestamp": "2020-12-03T11:19:43Z"
+            }
+        ]
+    },
+    {
+        "guid": "170a157f-ac6c-437a-abdd-ca9c25cebd39",
+        "name": "Fanart",
+        "description": "Scrape poster images for movies, shows, and artists in your library.",
+        "overview": "Scrape poster images from Fanart",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "6.2103.2821.0743",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/fanart/fanart_6.2103.2821.0743.zip",
+                "checksum": "ba168c5d3104ef6e98c2dfc64cecdc66",
+                "timestamp": "2021-03-28T21:08:52Z"
+            },
+            {
+                "version": "6.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/fanart/fanart_6.2012.0600.2703.zip",
+                "checksum": "9a901bacd3957d1c551e23bffc3c592d",
+                "timestamp": "2020-12-06T00:27:47Z"
+            },
+            {
+                "version": "6.2012.0500.0608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/fanart/fanart_6.2012.0500.0608.zip",
+                "checksum": "ee961aba2c0215c2afc9b1fe47db9f49",
+                "timestamp": "2020-12-05T00:07:18Z"
+            },
+            {
+                "version": "6.2012.0423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/fanart/fanart_6.2012.0423.2030.zip",
+                "checksum": "f6c0bcfbdf3f4d1426e973f3f2928266",
+                "timestamp": "2020-12-04T23:21:15Z"
+            },
+            {
+                "version": "6.2012.0420.2457",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/fanart/fanart_6.2012.0420.2457.zip",
+                "checksum": "33aca37c38c16f86e643d9c26bf481f6",
+                "timestamp": "2020-12-04T20:25:41Z"
+            },
+            {
+                "version": "6.2012.0417.3737",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/fanart/fanart_6.2012.0417.3737.zip",
+                "checksum": "e85597c2a9d1d0d0adee65d21686e6e3",
+                "timestamp": "2020-12-04T17:38:16Z"
+            },
+            {
+                "version": "6.2012.0417.1812",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/fanart/fanart_6.2012.0417.1812.zip",
+                "checksum": "013ae63eace8bb9c72f229aa3e9f432c",
+                "timestamp": "2020-12-04T17:18:57Z"
+            },
+            {
+                "version": "6.2012.0416.4938",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/fanart/fanart_6.2012.0416.4938.zip",
+                "checksum": "206162a0f762ef7d7cd51595a84667d2",
+                "timestamp": "2020-12-04T16:50:24Z"
+            },
+            {
+                "version": "6.2012.0311.1919",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/fanart/fanart_6.2012.0311.1919.zip",
+                "checksum": "6555674de4aae7a66f62b38719288033",
+                "timestamp": "2020-12-03T11:19:49Z"
+            }
+        ]
+    },
+    {
+        "guid": "771e19d6-5385-4caf-b35c-28a0e865cf63",
+        "name": "Kodi Sync Queue",
+        "description": "This plugin will track all media changes while Kodi clients are offline to decrease sync times.",
+        "overview": "Sync all media changes with Kodi clients",
+        "owner": "jellyfin",
+        "category": "General",
+        "imageUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/image.png",
+        "image": "image.png",
+        "versions": [
+            {
+                "version": "6.2103.2821.0743",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2103.2821.0743.zip",
+                "checksum": "44e30deb0460069c1cdfc94f92ebfe3f",
+                "timestamp": "2021-03-28T21:09:04Z"
+            },
+            {
+                "version": "6.2103.1200.1053",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2103.1200.1053.zip",
+                "checksum": "0863b936d7a345a315cdf0c1c7d093ce",
+                "timestamp": "2021-03-12T00:10:59Z"
+            },
+            {
+                "version": "6.2103.1200.0033",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2103.1200.0033.zip",
+                "checksum": "1cd9e0d0cfbdc0690523b31c944b7863",
+                "timestamp": "2021-03-12T00:00:37Z"
+            },
+            {
+                "version": "6.2103.1123.5522",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2103.1123.5522.zip",
+                "checksum": "1d8ec9e8243172242c8204fc8e6d9059",
+                "timestamp": "2021-03-11T23:55:27Z"
+            },
+            {
+                "version": "6.2103.1123.5242",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2103.1123.5242.zip",
+                "checksum": "825f291338ab26804bf03113bc8f4871",
+                "timestamp": "2021-03-11T23:52:47Z"
+            },
+            {
+                "version": "6.2103.1123.5110",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2103.1123.5110.zip",
+                "checksum": "c5a491850fd4e30e030cdb8e07d104a0",
+                "timestamp": "2021-03-11T23:51:16Z"
+            },
+            {
+                "version": "6.2103.1122.3003",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2103.1122.3003.zip",
+                "checksum": "b6bd5d8adbee598087660a5dc7c273eb",
+                "timestamp": "2021-03-11T22:30:13Z"
+            },
+            {
+                "version": "6.2103.0921.5937",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2103.0921.5937.zip",
+                "checksum": "96c9a3381f58fde2bbe7a9d88b71b198",
+                "timestamp": "2021-03-09T21:59:44Z"
+            },
+            {
+                "version": "6.2103.0901.4900",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2103.0901.4900.zip",
+                "checksum": "2776cf84367062d29e1add2685c73a49",
+                "timestamp": "2021-03-09T01:49:05Z"
+            },
+            {
+                "version": "6.2103.0901.4707",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2103.0901.4707.zip",
+                "checksum": "5296fc101f62b60aa83c29e1f31f3740",
+                "timestamp": "2021-03-09T01:47:13Z"
+            },
+            {
+                "version": "6.2103.0901.0254",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2103.0901.0254.zip",
+                "checksum": "26209c1a8459d3c4b74266e003402db4",
+                "timestamp": "2021-03-09T01:02:59Z"
+            },
+            {
+                "version": "6.2103.0900.2958",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2103.0900.2958.zip",
+                "checksum": "b5781076090fb746b3cc2d698a846b55",
+                "timestamp": "2021-03-09T00:30:04Z"
+            },
+            {
+                "version": "6.2103.0823.0649",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2103.0823.0649.zip",
+                "checksum": "f685296fcaada362633c98deab4aa9aa",
+                "timestamp": "2021-03-08T23:06:56Z"
+            },
+            {
+                "version": "6.2103.0821.2634",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2103.0821.2634.zip",
+                "checksum": "cfe3a2487c58d145fc746d63d7dd3a23",
+                "timestamp": "2021-03-08T21:26:40Z"
+            },
+            {
+                "version": "6.2103.0821.2557",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2103.0821.2557.zip",
+                "checksum": "dd9165b99102923da3021e0453617003",
+                "timestamp": "2021-03-08T21:26:02Z"
+            },
+            {
+                "version": "6.2103.0821.1401",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2103.0821.1401.zip",
+                "checksum": "88582a0ee469dfd1ec9235329804773f",
+                "timestamp": "2021-03-08T21:14:07Z"
+            },
+            {
+                "version": "6.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2012.0600.2703.zip",
+                "checksum": "3d6f6e68c469e17ae6b6f86bb73b54c7",
+                "timestamp": "2020-12-06T00:28:05Z"
+            },
+            {
+                "version": "6.2012.0500.0608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2012.0500.0608.zip",
+                "checksum": "c14c1bf9d4787afcb6a078fd37598977",
+                "timestamp": "2020-12-05T00:07:46Z"
+            },
+            {
+                "version": "6.2012.0423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2012.0423.2030.zip",
+                "checksum": "dae704d290c9297dd1d7915a19f10b76",
+                "timestamp": "2020-12-04T23:21:33Z"
+            },
+            {
+                "version": "6.2012.0420.2457",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2012.0420.2457.zip",
+                "checksum": "91e67519da2dea6a43c7181a390837e2",
+                "timestamp": "2020-12-04T20:25:59Z"
+            },
+            {
+                "version": "6.2012.0417.3737",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2012.0417.3737.zip",
+                "checksum": "d8869e2cd4ca1b430e9ee2977e4e9209",
+                "timestamp": "2020-12-04T17:38:33Z"
+            },
+            {
+                "version": "6.2012.0417.1812",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2012.0417.1812.zip",
+                "checksum": "3850208ae1f6094b1ac100e184a2df7f",
+                "timestamp": "2020-12-04T17:19:14Z"
+            },
+            {
+                "version": "6.2012.0416.4938",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2012.0416.4938.zip",
+                "checksum": "4606d952b8f259b01e4edc6a2085792c",
+                "timestamp": "2020-12-04T16:50:40Z"
+            },
+            {
+                "version": "6.2012.0311.1919",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kodi-sync-queue/kodi-sync-queue_6.2012.0311.1919.zip",
+                "checksum": "9ab8aa10443d7a412c4117f427c50273",
+                "timestamp": "2020-12-03T11:20:09Z"
+            }
+        ]
+    },
+    {
+        "guid": "958aad66-3784-4d2a-b89a-a7b6fab6e25c",
+        "name": "LDAP Authentication",
+        "description": "Authenticate your Jellyfin users against an LDAP database, and optionally create users who do not yet exist automatically.\nAllows the administrator to customize most aspects of the LDAP authentication process, including customizable search attributes, username attribute, and a search filter for administrative users (set on user creation). The user, via the \"Manual Login\" process, can enter any valid attribute value, which will be mapped back to the specified username attribute automatically as well.\n",
+        "overview": "Authenticate users against an LDAP database",
+        "owner": "jellyfin",
+        "category": "Authentication",
+        "versions": [
+            {
+                "version": "11.2103.2821.0743",
+                "changelog": "Fix case-sensitive username check\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/ldap-authentication/ldap-authentication_11.2103.2821.0743.zip",
+                "checksum": "820d654ea865e509208efb9036e6206c",
+                "timestamp": "2021-03-28T21:09:11Z"
+            },
+            {
+                "version": "10.2012.0619.0514",
+                "changelog": "Update for 10.7 support\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/ldap-authentication/ldap-authentication_10.2012.0619.0514.zip",
+                "checksum": "24ce91e543d8e51bf7aaf15548f43181",
+                "timestamp": "2020-12-06T19:05:21Z"
+            },
+            {
+                "version": "10.2012.0600.2703",
+                "changelog": "Update for 10.7 support\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/ldap-authentication/ldap-authentication_10.2012.0600.2703.zip",
+                "checksum": "5fb8737e5eb58ff1fe97bb62838fb9e2",
+                "timestamp": "2020-12-06T00:28:12Z"
+            },
+            {
+                "version": "10.2012.0500.0608",
+                "changelog": "Update for 10.7 support\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/ldap-authentication/ldap-authentication_10.2012.0500.0608.zip",
+                "checksum": "5a0f4b6034fcde3dc72e5d6e110834b9",
+                "timestamp": "2020-12-05T00:07:56Z"
+            },
+            {
+                "version": "10.2012.0423.2030",
+                "changelog": "Update for 10.7 support\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/ldap-authentication/ldap-authentication_10.2012.0423.2030.zip",
+                "checksum": "cef8bca52a6069461898eab6fed1c4fc",
+                "timestamp": "2020-12-04T23:21:40Z"
+            },
+            {
+                "version": "10.2012.0420.2457",
+                "changelog": "Update for 10.7 support\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/ldap-authentication/ldap-authentication_10.2012.0420.2457.zip",
+                "checksum": "d538ab3b0bd10cbc2aa626d0b177111d",
+                "timestamp": "2020-12-04T20:26:07Z"
+            },
+            {
+                "version": "10.2012.0417.3737",
+                "changelog": "Update for 10.7 support\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/ldap-authentication/ldap-authentication_10.2012.0417.3737.zip",
+                "checksum": "cd0962752bcf6b8d5c602ef4b0e54412",
+                "timestamp": "2020-12-04T17:38:38Z"
+            },
+            {
+                "version": "10.2012.0417.1812",
+                "changelog": "Update for 10.7 support\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/ldap-authentication/ldap-authentication_10.2012.0417.1812.zip",
+                "checksum": "71abb80ccfcd823c44d3f9b3c338f2bb",
+                "timestamp": "2020-12-04T17:19:20Z"
+            },
+            {
+                "version": "10.2012.0416.4938",
+                "changelog": "Update for 10.7 support\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/ldap-authentication/ldap-authentication_10.2012.0416.4938.zip",
+                "checksum": "1ac172cbde54f59f407e123074d6d614",
+                "timestamp": "2020-12-04T16:50:46Z"
+            },
+            {
+                "version": "10.2012.0311.1919",
+                "changelog": "Update for 10.7 support\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/ldap-authentication/ldap-authentication_10.2012.0311.1919.zip",
+                "checksum": "286e5f8af060c8277330782e50005a77",
+                "timestamp": "2020-12-03T11:20:16Z"
+            }
+        ]
+    },
+    {
+        "guid": "BC785400-8541-47CB-B8E8-2E437848C87A",
+        "name": "Missing Episode Provider",
+        "description": "A metadata provider that utilizes TheTVDB API to populate your library with metadata for episodes 'missing' from your collection.\n",
+        "overview": "A metadata provider that utilizes TheTVDB API to populate your library with metadata for episodes 'missing' from your collection.",
+        "owner": "jellyfin",
+        "category": "General",
+        "versions": [
+            {
+                "version": "1.2103.2821.0743",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/missing-episode-provider/missing-episode-provider_1.2103.2821.0743.zip",
+                "checksum": "91b8a563bb02cbafe2add34fb123f2b4",
+                "timestamp": "2021-03-28T21:09:17Z"
+            },
+            {
+                "version": "1.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/missing-episode-provider/missing-episode-provider_1.2012.0600.2703.zip",
+                "checksum": "d1e3fa357a50605b909026d04e251278",
+                "timestamp": "2020-12-06T00:28:23Z"
+            },
+            {
+                "version": "1.2012.0500.0608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/missing-episode-provider/missing-episode-provider_1.2012.0500.0608.zip",
+                "checksum": "0c1c4270e584e49ec9fbdd2d6a9f2ca5",
+                "timestamp": "2020-12-05T00:08:16Z"
+            },
+            {
+                "version": "1.2012.0423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/missing-episode-provider/missing-episode-provider_1.2012.0423.2030.zip",
+                "checksum": "6df1054095d2c9b95dfd9dac2f25732c",
+                "timestamp": "2020-12-04T23:21:51Z"
+            },
+            {
+                "version": "1.2012.0420.2457",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/missing-episode-provider/missing-episode-provider_1.2012.0420.2457.zip",
+                "checksum": "6b5a53b607ce410d4deabb4e346f3e21",
+                "timestamp": "2020-12-04T20:26:19Z"
+            },
+            {
+                "version": "1.2012.0417.3737",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/missing-episode-provider/missing-episode-provider_1.2012.0417.3737.zip",
+                "checksum": "8245cf3329c9340d1f41aac8aab8e423",
+                "timestamp": "2020-12-04T17:38:49Z"
+            },
+            {
+                "version": "1.2012.0417.1812",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/missing-episode-provider/missing-episode-provider_1.2012.0417.1812.zip",
+                "checksum": "da9e474b43bcc1d0e8708d91e6668b09",
+                "timestamp": "2020-12-04T17:19:30Z"
+            },
+            {
+                "version": "1.2012.0416.4938",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/missing-episode-provider/missing-episode-provider_1.2012.0416.4938.zip",
+                "checksum": "749623b2e4dabe5606ae5d6aac04e423",
+                "timestamp": "2020-12-04T16:50:56Z"
+            },
+            {
+                "version": "1.2012.0311.1919",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/missing-episode-provider/missing-episode-provider_1.2012.0311.1919.zip",
+                "checksum": "fb380354419f623996043db3c6892fa1",
+                "timestamp": "2020-12-03T11:20:27Z"
+            }
+        ]
+    },
+    {
+        "guid": "9574ac10-bf23-49bc-949f-924f23cfa48f",
+        "name": "NextPVR",
+        "description": "Provides access to live TV, program guide, and recordings from NextPVR.\n",
+        "overview": "Live TV plugin for NextPVR",
+        "owner": "jellyfin",
+        "category": "LiveTV",
+        "versions": [
+            {
+                "version": "5.2103.2821.0743",
+                "changelog": "Updated to use NextPVR API v5, no longer compatable with API v4.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/nextpvr/nextpvr_5.2103.2821.0743.zip",
+                "checksum": "c5ee3b694f7ff13c916e1dca21ad5271",
+                "timestamp": "2021-03-28T21:09:30Z"
+            },
+            {
+                "version": "5.2012.0600.2703",
+                "changelog": "Updated to use NextPVR API v5, no longer compatable with API v4.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/nextpvr/nextpvr_5.2012.0600.2703.zip",
+                "checksum": "b409ef15ea65506f6dddfb3fdf258325",
+                "timestamp": "2020-12-06T00:28:37Z"
+            },
+            {
+                "version": "5.2012.0500.0608",
+                "changelog": "Updated to use NextPVR API v5, no longer compatable with API v4.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/nextpvr/nextpvr_5.2012.0500.0608.zip",
+                "checksum": "34bc50af41bb42ace419b4deba603bed",
+                "timestamp": "2020-12-05T00:08:38Z"
+            },
+            {
+                "version": "5.2012.0423.2030",
+                "changelog": "Updated to use NextPVR API v5, no longer compatable with API v4.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/nextpvr/nextpvr_5.2012.0423.2030.zip",
+                "checksum": "107b6fa9af4e894834ad876e3863831e",
+                "timestamp": "2020-12-04T23:22:05Z"
+            },
+            {
+                "version": "5.2012.0420.2457",
+                "changelog": "Updated to use NextPVR API v5, no longer compatable with API v4.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/nextpvr/nextpvr_5.2012.0420.2457.zip",
+                "checksum": "c1129dd2c824005c12efc8e4bf5795bb",
+                "timestamp": "2020-12-04T20:26:32Z"
+            },
+            {
+                "version": "5.2012.0417.3737",
+                "changelog": "Updated to use NextPVR API v5, no longer compatable with API v4.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/nextpvr/nextpvr_5.2012.0417.3737.zip",
+                "checksum": "92f1f198efdb327602933279e2064a74",
+                "timestamp": "2020-12-04T17:39:01Z"
+            },
+            {
+                "version": "5.2012.0417.1812",
+                "changelog": "Updated to use NextPVR API v5, no longer compatable with API v4.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/nextpvr/nextpvr_5.2012.0417.1812.zip",
+                "checksum": "c4ee5aebd634c4a5f83bc6dc1157738d",
+                "timestamp": "2020-12-04T17:19:43Z"
+            },
+            {
+                "version": "5.2012.0416.4938",
+                "changelog": "Updated to use NextPVR API v5, no longer compatable with API v4.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/nextpvr/nextpvr_5.2012.0416.4938.zip",
+                "checksum": "3313a17ff2dff125222e369c7707261a",
+                "timestamp": "2020-12-04T16:51:08Z"
+            },
+            {
+                "version": "5.2012.0311.1919",
+                "changelog": "Updated to use NextPVR API v5, no longer compatable with API v4.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/nextpvr/nextpvr_5.2012.0311.1919.zip",
+                "checksum": "680de7738485f73866668f9b9d3fd4e6",
+                "timestamp": "2020-12-03T11:20:36Z"
+            }
+        ]
+    },
+    {
+        "guid": "4b9ed42f-5185-48b5-9803-6ff2989014c4",
+        "name": "Open Subtitles",
+        "description": "Download subtitles from the internet to use with your media files.",
+        "overview": "Download subtitles for your media",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "10.2103.2821.0743",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/open-subtitles/open-subtitles_10.2103.2821.0743.zip",
+                "checksum": "7eaadfe6ebbfc2ef104fbc1fe03e5cd0",
+                "timestamp": "2021-03-28T21:09:53Z"
+            },
+            {
+                "version": "10.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/open-subtitles/open-subtitles_10.2012.0600.2703.zip",
+                "checksum": "2d3285bba510728850f9c8dec23eb1d4",
+                "timestamp": "2020-12-06T00:28:49Z"
+            },
+            {
+                "version": "10.2012.0500.0608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/open-subtitles/open-subtitles_10.2012.0500.0608.zip",
+                "checksum": "88920cce584f2796e4e742899c6af9a6",
+                "timestamp": "2020-12-05T00:08:58Z"
+            },
+            {
+                "version": "10.2012.0423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/open-subtitles/open-subtitles_10.2012.0423.2030.zip",
+                "checksum": "ec9820133ae743962535530c9e372b44",
+                "timestamp": "2020-12-04T23:22:37Z"
+            },
+            {
+                "version": "10.2012.0420.2457",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/open-subtitles/open-subtitles_10.2012.0420.2457.zip",
+                "checksum": "d269ac2f0c4a13f59fb02050fc0d59b0",
+                "timestamp": "2020-12-04T20:26:45Z"
+            },
+            {
+                "version": "10.2012.0417.3737",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/open-subtitles/open-subtitles_10.2012.0417.3737.zip",
+                "checksum": "ebc334f76a20b0390399caf00366b7d3",
+                "timestamp": "2020-12-04T17:39:13Z"
+            },
+            {
+                "version": "10.2012.0417.1812",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/open-subtitles/open-subtitles_10.2012.0417.1812.zip",
+                "checksum": "da3d709a06553c9abe5e9c4fd6b57ed8",
+                "timestamp": "2020-12-04T17:19:56Z"
+            },
+            {
+                "version": "10.2012.0416.4938",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/open-subtitles/open-subtitles_10.2012.0416.4938.zip",
+                "checksum": "ae1ad84b90fc431369b9a4dc32494521",
+                "timestamp": "2020-12-04T16:51:21Z"
+            },
+            {
+                "version": "10.2012.0311.1919",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/open-subtitles/open-subtitles_10.2012.0311.1919.zip",
+                "checksum": "9016d5e5600efe754086cd80779027f1",
+                "timestamp": "2020-12-03T11:20:45Z"
+            }
+        ]
+    },
+    {
+        "guid": "5c534381-91a3-43cb-907a-35aa02eb9d2c",
+        "name": "Playback Reporting",
+        "description": "Collect and show user play statistics",
+        "overview": "Collect and show user play statistics",
+        "owner": "jellyfin",
+        "category": "General",
+        "versions": [
+            {
+                "version": "9.2103.2821.0743",
+                "changelog": "Add authentication to plugin endpoints\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/playback-reporting/playback-reporting_9.2103.2821.0743.zip",
+                "checksum": "5df8f4df09604f28386da1dbb816d0f3",
+                "timestamp": "2021-03-28T21:09:59Z"
+            },
+            {
+                "version": "9.2012.0600.2703",
+                "changelog": "Add authentication to plugin endpoints\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/playback-reporting/playback-reporting_9.2012.0600.2703.zip",
+                "checksum": "1e8dc3cf3f0f8453960f8e257a9fcd0a",
+                "timestamp": "2020-12-06T00:28:56Z"
+            },
+            {
+                "version": "9.2012.0500.0608",
+                "changelog": "Add authentication to plugin endpoints\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/playback-reporting/playback-reporting_9.2012.0500.0608.zip",
+                "checksum": "c63261def00434e4102d2184c673206a",
+                "timestamp": "2020-12-05T00:09:08Z"
+            },
+            {
+                "version": "9.2012.0423.2030",
+                "changelog": "Add authentication to plugin endpoints\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/playback-reporting/playback-reporting_9.2012.0423.2030.zip",
+                "checksum": "997b9c4da15b215f2ac09ef726d6a3c7",
+                "timestamp": "2020-12-04T23:22:44Z"
+            },
+            {
+                "version": "9.2012.0420.2457",
+                "changelog": "Add authentication to plugin endpoints\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/playback-reporting/playback-reporting_9.2012.0420.2457.zip",
+                "checksum": "08ed7805ed2690aaa0bd84e25fbf9651",
+                "timestamp": "2020-12-04T20:26:52Z"
+            },
+            {
+                "version": "9.2012.0417.3737",
+                "changelog": "Add authentication to plugin endpoints\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/playback-reporting/playback-reporting_9.2012.0417.3737.zip",
+                "checksum": "26df86a46d661a666f70df5f174551b5",
+                "timestamp": "2020-12-04T17:39:19Z"
+            },
+            {
+                "version": "9.2012.0417.1812",
+                "changelog": "Add authentication to plugin endpoints\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/playback-reporting/playback-reporting_9.2012.0417.1812.zip",
+                "checksum": "97fc3cf6ac060308ab0d0801f9d8561e",
+                "timestamp": "2020-12-04T17:20:02Z"
+            },
+            {
+                "version": "9.2012.0416.4938",
+                "changelog": "Add authentication to plugin endpoints\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/playback-reporting/playback-reporting_9.2012.0416.4938.zip",
+                "checksum": "f2d8b389763e82b8a8c2b93f184999a7",
+                "timestamp": "2020-12-04T16:51:27Z"
+            },
+            {
+                "version": "9.2012.0311.1919",
+                "changelog": "Add authentication to plugin endpoints\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/playback-reporting/playback-reporting_9.2012.0311.1919.zip",
+                "checksum": "09689e7bb0a1ee96aeb5c3c0d13b1ba7",
+                "timestamp": "2020-12-03T11:20:51Z"
+            }
+        ]
+    },
+    {
+        "guid": "4fe3201e-d6ae-4f2e-8917-e12bda571281",
+        "name": "Trakt",
+        "description": "Record your watched media with Trakt.\n",
+        "overview": "Record your watched media with Trakt",
+        "owner": "jellyfin",
+        "category": "General",
+        "versions": [
+            {
+                "version": "11.2103.2821.0743",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/trakt/trakt_11.2103.2821.0743.zip",
+                "checksum": "933e0fb77034d05d43872742938782cb",
+                "timestamp": "2021-03-28T21:10:48Z"
+            },
+            {
+                "version": "11.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/trakt/trakt_11.2012.0600.2703.zip",
+                "checksum": "5447ba58729858c2ab72a44e951f6fd6",
+                "timestamp": "2020-12-06T00:29:55Z"
+            },
+            {
+                "version": "11.2012.0500.0608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/trakt/trakt_11.2012.0500.0608.zip",
+                "checksum": "8f719cefb84cec6425f3ab765d0a797c",
+                "timestamp": "2020-12-05T00:10:34Z"
+            },
+            {
+                "version": "11.2012.0423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/trakt/trakt_11.2012.0423.2030.zip",
+                "checksum": "6e3af6dad1a13d167b8f054214fc017e",
+                "timestamp": "2020-12-04T23:24:07Z"
+            },
+            {
+                "version": "11.2012.0420.2457",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/trakt/trakt_11.2012.0420.2457.zip",
+                "checksum": "cf713e73e65d3405a055aa2fc2d7a9d5",
+                "timestamp": "2020-12-04T20:27:45Z"
+            },
+            {
+                "version": "11.2012.0417.3737",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/trakt/trakt_11.2012.0417.3737.zip",
+                "checksum": "02c2eb2dad0fee5c418e14f0551dfbf6",
+                "timestamp": "2020-12-04T17:40:11Z"
+            },
+            {
+                "version": "11.2012.0417.1812",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/trakt/trakt_11.2012.0417.1812.zip",
+                "checksum": "025c871fad9ee2568a14411a5c203468",
+                "timestamp": "2020-12-04T17:21:04Z"
+            },
+            {
+                "version": "11.2012.0416.4938",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/trakt/trakt_11.2012.0416.4938.zip",
+                "checksum": "1de60961cb9ec2553683431f1413b3ba",
+                "timestamp": "2020-12-04T16:52:26Z"
+            },
+            {
+                "version": "11.2012.0311.1919",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/trakt/trakt_11.2012.0311.1919.zip",
+                "checksum": "461f0b419dfc23e82263d744a267a34e",
+                "timestamp": "2020-12-03T11:21:17Z"
+            }
+        ]
+    },
+    {
+        "guid": "A4A488D0-17A3-4919-8D82-7F3DE4F6B209",
+        "name": "TV Maze",
+        "description": "Get TV metadata from TV Maze\n",
+        "overview": "Get TV metadata from TV Maze",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "6.2103.2821.0743",
+                "changelog": "Fix lookup by tvdb id\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tv-maze/tv-maze_6.2103.2821.0743.zip",
+                "checksum": "83c40a2df171b4caaebd85c9cce3d223",
+                "timestamp": "2021-03-28T21:11:07Z"
+            },
+            {
+                "version": "5.2012.0600.2703",
+                "changelog": "Get additional image types\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tv-maze/tv-maze_5.2012.0600.2703.zip",
+                "checksum": "367807874b0b93d9035b2855467569a1",
+                "timestamp": "2020-12-06T00:30:14Z"
+            },
+            {
+                "version": "5.2012.0500.0608",
+                "changelog": "Get additional image types\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tv-maze/tv-maze_5.2012.0500.0608.zip",
+                "checksum": "d7447a765daeb6f1983c8a760dd05525",
+                "timestamp": "2020-12-05T00:11:03Z"
+            },
+            {
+                "version": "5.2012.0423.2030",
+                "changelog": "Get additional image types\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tv-maze/tv-maze_5.2012.0423.2030.zip",
+                "checksum": "482c56449174359583360a0f61ed3fc0",
+                "timestamp": "2020-12-04T23:24:27Z"
+            },
+            {
+                "version": "5.2012.0420.2457",
+                "changelog": "Get additional image types\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tv-maze/tv-maze_5.2012.0420.2457.zip",
+                "checksum": "6dad3291744958810684371ec4ef7ec8",
+                "timestamp": "2020-12-04T20:28:01Z"
+            },
+            {
+                "version": "5.2012.0417.3737",
+                "changelog": "Get additional image types\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tv-maze/tv-maze_5.2012.0417.3737.zip",
+                "checksum": "aa6c9a3c0fada7dbf47327836cfe469a",
+                "timestamp": "2020-12-04T17:40:27Z"
+            },
+            {
+                "version": "5.2012.0417.1812",
+                "changelog": "Get additional image types\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tv-maze/tv-maze_5.2012.0417.1812.zip",
+                "checksum": "4fd2bb0da5784b17a735493d43ba406f",
+                "timestamp": "2020-12-04T17:21:24Z"
+            },
+            {
+                "version": "5.2012.0416.4938",
+                "changelog": "Get additional image types\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tv-maze/tv-maze_5.2012.0416.4938.zip",
+                "checksum": "0832ca2859204b46316aa9c6bf328e89",
+                "timestamp": "2020-12-04T16:52:43Z"
+            },
+            {
+                "version": "5.2012.0311.1919",
+                "changelog": "Get additional image types\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tv-maze/tv-maze_5.2012.0311.1919.zip",
+                "checksum": "ba0bd6d3f33aacef32cb45058a5eae19",
+                "timestamp": "2020-12-03T11:21:29Z"
+            }
+        ]
+    },
+    {
+        "guid": "44616595-5798-47ad-8658-3c09f3030505",
+        "name": "VGMdb",
+        "description": "Adds support for VGMdb to music libraries. Can provide both images and metadata for artists and albums.\n",
+        "overview": "Adds support for VGMdb to music libraries. Can provide both images and metadata for artists and albums.",
+        "owner": "nielsvanvelzen",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "1.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/vgmdb/vgmdb_1.2012.0600.2703.zip",
+                "checksum": "a2e59fb5fbdc448bf9c2979100e5d4a4",
+                "timestamp": "2020-12-06T00:30:20Z"
+            },
+            {
+                "version": "1.2012.0500.0608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/vgmdb/vgmdb_1.2012.0500.0608.zip",
+                "checksum": "1d9ff9b79481d46294e030b3e46e0a2a",
+                "timestamp": "2020-12-05T00:11:12Z"
+            },
+            {
+                "version": "1.2012.0423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/vgmdb/vgmdb_1.2012.0423.2030.zip",
+                "checksum": "02d50fd5dffc9d5baa23f5d87e47fee3",
+                "timestamp": "2020-12-04T23:24:32Z"
+            },
+            {
+                "version": "1.2012.0420.2457",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/vgmdb/vgmdb_1.2012.0420.2457.zip",
+                "checksum": "68fd74f516701f9e022840f502d0c610",
+                "timestamp": "2020-12-04T20:28:06Z"
+            },
+            {
+                "version": "1.2012.0417.3737",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/vgmdb/vgmdb_1.2012.0417.3737.zip",
+                "checksum": "5e40c3029b1286182c8e682e5bab802a",
+                "timestamp": "2020-12-04T17:40:32Z"
+            },
+            {
+                "version": "1.2012.0417.1812",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/vgmdb/vgmdb_1.2012.0417.1812.zip",
+                "checksum": "a6bdbbdc3ec0a9282976d66f03af81c9",
+                "timestamp": "2020-12-04T17:21:30Z"
+            },
+            {
+                "version": "1.2012.0416.4938",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/vgmdb/vgmdb_1.2012.0416.4938.zip",
+                "checksum": "9eb4d9c939ad612132a7b5cbf5ff1302",
+                "timestamp": "2020-12-04T16:52:49Z"
+            },
+            {
+                "version": "1.2012.0311.1919",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/vgmdb/vgmdb_1.2012.0311.1919.zip",
+                "checksum": "71fa0e9757ca56a1940839cc53323194",
+                "timestamp": "2020-12-03T11:21:34Z"
+            }
+        ]
+    },
+    {
+        "guid": "de228f12-e43e-4bd9-9fc0-2830819c3b92",
+        "name": "Pushbullet",
+        "description": "Get notifications via Pushbullet.\n",
+        "overview": "Pushbullet notification plugin",
+        "owner": "jellyfin",
+        "category": "Notifications",
+        "versions": [
+            {
+                "version": "7.2103.2821.0743",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/pushbullet/pushbullet_7.2103.2821.0743.zip",
+                "checksum": "3436ab66cdac14e82015ff70a3ef6ae0",
+                "timestamp": "2021-03-28T21:10:08Z"
+            },
+            {
+                "version": "6.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/pushbullet/pushbullet_6.2012.0600.2703.zip",
+                "checksum": "254361f528100720fe571e71aa2b5393",
+                "timestamp": "2020-12-06T00:29:03Z"
+            },
+            {
+                "version": "5.2012.0500.0608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/pushbullet/pushbullet_5.2012.0500.0608.zip",
+                "checksum": "80d49fe0eac7792b483bc1355e4f84b7",
+                "timestamp": "2020-12-05T00:09:18Z"
+            },
+            {
+                "version": "5.2012.0423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/pushbullet/pushbullet_5.2012.0423.2030.zip",
+                "checksum": "11892af83c1ec3d106de997f48a30427",
+                "timestamp": "2020-12-04T23:22:51Z"
+            },
+            {
+                "version": "5.2012.0420.2457",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/pushbullet/pushbullet_5.2012.0420.2457.zip",
+                "checksum": "0e2e736d1925b9a73bae0acda7c74b67",
+                "timestamp": "2020-12-04T20:26:58Z"
+            },
+            {
+                "version": "5.2012.0417.3737",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/pushbullet/pushbullet_5.2012.0417.3737.zip",
+                "checksum": "282daa4f807e67decdbc71b5daab3d7b",
+                "timestamp": "2020-12-04T17:39:25Z"
+            },
+            {
+                "version": "5.2012.0417.1812",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/pushbullet/pushbullet_5.2012.0417.1812.zip",
+                "checksum": "4c3fd476181043563368f56fdaea53bd",
+                "timestamp": "2020-12-04T17:20:08Z"
+            },
+            {
+                "version": "5.2012.0416.4938",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/pushbullet/pushbullet_5.2012.0416.4938.zip",
+                "checksum": "6f131cd3042d02f91e22841433ae6c10",
+                "timestamp": "2020-12-04T16:51:34Z"
+            }
+        ]
+    },
+    {
+        "guid": "F240D6BE-5743-441B-87F1-A70ECAC42642",
+        "name": "Pushover",
+        "description": "Send messages to a wide range of devices through Pushover.",
+        "overview": "Send notifications via Pushover",
+        "owner": "jellyfin",
+        "category": "Notifications",
+        "versions": [
+            {
+                "version": "4.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/pushover/pushover_4.2012.0600.2703.zip",
+                "checksum": "12a553329193c100f6c1cba639a5cc50",
+                "timestamp": "2020-12-06T00:29:09Z"
+            },
+            {
+                "version": "4.2012.0500.0608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/pushover/pushover_4.2012.0500.0608.zip",
+                "checksum": "9a3a7fcd8ffae34df09fbe80f3131ff3",
+                "timestamp": "2020-12-05T00:09:27Z"
+            },
+            {
+                "version": "4.2012.0423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/pushover/pushover_4.2012.0423.2030.zip",
+                "checksum": "e188374c3819d0036fe01d85f29f1fec",
+                "timestamp": "2020-12-04T23:22:58Z"
+            },
+            {
+                "version": "4.2012.0420.2457",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/pushover/pushover_4.2012.0420.2457.zip",
+                "checksum": "c37b348de83f8d7b3618a500662ae248",
+                "timestamp": "2020-12-04T20:27:04Z"
+            },
+            {
+                "version": "4.2012.0417.3737",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/pushover/pushover_4.2012.0417.3737.zip",
+                "checksum": "95a8da69684808c6841260731ef0bb88",
+                "timestamp": "2020-12-04T17:39:31Z"
+            },
+            {
+                "version": "4.2012.0417.1812",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/pushover/pushover_4.2012.0417.1812.zip",
+                "checksum": "9d0bc327ad22e4dbc62814ac48c5a29c",
+                "timestamp": "2020-12-04T17:20:15Z"
+            },
+            {
+                "version": "4.2012.0416.4938",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/pushover/pushover_4.2012.0416.4938.zip",
+                "checksum": "3fe61e254122344709f94954ba02a0c2",
+                "timestamp": "2020-12-04T16:51:47Z"
+            }
+        ]
+    },
+    {
+        "guid": "1fc322a1-af2e-49a5-b2eb-a89b4240f700",
+        "name": "ServerWMC",
+        "description": "Provides access to Live TV, Program Guide and Recordings from your Windows MediaCenter Server running ServerWMC. Requires ServerWMC to be installed and running on your Windows MediaCenter machine.\n",
+        "overview": "Jellyfin Live TV plugin for Windows MediaCenter with ServerWMC",
+        "owner": "jellyfin",
+        "category": "LiveTV",
+        "versions": [
+            {
+                "version": "6.2103.2821.0743",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/serverwmc/serverwmc_6.2103.2821.0743.zip",
+                "checksum": "3551f893b990104a207a64159e74d068",
+                "timestamp": "2021-03-28T21:10:19Z"
+            },
+            {
+                "version": "6.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/serverwmc/serverwmc_6.2012.0600.2703.zip",
+                "checksum": "1d38ed9144c19b71860e9c8ab9a0be5d",
+                "timestamp": "2020-12-06T00:29:24Z"
+            },
+            {
+                "version": "6.2012.0500.0608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/serverwmc/serverwmc_6.2012.0500.0608.zip",
+                "checksum": "54e3339ec9c7132972da785187cd6291",
+                "timestamp": "2020-12-05T00:09:46Z"
+            },
+            {
+                "version": "6.2012.0423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/serverwmc/serverwmc_6.2012.0423.2030.zip",
+                "checksum": "2ecbfa63d8306b1ee22746a120b9c562",
+                "timestamp": "2020-12-04T23:23:12Z"
+            },
+            {
+                "version": "6.2012.0420.2457",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/serverwmc/serverwmc_6.2012.0420.2457.zip",
+                "checksum": "711f8387057fe49b894a37d95e574ee0",
+                "timestamp": "2020-12-04T20:27:15Z"
+            },
+            {
+                "version": "6.2012.0417.3737",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/serverwmc/serverwmc_6.2012.0417.3737.zip",
+                "checksum": "a1b9abb62f7e91cab6d3f9ea9bd721b5",
+                "timestamp": "2020-12-04T17:39:41Z"
+            },
+            {
+                "version": "6.2012.0417.1812",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/serverwmc/serverwmc_6.2012.0417.1812.zip",
+                "checksum": "51f140df17dfb364f5f056a878a9f786",
+                "timestamp": "2020-12-04T17:20:25Z"
+            },
+            {
+                "version": "6.2012.0416.4938",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/serverwmc/serverwmc_6.2012.0416.4938.zip",
+                "checksum": "4585ec09e0fe1013094ee612e5cc784e",
+                "timestamp": "2020-12-04T16:51:57Z"
+            }
+        ]
+    },
+    {
+        "guid": "94fb77c3-55ad-4c50-bf4e-4e5497467b79",
+        "name": "Slack Notifications",
+        "description": "Get notifications via Slack.\n",
+        "overview": "Get notifications via Slack",
+        "owner": "jellyfin",
+        "category": "Notifications",
+        "versions": [
+            {
+                "version": "7.2103.2821.0743",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/slack-notifications/slack-notifications_7.2103.2821.0743.zip",
+                "checksum": "d12415f27759c67d37201fef78594280",
+                "timestamp": "2021-03-28T21:10:25Z"
+            },
+            {
+                "version": "7.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/slack-notifications/slack-notifications_7.2012.0600.2703.zip",
+                "checksum": "c60123a530b866bed8029a841a37f9b4",
+                "timestamp": "2020-12-06T00:29:30Z"
+            },
+            {
+                "version": "7.2012.0500.0608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/slack-notifications/slack-notifications_7.2012.0500.0608.zip",
+                "checksum": "628614077dfe8b773475788962356797",
+                "timestamp": "2020-12-05T00:09:56Z"
+            },
+            {
+                "version": "7.2012.0423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/slack-notifications/slack-notifications_7.2012.0423.2030.zip",
+                "checksum": "1d7fa76038e7ddc70a95b3841d613ba8",
+                "timestamp": "2020-12-04T23:23:20Z"
+            },
+            {
+                "version": "7.2012.0420.2457",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/slack-notifications/slack-notifications_7.2012.0420.2457.zip",
+                "checksum": "7d6e2390d78e3c858cd503554724e21d",
+                "timestamp": "2020-12-04T20:27:20Z"
+            },
+            {
+                "version": "7.2012.0417.3737",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/slack-notifications/slack-notifications_7.2012.0417.3737.zip",
+                "checksum": "65d6eb5877c1909333a0ae6e6aea9fd7",
+                "timestamp": "2020-12-04T17:39:47Z"
+            },
+            {
+                "version": "7.2012.0417.1812",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/slack-notifications/slack-notifications_7.2012.0417.1812.zip",
+                "checksum": "29733222163db62eb221bd59372d7ef4",
+                "timestamp": "2020-12-04T17:20:30Z"
+            },
+            {
+                "version": "7.2012.0416.4938",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/slack-notifications/slack-notifications_7.2012.0416.4938.zip",
+                "checksum": "257cc120f36ffd6e849f773fa69b79d5",
+                "timestamp": "2020-12-04T16:52:04Z"
+            }
+        ]
+    },
+    {
+        "guid": "eb5d7894-8eef-4b36-aa6f-5d124e828ce1",
+        "name": "Template",
+        "description": "This is a longer description that can span more than one line and include details about your plugin.\n",
+        "overview": "Short description about your plugin",
+        "owner": "jellyfin",
+        "category": "General",
+        "versions": [
+            {
+                "version": "1.2103.2821.0743",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/template/template_1.2103.2821.0743.zip",
+                "checksum": "bd1116480cdf39414c95d1286caf9ce1",
+                "timestamp": "2021-03-28T21:10:30Z"
+            },
+            {
+                "version": "1.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/template/template_1.2012.0600.2703.zip",
+                "checksum": "32453bfc9c693edbed2a27c9ef86e3a5",
+                "timestamp": "2020-12-06T00:29:36Z"
+            },
+            {
+                "version": "1.2012.0500.0608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/template/template_1.2012.0500.0608.zip",
+                "checksum": "1d956af95c2e5ca12e7ee54a8c888a0c",
+                "timestamp": "2020-12-05T00:10:05Z"
+            },
+            {
+                "version": "1.2012.0423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/template/template_1.2012.0423.2030.zip",
+                "checksum": "df58c8a387f74f7060a788dcdd12943a",
+                "timestamp": "2020-12-04T23:23:27Z"
+            },
+            {
+                "version": "1.2012.0420.2457",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/template/template_1.2012.0420.2457.zip",
+                "checksum": "deb6cfc96a177d7e4e7c4a3877f31e43",
+                "timestamp": "2020-12-04T20:27:26Z"
+            },
+            {
+                "version": "1.2012.0417.3737",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/template/template_1.2012.0417.3737.zip",
+                "checksum": "321131ed63c70f73b16d89684b2018f9",
+                "timestamp": "2020-12-04T17:39:53Z"
+            },
+            {
+                "version": "1.2012.0417.1812",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/template/template_1.2012.0417.1812.zip",
+                "checksum": "504357c2ee6fcf3d067d635333731909",
+                "timestamp": "2020-12-04T17:20:36Z"
+            },
+            {
+                "version": "1.2012.0416.4938",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/template/template_1.2012.0416.4938.zip",
+                "checksum": "94965822cdc8df5695bbecef61f0e0fd",
+                "timestamp": "2020-12-04T16:52:09Z"
+            }
+        ]
+    },
+    {
+        "guid": "bc4aad2e-d3d0-4725-a5e2-fd07949e5b42",
+        "name": "TMDb Box Sets",
+        "description": "Automatically create movie box sets based on TMDb collections",
+        "overview": "Automatically create movie box sets based on TMDb collections",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "7.2103.2821.0743",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tmdb-box-sets/tmdb-box-sets_7.2103.2821.0743.zip",
+                "checksum": "fd0f63e9b793bcf941e9ab45aa6f629c",
+                "timestamp": "2021-03-28T21:10:43Z"
+            },
+            {
+                "version": "7.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tmdb-box-sets/tmdb-box-sets_7.2012.0600.2703.zip",
+                "checksum": "91b9a78cb84b6168766bb7a1d4ae8135",
+                "timestamp": "2020-12-06T00:29:49Z"
+            },
+            {
+                "version": "7.2012.0500.0608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tmdb-box-sets/tmdb-box-sets_7.2012.0500.0608.zip",
+                "checksum": "8b1d2e5dbd1713006282a729965fbe81",
+                "timestamp": "2020-12-05T00:10:25Z"
+            },
+            {
+                "version": "7.2012.0423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tmdb-box-sets/tmdb-box-sets_7.2012.0423.2030.zip",
+                "checksum": "00d072c822a446807bf1580cd0673147",
+                "timestamp": "2020-12-04T23:24:00Z"
+            },
+            {
+                "version": "7.2012.0420.2457",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tmdb-box-sets/tmdb-box-sets_7.2012.0420.2457.zip",
+                "checksum": "6c2ddef5cca470382873452fe7c28b18",
+                "timestamp": "2020-12-04T20:27:39Z"
+            },
+            {
+                "version": "7.2012.0417.3737",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tmdb-box-sets/tmdb-box-sets_7.2012.0417.3737.zip",
+                "checksum": "8152787778f583d5bebcbb4e46ff9f5d",
+                "timestamp": "2020-12-04T17:40:05Z"
+            },
+            {
+                "version": "7.2012.0417.1812",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tmdb-box-sets/tmdb-box-sets_7.2012.0417.1812.zip",
+                "checksum": "3195fdf07d9a46a8ddffc7b133b7df26",
+                "timestamp": "2020-12-04T17:20:57Z"
+            },
+            {
+                "version": "7.2012.0416.4938",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tmdb-box-sets/tmdb-box-sets_7.2012.0416.4938.zip",
+                "checksum": "e4ae915cc360b581eb3fdeaec9ebce6d",
+                "timestamp": "2020-12-04T16:52:21Z"
+            }
+        ]
+    },
+    {
+        "guid": "3fd018e5-5e78-4e58-b280-a0c068febee0",
+        "name": "TVHeadend",
+        "description": "Manage TVHeadend from Jellyfin",
+        "overview": "Manage TVHeadend from Jellyfin",
+        "owner": "jellyfin",
+        "category": "LiveTV",
+        "versions": [
+            {
+                "version": "8.2103.2821.0743",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tvheadend/tvheadend_8.2103.2821.0743.zip",
+                "checksum": "43cd4392f20fe8c79e7478083e362ddf",
+                "timestamp": "2021-03-28T21:11:00Z"
+            },
+            {
+                "version": "7.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tvheadend/tvheadend_7.2012.0600.2703.zip",
+                "checksum": "d2aae1acf2076d37a2540b835a5a913b",
+                "timestamp": "2020-12-06T00:30:08Z"
+            },
+            {
+                "version": "7.2012.0500.0608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tvheadend/tvheadend_7.2012.0500.0608.zip",
+                "checksum": "05fdd2b06e7ab93509dcab04924e519e",
+                "timestamp": "2020-12-05T00:10:54Z"
+            },
+            {
+                "version": "7.2012.0423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tvheadend/tvheadend_7.2012.0423.2030.zip",
+                "checksum": "8f044ab66b6f3d8e39adc83cb227675c",
+                "timestamp": "2020-12-04T23:24:20Z"
+            },
+            {
+                "version": "7.2012.0420.2457",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tvheadend/tvheadend_7.2012.0420.2457.zip",
+                "checksum": "e609246186e9ad8e0a8e6d2ed0172d78",
+                "timestamp": "2020-12-04T20:27:55Z"
+            },
+            {
+                "version": "7.2012.0417.3737",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tvheadend/tvheadend_7.2012.0417.3737.zip",
+                "checksum": "e57f784f683100883ca69a408a7e5e98",
+                "timestamp": "2020-12-04T17:40:21Z"
+            },
+            {
+                "version": "7.2012.0417.1812",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tvheadend/tvheadend_7.2012.0417.1812.zip",
+                "checksum": "03a82d1bb33eff61822d15ed366b9ee6",
+                "timestamp": "2020-12-04T17:21:16Z"
+            },
+            {
+                "version": "7.2012.0416.4938",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/tvheadend/tvheadend_7.2012.0416.4938.zip",
+                "checksum": "cd32b040ea208662a36b4855432b75b0",
+                "timestamp": "2020-12-04T16:52:37Z"
+            }
+        ]
+    },
+    {
+        "guid": "8c95c4d2-e50c-4fb0-a4f3-6c06ff0f9a1a",
+        "name": "MusicBrainz",
+        "description": "Get music metadata from MusicBrainz\n",
+        "overview": "Get music metadata from MusicBrainz",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "1.2103.2821.0743",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/musicbrainz/musicbrainz_1.2103.2821.0743.zip",
+                "checksum": "c81e395a10e699fde04b216de9f97a91",
+                "timestamp": "2021-03-28T21:09:24Z"
+            },
+            {
+                "version": "1.2012.0600.2703",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/musicbrainz/musicbrainz_1.2012.0600.2703.zip",
+                "checksum": "1f1eaf11ad6937637689938f7f899f0a",
+                "timestamp": "2020-12-06T00:28:31Z"
+            },
+            {
+                "version": "1.2012.0500.0608",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/musicbrainz/musicbrainz_1.2012.0500.0608.zip",
+                "checksum": "443d5a1e1a58c1f917cc8d397dd95270",
+                "timestamp": "2020-12-05T00:08:28Z"
+            },
+            {
+                "version": "1.2012.0423.2030",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/musicbrainz/musicbrainz_1.2012.0423.2030.zip",
+                "checksum": "64599641c3238662466a5d91762b86e8",
+                "timestamp": "2020-12-04T23:21:58Z"
+            },
+            {
+                "version": "1.2012.0420.2457",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/musicbrainz/musicbrainz_1.2012.0420.2457.zip",
+                "checksum": "4af2415ec79119cb9c23e21463ed1031",
+                "timestamp": "2020-12-04T20:26:26Z"
+            },
+            {
+                "version": "1.2012.0417.3737",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/musicbrainz/musicbrainz_1.2012.0417.3737.zip",
+                "checksum": "96efa575389bde05ed809571f888005f",
+                "timestamp": "2020-12-04T17:38:56Z"
+            },
+            {
+                "version": "1.2012.0417.1812",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/musicbrainz/musicbrainz_1.2012.0417.1812.zip",
+                "checksum": "7b5d8881bcd0e75df9d9d15fb6d0d61b",
+                "timestamp": "2020-12-04T17:19:37Z"
+            },
+            {
+                "version": "1.2012.0416.5240",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/musicbrainz/musicbrainz_1.2012.0416.5240.zip",
+                "checksum": "b6727c9220e9c560350b93c63bb5b9c3",
+                "timestamp": "2020-12-04T16:52:45Z"
+            }
+        ]
+    },
+    {
+        "guid": "963FD785-53E7-440C-80BD-71661BE1B7DF",
+        "name": "TheMovieDb",
+        "description": "Get metadata from TheMovieDb\n",
+        "overview": "Get metadata from TheMovieDb",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "1.2103.2821.0743",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/themoviedb/themoviedb_1.2103.2821.0743.zip",
+                "checksum": "1413b709d2efe251545d26a07a7f4415",
+                "timestamp": "2021-03-28T21:10:36Z"
+            },
+            {
+                "version": "1.2012.0600.2703",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/themoviedb/themoviedb_1.2012.0600.2703.zip",
+                "checksum": "2ff12b1383690f6347cfdc7682795fae",
+                "timestamp": "2020-12-06T00:29:42Z"
+            },
+            {
+                "version": "1.2012.0500.0608",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/themoviedb/themoviedb_1.2012.0500.0608.zip",
+                "checksum": "de65a3dbee110351f649f8d9fff31ab8",
+                "timestamp": "2020-12-05T00:10:15Z"
+            },
+            {
+                "version": "1.2012.0423.2030",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/themoviedb/themoviedb_1.2012.0423.2030.zip",
+                "checksum": "8a28bdc345fe5b327a637a4718e239e2",
+                "timestamp": "2020-12-04T23:23:53Z"
+            },
+            {
+                "version": "1.2012.0420.2457",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/themoviedb/themoviedb_1.2012.0420.2457.zip",
+                "checksum": "f1e903e6220f6885c7c4fc1cd79d485f",
+                "timestamp": "2020-12-04T20:27:33Z"
+            },
+            {
+                "version": "1.2012.0417.3737",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/themoviedb/themoviedb_1.2012.0417.3737.zip",
+                "checksum": "5414c9a82ea9b7891d7e52f74ffe16f5",
+                "timestamp": "2020-12-04T17:39:59Z"
+            },
+            {
+                "version": "1.2012.0417.1812",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/themoviedb/themoviedb_1.2012.0417.1812.zip",
+                "checksum": "a901ff360792141512f6d28d7ee9fc53",
+                "timestamp": "2020-12-04T17:20:48Z"
+            },
+            {
+                "version": "1.2012.0416.5633",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/themoviedb/themoviedb_1.2012.0416.5633.zip",
+                "checksum": "4db84f28b7534b4dcd743f5a272d02fe",
+                "timestamp": "2020-12-04T16:56:40Z"
+            }
+        ]
+    },
+    {
+        "guid": "a628c0da-fac5-4c7e-9d1a-7134223f14c8",
+        "name": "OMDb",
+        "description": "Get metadata from OMDb\n",
+        "overview": "Get metadata from OMDb",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "1.2012.0600.2703",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/omdb/omdb_1.2012.0600.2703.zip",
+                "checksum": "36a9f2274dfe9152b0a5162ffee6106a",
+                "timestamp": "2020-12-06T00:28:43Z"
+            },
+            {
+                "version": "1.2012.0500.0608",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/omdb/omdb_1.2012.0500.0608.zip",
+                "checksum": "76f340338b9618db8126329c2a64ca4e",
+                "timestamp": "2020-12-05T00:08:48Z"
+            },
+            {
+                "version": "1.2012.0423.2030",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/omdb/omdb_1.2012.0423.2030.zip",
+                "checksum": "2f7d5016439986e240c17107458839d2",
+                "timestamp": "2020-12-04T23:22:11Z"
+            },
+            {
+                "version": "1.2012.0420.2457",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/omdb/omdb_1.2012.0420.2457.zip",
+                "checksum": "b7e7f1cc56ca9f766953a3d9baaf815d",
+                "timestamp": "2020-12-04T20:26:39Z"
+            },
+            {
+                "version": "1.2012.0417.3737",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/omdb/omdb_1.2012.0417.3737.zip",
+                "checksum": "b946ce87ec0e087dfbfac6173f640f52",
+                "timestamp": "2020-12-04T17:39:07Z"
+            },
+            {
+                "version": "1.2012.0417.1812",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/omdb/omdb_1.2012.0417.1812.zip",
+                "checksum": "1a19088bfbb14343d19690e1e99f2b27",
+                "timestamp": "2020-12-04T17:19:49Z"
+            }
+        ]
+    },
+    {
+        "guid": "d4312cd9-5c90-4f38-82e8-51da566790e8",
+        "name": "Reports",
+        "description": "Generate reports of your media library",
+        "overview": "Generate reports of your media library",
+        "owner": "jellyfin",
+        "category": "General",
+        "versions": [
+            {
+                "version": "11.2103.2821.0743",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/reports/reports_11.2103.2821.0743.zip",
+                "checksum": "39fdf64ad594246ea988a8d4c615cf2d",
+                "timestamp": "2021-03-28T21:10:14Z"
+            },
+            {
+                "version": "11.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/reports/reports_11.2012.0600.2703.zip",
+                "checksum": "9db104c9a031ef8a0312514ad3aafa5f",
+                "timestamp": "2020-12-06T00:29:17Z"
+            },
+            {
+                "version": "11.2012.0500.0608",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/reports/reports_11.2012.0500.0608.zip",
+                "checksum": "010fea178f649fd0a2766cfaebc855a0",
+                "timestamp": "2020-12-05T00:09:37Z"
+            },
+            {
+                "version": "11.2012.0423.2030",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/reports/reports_11.2012.0423.2030.zip",
+                "checksum": "1abd6cc0547ba8b50dff4d693c9bdf86",
+                "timestamp": "2020-12-04T23:23:05Z"
+            }
+        ]
+    },
+    {
+        "guid": "a677c0da-fac5-4cde-941a-7134223f14c8",
+        "name": "TheTVDB",
+        "description": "Get TV metadata from TheTvdb\n",
+        "overview": "Get TV metadata from TheTvdb",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "4.2103.2821.0743",
+                "changelog": "Fix getting metadata",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/thetvdb/thetvdb_4.2103.2821.0743.zip",
+                "checksum": "db8e9fa6108461d8f472671a3d08ae0f",
+                "timestamp": "2021-03-28T21:10:54Z"
+            },
+            {
+                "version": "1.2012.0600.2703",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/thetvdb/thetvdb_1.2012.0600.2703.zip",
+                "checksum": "0c4ab15f15bce4cae28b48d3c9523c75",
+                "timestamp": "2020-12-06T00:30:01Z"
+            },
+            {
+                "version": "1.2012.0500.0608",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/thetvdb/thetvdb_1.2012.0500.0608.zip",
+                "checksum": "a245442b609974736dc4932747d1904e",
+                "timestamp": "2020-12-05T00:10:45Z"
+            },
+            {
+                "version": "1.2012.0423.2030",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/thetvdb/thetvdb_1.2012.0423.2030.zip",
+                "checksum": "b3eab001ae5d34ecb49e7987f9d08eae",
+                "timestamp": "2020-12-04T23:24:14Z"
+            }
+        ]
+    },
+    {
+        "guid": "70b7b43b-471b-4159-b4be-56750c795499",
+        "name": "Auto Organize",
+        "description": "Automatically organize your media",
+        "overview": "Automatically organize your media",
+        "owner": "jellyfin",
+        "category": "General",
+        "versions": [
+            {
+                "version": "9.2103.2821.0743",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/auto-organize/auto-organize_9.2103.2821.0743.zip",
+                "checksum": "c538f5172f5c3726885294b43fe4857b",
+                "timestamp": "2021-03-28T21:08:22Z"
+            },
+            {
+                "version": "9.2012.0600.2703",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/auto-organize/auto-organize_9.2012.0600.2703.zip",
+                "checksum": "f3682a5813dee9a7ccbde1b71242af38",
+                "timestamp": "2020-12-06T00:27:13Z"
+            }
+        ]
+    },
+    {
+        "guid": "88d809e2-056b-47f4-9911-073949b9963f",
+        "name": "Kitsu",
+        "description": "Kitsu metadata provider\n",
+        "overview": "Kitsu metadata provider",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "2.2103.2821.0743",
+                "changelog": "- Split out from the Anime plugin - Remove dependency on DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kitsu/kitsu_2.2103.2821.0743.zip",
+                "checksum": "42e13a1f4244f7baa105e9078af6aeae",
+                "timestamp": "2021-03-28T21:08:57Z"
+            },
+            {
+                "version": "1.2103.1019.5531",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kitsu/kitsu_1.2103.1019.5531.zip",
+                "checksum": "7b64491c190ba52f40012ba9ce2da1cb",
+                "timestamp": "2021-03-10T19:55:36Z"
+            },
+            {
+                "version": "1.2012.2018.1721",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kitsu/kitsu_1.2012.2018.1721.zip",
+                "checksum": "78cd885081ab158becc3f6a9451eb46d",
+                "timestamp": "2020-12-20T18:17:28Z"
+            },
+            {
+                "version": "1.2012.1119.5832",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kitsu/kitsu_1.2012.1119.5832.zip",
+                "checksum": "505df411037269386b78793e2b7482ea",
+                "timestamp": "2020-12-11T19:58:37Z"
+            },
+            {
+                "version": "1.2012.1119.5203",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kitsu/kitsu_1.2012.1119.5203.zip",
+                "checksum": "7035ce9611ccab19dcfcf6a177b94d72",
+                "timestamp": "2020-12-11T19:52:09Z"
+            },
+            {
+                "version": "1.2012.0819.5238",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/kitsu/kitsu_1.2012.0819.5238.zip",
+                "checksum": "59181fb9812f96b79f7d55a8574298c5",
+                "timestamp": "2020-12-08T19:52:43Z"
+            }
+        ]
+    },
+    {
+        "guid": "a2b2a7ed-aa28-4521-a64a-63d86901f246",
+        "name": "AniDB",
+        "description": "AniDB metadata provider\n",
+        "overview": "AniDB metadata provider",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "3.2103.2821.0743",
+                "changelog": "* Explicit decompress no longer needed (#4) @oddstr13 * Let there be CI (#3) @oddstr13\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anidb/anidb_3.2103.2821.0743.zip",
+                "checksum": "80441f5259855ba84b12e498737de4a4",
+                "timestamp": "2021-03-28T21:07:56Z"
+            },
+            {
+                "version": "3.2103.1222.5512",
+                "changelog": "* Explicit decompress no longer needed (#4) @oddstr13 * Let there be CI (#3) @oddstr13\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anidb/anidb_3.2103.1222.5512.zip",
+                "checksum": "cde53a33bca1ae6ef2d8be05a41881dd",
+                "timestamp": "2021-03-12T22:55:17Z"
+            },
+            {
+                "version": "2.2103.1222.3237",
+                "changelog": "- Split out from the Anime plugin - Unpin patch version of DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anidb/anidb_2.2103.1222.3237.zip",
+                "checksum": "0faca5f584c2eecf303d01c408f75044",
+                "timestamp": "2021-03-12T22:32:42Z"
+            },
+            {
+                "version": "2.2103.1222.2641",
+                "changelog": "- Split out from the Anime plugin - Unpin patch version of DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anidb/anidb_2.2103.1222.2641.zip",
+                "checksum": "042fdb52d0407667eae49606d9986dcb",
+                "timestamp": "2021-03-12T22:26:47Z"
+            },
+            {
+                "version": "2.2103.1222.1433",
+                "changelog": "- Split out from the Anime plugin - Unpin patch version of DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anidb/anidb_2.2103.1222.1433.zip",
+                "checksum": "b2950338d8326f8294e7b40343d68fd5",
+                "timestamp": "2021-03-12T22:14:38Z"
+            },
+            {
+                "version": "2.2103.1222.1216",
+                "changelog": "- Split out from the Anime plugin - Unpin patch version of DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anidb/anidb_2.2103.1222.1216.zip",
+                "checksum": "957b0dc6ff045e6d425eb5f69651fe59",
+                "timestamp": "2021-03-12T22:12:22Z"
+            },
+            {
+                "version": "2.2103.1221.1800",
+                "changelog": "- Split out from the Anime plugin - Unpin patch version of DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anidb/anidb_2.2103.1221.1800.zip",
+                "checksum": "9b487276afa88d0a58fb6e668dafa963",
+                "timestamp": "2021-03-12T21:18:06Z"
+            },
+            {
+                "version": "2.2103.1221.1021",
+                "changelog": "- Split out from the Anime plugin - Unpin patch version of DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anidb/anidb_2.2103.1221.1021.zip",
+                "checksum": "eee526598820cff8895d2f245487cffc",
+                "timestamp": "2021-03-12T21:10:28Z"
+            },
+            {
+                "version": "2.2103.1220.5220",
+                "changelog": "- Split out from the Anime plugin - Unpin patch version of DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anidb/anidb_2.2103.1220.5220.zip",
+                "checksum": "8f9a58f56414e1ee30f1e50632e79b4e",
+                "timestamp": "2021-03-12T20:52:25Z"
+            },
+            {
+                "version": "2.2103.1220.4632",
+                "changelog": "- Split out from the Anime plugin - Unpin patch version of DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anidb/anidb_2.2103.1220.4632.zip",
+                "checksum": "3ff1e31d56df1edd88b78cc42e6e121f",
+                "timestamp": "2021-03-12T20:46:38Z"
+            },
+            {
+                "version": "2.2103.1217.1326",
+                "changelog": "- Split out from the Anime plugin - Unpin patch version of DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anidb/anidb_2.2103.1217.1326.zip",
+                "checksum": "2c7ec54ee118d7f1644fb58c970be07d",
+                "timestamp": "2021-03-12T17:13:30Z"
+            },
+            {
+                "version": "2.2103.1217.1052",
+                "changelog": "- Split out from the Anime plugin - Unpin patch version of DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anidb/anidb_2.2103.1217.1052.zip",
+                "checksum": "a60c459ab9bb3dcc8021864b538d9868",
+                "timestamp": "2021-03-12T17:10:57Z"
+            },
+            {
+                "version": "1.2103.1019.2513",
+                "changelog": "- Split out from the Anime plugin\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anidb/anidb_1.2103.1019.2513.zip",
+                "checksum": "33eb258c8d5eb92636a366774bd27214",
+                "timestamp": "2021-03-10T19:25:19Z"
+            },
+            {
+                "version": "1.2012.1422.3448",
+                "changelog": "- Split out from the Anime plugin\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anidb/anidb_1.2012.1422.3448.zip",
+                "checksum": "224c2382ec0c0b11d84c5481dd8cd8df",
+                "timestamp": "2020-12-14T22:34:52Z"
+            }
+        ]
+    },
+    {
+        "guid": "1bd22884-44be-40f3-ad95-fc4a7834ba2c",
+        "name": "AniList",
+        "description": "AniList metadata provider\n",
+        "overview": "AniList metadata provider",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "2.2103.2821.0743",
+                "changelog": "- Split out from the Anime plugin - Unpin patch version of DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anilist/anilist_2.2103.2821.0743.zip",
+                "checksum": "cdb1623e6c0ad2d97e2f0e5fe4918b9f",
+                "timestamp": "2021-03-28T21:08:03Z"
+            },
+            {
+                "version": "2.2103.1019.3350",
+                "changelog": "- Split out from the Anime plugin - Unpin patch version of DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anilist/anilist_2.2103.1019.3350.zip",
+                "checksum": "0cc57dfe89877e05516bbafcf38cf843",
+                "timestamp": "2021-03-10T19:33:55Z"
+            },
+            {
+                "version": "1.2012.1423.3354",
+                "changelog": "- Split out from the Anime plugin\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anilist/anilist_1.2012.1423.3354.zip",
+                "checksum": "e5fc6e0bf050e061d82f879cb89ccacc",
+                "timestamp": "2020-12-14T23:33:59Z"
+            },
+            {
+                "version": "1.2012.1423.1706",
+                "changelog": "- Split out from the Anime plugin\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anilist/anilist_1.2012.1423.1706.zip",
+                "checksum": "2ea104bf1845298e8a1cb6a80454fb04",
+                "timestamp": "2020-12-14T23:17:10Z"
+            },
+            {
+                "version": "1.2012.1423.1220",
+                "changelog": "- Split out from the Anime plugin\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anilist/anilist_1.2012.1423.1220.zip",
+                "checksum": "6a57b1c515342591eee067900f5e1773",
+                "timestamp": "2020-12-14T23:12:24Z"
+            }
+        ]
+    },
+    {
+        "guid": "776d9158-b91f-49d9-82c5-dacce63d63b8",
+        "name": "AniSearch",
+        "description": "AniSearch metadata provider\n",
+        "overview": "AniSearch metadata provider",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "versions": [
+            {
+                "version": "2.2103.2821.0743",
+                "changelog": "- Split out from the Anime plugin - Remove dependency on DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anisearch/anisearch_2.2103.2821.0743.zip",
+                "checksum": "951388780ef24a7518cbf80d8d200b70",
+                "timestamp": "2021-03-28T21:08:08Z"
+            },
+            {
+                "version": "2.2103.1019.5321",
+                "changelog": "- Split out from the Anime plugin - Remove dependency on DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anisearch/anisearch_2.2103.1019.5321.zip",
+                "checksum": "8e87093a08aa7c5a1e82013c7f4a8b4f",
+                "timestamp": "2021-03-10T19:53:25Z"
+            },
+            {
+                "version": "1.2103.1019.5007",
+                "changelog": "- Split out from the Anime plugin\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anisearch/anisearch_1.2103.1019.5007.zip",
+                "checksum": "78f9cb7dba6c6a1ac3a8f61fe66f6bb6",
+                "timestamp": "2021-03-10T19:50:12Z"
+            },
+            {
+                "version": "1.2012.1423.5748",
+                "changelog": "- Split out from the Anime plugin\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anisearch/anisearch_1.2012.1423.5748.zip",
+                "checksum": "6cbb48792c72b3f0e049554776c23270",
+                "timestamp": "2020-12-14T23:57:53Z"
+            },
+            {
+                "version": "1.2012.1423.5252",
+                "changelog": "- Split out from the Anime plugin\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://mirror3.openshell.no/jellyfin/plugins/anisearch/anisearch_1.2012.1423.5252.zip",
+                "checksum": "85ef51fd20780b6daf6938903f9b78f4",
+                "timestamp": "2020-12-14T23:52:56Z"
+            }
+        ]
+    }
+]
+
+
+/*OG Repo      https://mirror3.openshell.no/jellyfin/plugins/unstable.json */
