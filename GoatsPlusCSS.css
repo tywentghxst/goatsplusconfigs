@@ -341,6 +341,9 @@ font-weight: normal;
 }
 
 
+/*-----------------------------------------------Narrow the login form */
+#loginPage .readOnlyContent, #loginPage form {max-width: 22em;}
+
 
 
 
