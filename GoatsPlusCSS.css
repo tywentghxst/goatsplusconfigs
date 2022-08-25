@@ -336,6 +336,14 @@ button.listItemButton.itemAction.paper-icon-button-light {display: none;}
 
 
 
+/*-----------------------------------------------Remove My Media Arrows----------------------------------*/
+#homeTab > div > div.verticalSection.section0.emby-scroller-container > div.emby-scrollbuttons.padded-right {display: none;}
+
+
+
+
+
+
 
 
 
