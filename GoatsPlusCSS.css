@@ -2,6 +2,7 @@
 @import url("https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/Font%20Awesome/regular.css");
 
 
+
 /*----------------------------------------------Changes top my media cards (movies/shows/collections) */
 .layout-mobile
 .section0 .cardScalable {
@@ -11,6 +12,7 @@
 .section0 .cardScalable {
     display: none
 }
+
 
 
 /*----------------------------------------------remove My Media title */
@@ -34,6 +36,8 @@
 .section0 .itemsContainer {
     margin-top: 0px;
 }
+
+
 
 /*----------------------------------------------media section buttons*/
 .layout-desktop
@@ -115,8 +119,10 @@ position: relative;
 }
 
 
+
 /*----------------------------------------------Change watched indicator color*/
 .playedIndicator { background: #5dd000; }
+
 
 
 /*----------------------------------------------Background site wide*/
@@ -143,6 +149,7 @@ position: relative;
 .emby-tab-button {padding: 1.75em 1.7em;}
 
 
+
 /*----------------------------------------------Universal - Rounded corners and square hover buttons*/
 .cardContent-button, 
 .cardContent-shadow, 
@@ -163,18 +170,22 @@ position: relative;
 {border-radius: 10px !important;}
 
 
+
 /*----------------------------------------------Library Page - Align Posters to Center */
 .layout-desktop
 .padded-right-withalphapicker {padding-right:2.5% !important;}
+
 
 
 /*----------------------------------------------transparent top bar*/
 .skinHeader-withBackground {background-color: #20202000 !important;}
 
 
+
 /*----------------------------------------------Partialy transparent side bar*/
 div.mainDrawer {background: rgb(63,94,251);
 background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379726890756303) 100%); !important;}
+
 
 
 /*----------------------------------------------Center the play and pause rewind and fast forward button (MOBILE)*/
@@ -275,7 +286,6 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 }
 
 
-
 /*----------------------------------------------Tv background wallpaper*/
 .layout-tv
 .backgroundContainer {
@@ -285,13 +295,16 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
   background-size: cover;
 }
 
+
 /*----------------------------------------------Remove Alphabet column for Tv*/
 .layout-tv
 .alphaPicker {display: none;}
 
+
 /*----------------------------------------------center aligning posters on Tv*/
 .layout-tv
 .padded-right-withalphapicker {padding-right:4% !important;}
+
 
 /*----------------------------------------------Item Page for TV - resize episode preview images in a more compact way*/
 .layout-tv
@@ -301,9 +314,20 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 .layout-tv
 .secondary.listItem-overview.listItemBodyText {height: 61px; margin: 0;}
 
+
 /*-----------------------------------------------Remove Underline on Hover-------------------------------*/
 .itemAction:hover { text-decoration: none; }
 
+
+/*-----------------------------------------------Removes titles from home page my media items------------*/
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(1) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(2) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(3) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(4) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(5) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(6) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(7) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(8) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
 
 /*----------------------------------------------END OF MY CODE ALL BELOW IS TEST CODE*/
 
