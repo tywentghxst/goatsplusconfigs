@@ -35,13 +35,13 @@
     margin-top: 0px;
 }
 
-
+/*media section buttons*/
 .layout-desktop
 .section0 button.itemAction.textActionButton {
     height: 3.5em;
 position: relative;
   color: var(--textColor2);
-  border-radius: 26px;
+  border-radius: 7px;
   background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
   background-size: 400%;
   background-position: 0% 0%;
@@ -63,7 +63,19 @@ text-transform: uppercase;
     height: 3.5em;
 position: relative;
   color: var(--textColor2);
-  border-radius: 26px;
+  border-radius: 7px;
+  background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
+  background-size: 400%;
+  background-position: 0% 0%;
+}
+
+
+.layout-tv
+.section0 button.itemAction.textActionButton {
+    height: 3.5em;
+position: relative;
+  color: var(--textColor2);
+  border-radius: 7px;
   background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
   background-size: 400%;
   background-position: 0% 0%;
@@ -112,7 +124,7 @@ position: relative;
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
   background-image: url("https://static.wixstatic.com/media/e1e776_d29dc1ef4c9642f99bfeed30344e92e7~mv2.gif");
-  filter: blur(10px);
+  filter: blur(17px);
   background-size: cover;
 }
 
@@ -273,9 +285,29 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
   background-size: cover;
 }
 
+/*Remove Alphabet column for Tv*/
+.layout-tv
+.alphaPicker {display: none;}
+
+/*center aligning posters on Tv*/
+.layout-tv
+.padded-right-withalphapicker {padding-right:4% !important;}
+
+/*Item Page for TV - resize episode preview images in a more compact way*/
+.layout-tv
+.listItemImage.listItemImage-large.itemAction.lazy {height: 110px;}
+.layout-tv
+.listItem-content {height: 115px;}
+.layout-tv
+.secondary.listItem-overview.listItemBodyText {height: 61px; margin: 0;}
+
+
 
 
 /*END OF MY CODE ALL BELOW IS TEST CODE*/
+
+
+
 
 
 /*ALL CODE BELOW IS STILL WORK IN PROGRESS TESTING CODE*/
@@ -309,17 +341,11 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
     overflow: hidden;
 }
 
-.layout-mobile .card:hover .cardBox {
-    background: rgba(0, 0, 0, 0.25) !important;
-}
 
 .layout-mobile .cardImageContainer {
     background-size: cover;
 }
 
-.layout-mobile .card:hover .cardImageContainer {
-    background-size: cover;
-}
 
 
 
