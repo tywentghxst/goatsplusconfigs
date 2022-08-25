@@ -1,8 +1,8 @@
-/*MY CODE */
+/*----------------------------------------------MY CODE */
 @import url("https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/Font%20Awesome/regular.css");
 
 
-/* Changes top my media cards (movies/shows/collections) */
+/*----------------------------------------------Changes top my media cards (movies/shows/collections) */
 .layout-mobile
 .section0 .cardScalable {
     display: none
@@ -13,7 +13,7 @@
 }
 
 
-/* remove My Media title */
+/*----------------------------------------------remove My Media title */
 .section0 .sectionTitle {display: none}
 
 .layout-desktop
@@ -35,7 +35,7 @@
     margin-top: 0px;
 }
 
-/*media section buttons*/
+/*----------------------------------------------media section buttons*/
 .layout-desktop
 .section0 button.itemAction.textActionButton {
     height: 3.5em;
@@ -115,11 +115,11 @@ position: relative;
 }
 
 
-/*Change watched indicator color*/
+/*----------------------------------------------Change watched indicator color*/
 .playedIndicator { background: #5dd000; }
 
 
-/*Background site wide*/
+/*----------------------------------------------Background site wide*/
 .backdropImage { display: none; }
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
@@ -130,12 +130,12 @@ position: relative;
 
 
 
-/*APP LOGO*/
+/*----------------------------------------------APP LOGO*/
 .adminDrawerLogo img { content: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; } imgLogoIcon { content: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; } .pageTitleWithLogo { background-image: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; }
 
 
 
-/*Banner transparency and larger font, adjust both "size-adjust" and "size" to modify font size*/
+/*----------------------------------------------Banner transparency and larger font, adjust both "size-adjust" and "size" to modify font size*/
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {background:none; background-color:rgba(0, 0, 0, 0);}
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {background:none; background-color: rgba(0, 0, 0, 0);}
 .headerTabs.sectionTabs {text-size-adjust: 110%;  font-size: 110%;}
@@ -143,7 +143,7 @@ position: relative;
 .emby-tab-button {padding: 1.75em 1.7em;}
 
 
-/*Universal - Rounded corners and square hover buttons*/
+/*----------------------------------------------Universal - Rounded corners and square hover buttons*/
 .cardContent-button, 
 .cardContent-shadow, 
 .itemDetailImage, 
@@ -163,21 +163,21 @@ position: relative;
 {border-radius: 10px !important;}
 
 
-/*Library Page - Align Posters to Center */
+/*----------------------------------------------Library Page - Align Posters to Center */
 .layout-desktop
 .padded-right-withalphapicker {padding-right:2.5% !important;}
 
 
-/*transparent top bar*/
+/*----------------------------------------------transparent top bar*/
 .skinHeader-withBackground {background-color: #20202000 !important;}
 
 
-/*Partialy transparent side bar*/
+/*----------------------------------------------Partialy transparent side bar*/
 div.mainDrawer {background: rgb(63,94,251);
 background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379726890756303) 100%); !important;}
 
 
-/*Center the play and pause rewind and fast forward button (MOBILE)*/
+/*----------------------------------------------Center the play and pause rewind and fast forward button (MOBILE)*/
 .layout-mobile
 .btnPause {
     position: fixed;
@@ -226,7 +226,7 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 }
 
 
-/*Center the play and pause rewind and fast forward button (DESKTOP)*/
+/*----------------------------------------------Center the play and pause rewind and fast forward button (DESKTOP)*/
 .layout-desktop
 .btnPause {
     position: fixed;
@@ -276,7 +276,7 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 
 
 
-/* Tv background wallpaper*/
+/*----------------------------------------------Tv background wallpaper*/
 .layout-tv
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
@@ -285,15 +285,15 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
   background-size: cover;
 }
 
-/*Remove Alphabet column for Tv*/
+/*----------------------------------------------Remove Alphabet column for Tv*/
 .layout-tv
 .alphaPicker {display: none;}
 
-/*center aligning posters on Tv*/
+/*----------------------------------------------center aligning posters on Tv*/
 .layout-tv
 .padded-right-withalphapicker {padding-right:4% !important;}
 
-/*Item Page for TV - resize episode preview images in a more compact way*/
+/*----------------------------------------------Item Page for TV - resize episode preview images in a more compact way*/
 .layout-tv
 .listItemImage.listItemImage-large.itemAction.lazy {height: 110px;}
 .layout-tv
@@ -304,203 +304,17 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 
 
 
-/*END OF MY CODE ALL BELOW IS TEST CODE*/
+/*----------------------------------------------END OF MY CODE ALL BELOW IS TEST CODE*/
 
 
 
 
 
-/*ALL CODE BELOW IS STILL WORK IN PROGRESS TESTING CODE*/
+/*----------------------------------------------ALL CODE BELOW IS STILL WORK IN PROGRESS TESTING CODE*/
 
 
 
 
 
 
-/*Hover items*/
 
-
-.actionSheetMenuItem:hover {
-    background: rgb(43, 105, 240) !important;
-}
-
-.cardBox {
-    background: rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    box-shadow: 0px 0px 9px 0px rgb(0 0 0);
-    transition: background .15s ease-out, box-shadow .15s ease-out;
-}
-
-.card:hover .cardBox,
-.card:focus .cardBox {
-    background: rgba(0, 0, 0, 0.75);
-    box-shadow: 0 5px 9px black;
-}
-
-.cardScalable {
-    overflow: hidden;
-}
-
-
-.layout-mobile .cardImageContainer {
-    background-size: cover;
-}
-
-
-
-
-.overflowSquareCard .cardImageContainer {
-    background-size: 180%;
-}
-
-.overflowSquareCard:hover .cardImageContainer {
-    background-size: 200%;
-}
-
-.overflowSquareCard .cardImageContainer::before {
-    content: "";
-    background: inherit;
-    width: 130%;
-    height: 130%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background-size: cover;
-    -webkit-filter: brightness(40%) blur(10px);
-    filter: brightness(40%) blur(10px);
-    z-index: 0;
-    transform: translate(-50%, -50%);
-}
-
-.overflowSquareCard .cardImageContainer::after {
-    content: "";
-    background: inherit;
-    z-index: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-size: 100%;
-    transition: all .15s;
-}
-
-.overflowSquareCard:hover .cardImageContainer::after {
-    background-size: 120%;
-}
-
-:not(.detailImageContainer)>.card:not(.overflowSquareCard) .cardImageContainer::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: inherit;
-    background-size: cover;
-    transition: .15s;
-}
-
-:not(.detailImageContainer)>.card:not(.overflowSquareCard):hover .cardImageContainer::before {
-    transform: scale(1.2);
-}
-
-.progressring-bg {
-    border: .25em solid transparent;
-    background: transparent;
-}
-
-.itemName.parentNameLast {
-    font-size: 35px;
-}
-
-#itemDetailPage .button-flat:hover {
-    transform: scale(1.5);
-}
-
-.button-flat {
-    border-radius: 5px !important;
-}
-
-.detailButton-content {
-    -webkit-filter: drop-shadow(0px 3px 3px black);
-    filter: drop-shadow(0px 3px 3px black);
-}
-
-.navMenuOption::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background: var(--accent);
-    z-index: -1;
-    left: 0;
-    opacity: 0%;
-    transition: opacity .2s;
-}
-
-.navMenuOption:hover::before {
-    opacity: 100%;
-}
-
-.navMenuOption .navMenuOptionIcon {
-    transition: margin-right .2s;
-}
-
-.navMenuOption:hover .navMenuOptionIcon {
-    margin-right: 1.5em;
-}
-
-.listItem-border.emby-button:hover {
-    background: black;
-}
-
-.listItem-border.emby-button:hover .listItemIcon {
-    margin-right: .65rem;
-}
-
-.listItem-border.emby-button .listItemIcon {
-    transition: margin-right .2s;
-}
-
-span.listItemIcon.material-icons {
-    background: var(--accent-icon);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-
-.defaultCardBackground {
-    background: transparent;
-}
-
-.cardImageIcon {
-    background: var(--accent);
-    color: transparent;
-    -webkit-background-clip: text !important;
-    background-clip: text !important;
-}
-
-.raised::before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-    z-index: -1;
-    background: var(--accent);
-    border-radius: 5px;
-    opacity: 0;
-    transition: opacity .2s ease-in-out;
-}
-
-.raised:hover::before {
-    opacity: 100%;
-}
-
-.dashboardSection .defaultCardBackground {
-    color: white;
-}
-
-#indexPage .raised::before {
-    background: transparent;
-}
