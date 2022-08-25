@@ -1,0 +1,847 @@
+/*-----------------------------------------------Played Indicator with gradient--------------------------*/
+.playedIndicator {background: linear-gradient(to bottom right, #a75dc3, #0c9fda);}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Minimalist Login Page-----------------------------------*/
+#loginPage .readOnlyContent, #loginPage form {max-width: 22em;}
+#loginPage h1 {display: none}
+#loginPage .padded-left.padded-right.padded-bottom-page {margin-top: 50px}
+#loginPage .raised.cancel.block.btnManual.emby-button {display: none}
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {display: none}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Rounded Corners on Images+Buttons-----------------------*/
+.missingIndicator, 
+.unairedIndicator,
+.detailTable,
+.primaryImageWrapper > img,
+.toast,
+.paperList,
+.cardContent,
+.sessionNowPlayingInnerContent, 
+.listItem:hover, 
+.cardImage,
+.fab,
+.raised,
+.multiSelectCheckboxOutline,
+.itemSelectionPanel,
+.cardContent-button, 
+.cardContent-shadow, 
+.itemDetailImage, 
+.cardOverlayButton-hover,
+.cardImageContainer,
+.cardPadder,
+.listItemImage,
+.listItemImageButton,
+.listItemButton,
+.headerButton,
+.paper-icon-button-light,
+.innerCardFooter,
+.blurhash-canvas,
+.dialog,
+.countIndicator,
+.playedIndicator,
+.listItemIcon,
+.listItem-border,
+.button-flat,
+.visualCardBox,
+.checkboxOutline,
+.emby-select-withcolor,
+.chapterThumbTextContainer,
+.chapterThumbContainer,
+.chapterThumb,
+.emby-input, 
+.emby-textarea, 
+.emby-select-withcolor,
+.nowPlayingPageImage,
+.upNextDialog-poster-img,
+.upNextContainer,
+.cardContent-button, 
+.cardContent-shadow, 
+.cardOverlayButton-hover, 
+.cardOverlayContainer,
+.innerCardFooter,
+.actionSheetMenuItem:hover,
+.cardOverlayButtonIcon
+{border-radius: 5px !important;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Cast Beautifier-----------------------------------------*/
+@media all and (min-width: 131.25em){
+  #castContent .card.overflowPortraitCard {
+    width: 6.3vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 120em) and (max-width: 131.25em){
+  #castContent .card.overflowPortraitCard {
+    width: 6.4vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 100em) and (max-width: 120em){
+  #castContent .card.overflowPortraitCard {
+    width: 7.6vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 87.5em) and (max-width: 100em){
+  #castContent .card.overflowPortraitCard {
+    width: 9.3vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 75em) and (max-width: 87.5em){
+  #castContent .card.overflowPortraitCard {
+    width: 10.5vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 50em) and (max-width: 75em){
+  #castContent .card.overflowPortraitCard {
+    width: 15vw !important;
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 43.75em) and (max-width: 50em){
+  #castContent .card.overflowPortraitCard {
+    width: 20.1vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 25em) and (max-width: 43.75em){
+  #castContent .card.overflowPortraitCard {
+    width: 31.2vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (max-width: 25em){
+  #castContent .card.overflowPortraitCard {
+    width: 40vw !important; 
+    font-size: 90% !important;
+  }
+}
+.cardPadder {
+  background-color: #0000 !important; box-shadow: none !important;
+}
+@media all and (min-width: 131.25em){
+  #castContent .cardScalable {
+    width: calc(6.3vw - 0.6em) !important; 
+    height: calc(6.3vw - 0.6em) !important;
+  }
+}
+@media all and (min-width: 120em) and (max-width: 131.25em){
+  #castContent .cardScalable {
+    width:  calc(6.4vw - 0.6em) !important; 
+    height: calc(6.4vw - 0.6em) !important;
+  }
+}
+@media all and (min-width: 100em) and (max-width: 120em){
+  #castContent .cardScalable {
+    width:  calc(7.6vw - 0.6em) !important; 
+    height: calc(7.6vw - 0.6em) !important;
+  }
+}
+@media all and (min-width: 87.5em) and (max-width: 100em){
+  #castContent .cardScalable {
+    width:  calc(9.3vw - 0.6em) !important; 
+    height: calc(9.3vw - 0.6em) !important;
+  }
+}
+@media all and (min-width: 75em) and (max-width: 87.5em){
+  #castContent .cardScalable {
+    width:  calc(10.5vw - 0.6em) !important; 
+    height: calc(10.5vw - 0.6em) !important;
+  }
+}
+@media all and (min-width: 50em) and (max-width: 75em){
+  #castContent .cardScalable {
+    width:  calc(15vw - 0.6em) !important; 
+    height: calc(15vw - 0.6em) !important;
+  }
+}
+@media all and (min-width: 43.75em) and (max-width: 50em){
+  #castContent .cardScalable {
+    width:  calc(20.1vw - 0.6em) !important; 
+    height: calc(20.1vw - 0.6em) !important;
+  }
+}
+@media all and (min-width: 25em) and (max-width: 43.75em){
+  #castContent .cardScalable {
+    width:  calc(31.2vw - 0.6em) !important; 
+    height: calc(31.2vw - 0.6em) !important;
+  }
+}
+@media all and (max-width: 25em){
+  #castContent .cardScalable {
+    width:  calc(40vw - 0.6em) !important;
+    height: calc(40vw - 0.6em) !important;
+  }
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Size episode preview images in a more compact way-------*/
+.listItemImage.listItemImage-large.itemAction.lazy{
+  transition: filter 0.2s
+}
+.listItemImageButton-icon{
+  padding: 0;
+}
+.secondary.listItem-overview.listItemBodyText {
+  height: 61px; 
+  margin: 0;
+}
+.listItemImageButton {
+  margin: auto; 
+  font-size: 1.6em !important;
+}
+@media all and (min-width: 100em){
+  .listItemImage.listItemImage-large.itemAction.lazy {
+    height: 110px;
+  }
+  .listItem-content {
+    height: 115px;
+  }
+  .secondary.listItem-overview.listItemBodyText {
+    height: 4em; 
+    margin: 0;
+  }
+}
+@media all and (max-width: 100em){
+  .listItemImage.listItemImage-large.itemAction.lazy {height: 80px;}
+  .listItem-content {height: 85px;}
+  .secondary.listItem-overview.listItemBodyText {height: 2.5em; margin: 0;}
+}
+.missingIndicator, .unairedIndicator {
+    background: #ae3030eb;
+    padding: .3em .6em;
+    color: #fff;
+}
+.layout-mobile .listItemImageButton {
+    background: rgba(0, 0, 0, 0);
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Background----------------------------------------------*/
+.backgroundContainer, .dialog, html { background-image: url(https://i.ibb.co/JFcjSDK/Background.jpg);
+    background-size: cover;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------Remove Underline on Hover-------------------------------*/
+.itemAction:hover { text-decoration: none; }
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Red Checkmark to Blue-----------------------------------*/
+.playstatebutton-icon-played, .ratingbutton-icon-withrating {color: #00a4dc;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Removes All Favorites Hearts----------------------------*/
+*[title=Favorite] {display: none;} /*Used to be universal but update broke something*/
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Removes All Favorites Hearts From Movies----------------*/
+.button-flat.btnUserRating.detailButton.emby-button {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Removes All Favorites Hearts From Movies----------------*/
+.listItemButton.paper-icon-button-light.emby-button {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Top Menu - Transparent Top Menu-------------------------*/
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {background:none; background-color:rgba(0, 0, 0, 0);}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {background:none; background-color:rgba(0, 0, 0, 0);}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Top Menu - Hide user icon-------------------------------*/
+.material-icons.person {display: none;}
+.headerButton.headerButtonRight.headerUserButton.paper-icon-button-light {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Hide Shuffle Icon---------------------------------------*/
+.btnShuffle.button-flat {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Removes titles from home page my media items------------*/
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(1) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(2) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(3) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(4) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(5) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(6) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(7) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(8) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Removes Trailer Icon from All Pages---------------------*/
+*[title=Trailer] {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Change Title to Recently Added Movies-------------------*/
+#homeTab > div > div.section2 > div:nth-child(1) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
+#homeTab > div > div.section2 > div:nth-child(1) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
+#homeTab > div > div.section2 > div:nth-child(1) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
+  content: 'Recently Added Movies ›';
+font-size: 20px;
+font-weight: normal;
+cursor: default;
+pointer-events: none; 
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Change Title to Recently Released Movies----------------*/
+#homeTab > div > div.section2 > div:nth-child(2) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
+#homeTab > div > div.section2 > div:nth-child(2) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
+#homeTab > div > div.section2 > div:nth-child(2) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
+  content: 'Recent Releases ›';
+font-size: 20px;
+font-weight: normal;
+cursor: default;
+pointer-events: none;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Change Title to Recently Added TV Shows-----------------*/
+#homeTab > div > div.section2 > div:nth-child(3) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
+#homeTab > div > div.section2 > div:nth-child(3) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
+#homeTab > div > div.section2 > div:nth-child(3) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
+  content: 'Recently Added TV Shows ›';
+font-size: 20px;
+font-weight: normal;
+cursor: default;
+pointer-events: none;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Removes Hamburger Icon----------------------------------*/
+body > div.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred > div.flex.align-items-center.flex-grow.headerTop > div.headerLeft > button.headerButton.mainDrawerButton.barsMenuButton.headerButtonLeft.paper-icon-button-light > span {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Removes Small Text at Top of Pages----------------------*/
+.sectionTabs {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Removes 3 Dots from cards-------------------------------*/
+div.cardOverlayButton-br.flex {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Removes 3 Dots from cards Mobile------------------------*/
+button.listItemButton.itemAction.paper-icon-button-light {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Floating Progress bar on cards--------------------------*/
+/*New progress bar*/
+#indexPage .innerCardFooterClear,
+#itemDetailPage .innerCardFooterClear {
+    background-color: transparent !important;
+    box-shadow: none;
+}
+#indexPage .itemProgressBarForeground,
+#itemDetailPage .itemProgressBarForeground,
+#indexPage .itemProgressBar,
+#itemDetailPage .itemProgressBar {
+    border-radius: 5px;
+}
+#indexPage .itemProgressBarForeground,
+#itemDetailPage .itemProgressBarForeground  {
+    background-color: rgba(167, 93, 195, 0.95) !important;
+}
+#indexPage .itemProgressBar,
+#itemDetailPage .itemProgressBar {
+    height: 6px;
+    background: rgba(0,0,0,0.4);
+    margin: .5em .8em;
+}
+/*Accommodate play button on mobile*/
+@media all and (max-width: 100em){
+  #indexPage .itemProgressBar,
+  #itemDetailPage .itemProgressBar {
+    margin-right: 3.2em;
+  }
+}
+@supports (backdrop-filter: blur(15px)) {
+  #indexPage .itemProgressBar,
+  #itemDetailPage .itemProgressBar{
+    backdrop-filter: blur(4px);
+    background: rgba(0, 0, 0, 0.35) !important;
+  }
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Input Fields no Border----------------------------------*/
+/*No borders, background highlights*/
+.infoBanner {
+    background: rgba(var(--selection), 0.15) !important;
+}
+fieldset {
+    border: 1px solid rgba(var(--selection), 0.3);
+}
+.checkboxOutline,
+.emby-input,
+.emby-textarea,
+.emby-select-withcolor {
+  border: none !important;
+  background: rgba(0, 0, 0, 0.5); 
+}
+#itemDetailPage .emby-select-withcolor {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/*Change look of in-focus fields*/
+.emby-checkbox:checked + span + .checkboxOutline,
+.emby-input:focus,
+.emby-textarea:focus,
+.emby-select-withcolor:focus,
+.itemSelectionPanel {
+  border: none !important;
+  background: rgba(var(--selection), 0.25) !important;
+}
+.checkboxIcon {
+    color: rgba(var(--selection), 1);
+}
+
+/*Progress bars*/
+progress {
+  border: 0px solid rgba(255, 255, 255, 0.22);
+}
+progress::-webkit-progress-bar {
+  border: 0px solid rgba(255, 255, 255, 0.22);
+}
+.taskProgressOuter {
+  border: 0px solid rgba(255, 255, 255, 0.22);
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Remove Scenes Section-----------------------------------*/
+#scenesCollapsible {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Remove My Media-----------------------------------------*/
+.section0 .sectionTitle {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Remove My Media Arrows----------------------------------*/
+#homeTab > div > div.verticalSection.section0.emby-scroller-container > div.emby-scrollbuttons.padded-right {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------Changes menu theme style--------------------------------*/
+.dialog {background-color: rgba(0, 0, 0, 0.8);}
+.actionSheetMenuItem:hover {background-color: rgba(0, 164, 220, 0.2);}
+.mainDrawer {background-color: rgba(0, 0, 0, 0.8);}
+.navMenuOption:hover {background: rgba(0, 164, 220, 0.2);}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Remove Play Button From Card----------------------------*/
+.cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light.cardOverlayFab-primary {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Move Played Indicator and Count to Top Right of Card----*/
+.cardIndicators,
+.listItemIndicators {
+  right: 0;
+  top: 0;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Change play UI Colors-----------------------------------*/
+/*-- Drop color of progress bar */
+.mdl-slider-background-flex {
+    background: #846D8B !important;
+}
+
+/*--Loaded already */
+.mdl-slider-background-upper {
+    background: #846D8B;
+}
+/*-- Played already */
+.mdl-slider-background-lower {
+    background: #a75dc3;
+}
+.sliderBubble,
+.mdl-slider::-webkit-slider-thumb {
+  background: #a75dc3 !important; }
+
+.mdl-slider::-moz-range-thumb, .mdl-slider::-moz-range-progress {
+  background: #a75dc3 !important; }
+  
+.mdl-slider:focus::-webkit-slider-thumb {
+  -webkit-box-shadow: 0 0 0 10px rgba(255, 128, 0, 0.26);
+  box-shadow: 0 0 0 10px #a75dc3 !important; }
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Hide Play Button on Mobile------------------------------*/
+button.cardOverlayButton.cardOverlayButton-br.itemAction.paper-icon-button-light {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Reduce subtitles input width----------------------------*/
+.selectSubtitles {width:300px;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Reduce audio channels input width-----------------------*/
+.selectAudio {width:300px;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Remove subtitles drop down arrow------------------------*/
+#itemDetailPage > div.detailPageWrapperContainer > div.detailPageSecondaryContainer > div.detailPageContent > div.detailPagePrimaryContent.padded-right > div > form > div.selectContainer.selectSubtitlesContainer.trackSelectionFieldContainer.flex-shrink-zero > div {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Remove Audio drop down arrow----------------------------*/
+#itemDetailPage > div.detailPageWrapperContainer > div.detailPageSecondaryContainer > div.detailPageContent > div.detailPagePrimaryContent.padded-right > div > form > div.selectContainer.selectAudioContainer.trackSelectionFieldContainer.flex-shrink-zero > div {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Remove the view changer for Movies----------------------*/
+#moviesTab > div:nth-child(1) > button.btnSelectView.autoSize.paper-icon-button-light {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Remove the view changer for TV Shows--------------------*/
+#seriesTab > div:nth-child(1) > button.btnSelectView.autoSize.paper-icon-button-light {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Remove top text from collections page-------------------*/
+body > div.mainAnimatedPages.skinBody > div.view.flex.flex-direction-column.page.libraryPage.noSecondaryNavPage.mainAnimatedPage > div.flex-grow.padded-left.padded-right.pageContainerTopPadding > div.flex.align-items-center.focuscontainer-x.itemsViewSettingsContainer.padded-top.padded-bottom.flex-wrap-wrap {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Remove play button from series--------------------------*/
+button.listItemImageButton.itemAction.paper-icon-button-light {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Add GroupPlay Wording to Sync Button--------------------*/
+.headerSyncButton.syncButton.headerButton.headerButtonRight.paper-icon-button-light:after {
+  content: 'GroupPlay';
+font-size: 15px;
+font-weight: normal;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Change Star Rating Icon to White------------------------*/
+.starIcon {
+    color: rgba(255,255,255,.8);
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------Fade As Images Load------------------------======-------*/
+.blurhash-canvas {
+    transition: 0.2s;
+}
+.cardImageContainer {
+    transition: 0.7s;
+}
+.checkboxOutline,
+.emby-input,
+.emby-textarea,
+.emby-select-withcolor,
+.selectLabel
+.inputLabel,
+.textareaLabel {
+  transition: 0.1s;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------Narrow Margins / Theme Main Page------------------------*/
+.cardBox-bottompadded {
+    margin-bottom: 0.6em !important;
+}
+.itemsContainer > .card > .cardBox {
+    margin-right: 0.8em;
+}
+.raised.homeLibraryButton {
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+.raised.homeLibraryButton:hover {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+.raised.homeLibraryButton:hover {transition: filter 0.2s}
+.raised.homeLibraryButton {transition: filter 0.2s}
+.homeLibraryButton {
+    min-width: 12em;
+    margin: 0.4em;
+}
+.listItem:hover {
+    transition: 0.2s;
+    background: rgba(0, 0, 0, .2);
+}
+.visualCardBox, .cardImageContainer {
+    box-shadow: none;
+}
+.backgroundProgress > div {
+    background: rgba(0, 0, 0, 0);
+}
+.itemProgressBar {
+    background: rgba(0, 0, 0, 0.25);
+}
+#divRunningTasks span {
+    color: rgba(255,255,255,0.75) !important;
+}
+.itemsContainer > .card > .cardBox {
+    margin-left: 0.6em !important;
+}
+.itemsContainer > .card > .cardBox {
+    margin-right: 0.8em;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------Shrink the mouseover chapter image when scrobbling, still media player----*/
+.chapterThumb {
+    height: 14vh;
+    min-width: 14vh;
+	box-shadow: 0 0 1.9vh #000;
+}
+.chapterThumbText {
+    font-size: 1em;
+}
+.sliderBubble {
+  background: #0000;
+}
+.chapterThumbTextContainer {
+    right: auto;
+	bottom: 4px;
+	padding: .25em 0.7em;
+}
+.chapterThumbContainer {
+    box-shadow: 0 0 1.9vh #000;
+}
+.sliderBubble {
+    -webkit-transform: translate3d(-50%,-108%,0);
+    transform: translate3d(-50%,-108%,0);
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Change Font for Dashboard Menus-------------------------*/
+.emby-textarea {
+  font-family: monospace;
+  font-size: 10pt;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------Patch Fixes from Main Theme-----------------------------*/
+/*Enlarge button row on item page, even more on mobile*/
+.mainDetailButtons {
+	font-size: 120%;
+}
+
+/*Media player*/
+.startTimeText, .endTimeText {
+    width: 3.4em;
+    display: block;
+    text-align: center;
+}
+.osdTitle {
+  margin-left: 0.5em;
+}
+
+.videoOsdBottom {
+    padding-top: 1em;
+}
+
+.skinHeader-withBackground.osdHeader {
+    height: 5em;
+}
+
+/*Accommodate ultrawide aspect ratios*/
+@media (min-aspect-ratio: 1.98/1) {
+  .detailImageContainer .card {
+    width: 21vw; 
+  }
+  .detailPagePrimaryContainer {
+    padding-left: 28.45vw !important;
+  }
+  .detailPageContent {
+    padding-left: 28.45vw;
+  }
+}
+@media (min-aspect-ratio: 2.7/1) {
+  .detailImageContainer .card {
+    width: 16vw; 
+  }
+  .detailPagePrimaryContainer {
+    padding-left: 23.45vw !important;
+  }
+  .detailPageContent {
+    padding-left: 23.45vw;
+  }
+}
+
+/*Tweak entry field padding and alignment/sizes*/
+.emby-input,
+.emby-textarea {
+  padding: .4em .55em;
+}
+.emby-select {
+  padding: .35em 1.9em .35em .35em;
+}
+.selectArrow {
+    margin-top: 1.05em;
+}
+
+/*Fix weird shevron off centering*/
+.layout-mobile :not(.sectionTitleContainer-cards)>.sectionTitle-cards {
+ padding-top:0em;
+}
+.sectionTitle {
+	margin-left: .4em !important;
+	margin-top: .2em !important;
+	margin-bottom: .2em !important;
+}
+.sectionTitleTextButton > .material-icons {
+    margin: 0;
+}
+.layout-mobile .sectionTitleTextButton > .material-icons {
+    padding-top: .2em;
+}
+
+/*Fix the UI shifting around*/
+.nowPlayingBarCurrentTime {
+    width: 6em;
+}
+.osdTextContainer {
+    margin: 0 !important;
+    margin-top: 0.2em !important;
+    padding-left: 0.5em !important;
+    padding-right: 0.5em !important;
+}
+
+/*Fix top right user icon when using a profile image*/
+.headerUserButtonRound {
+  border-radius: 50px !important;
+}
+
+/*Improve some menu alignments*/
+.navMenuOptionText {
+    margin-top: 0;
+}
+.emby-tab-button {
+    padding: 1.75em 1.7em;
+}
+.formDialogHeaderTitle {
+  margin-left: 1em;
+}
+.formDialogContent {
+  margin-bottom: 6.2em;
+}
+.dialogContentInner {
+  padding: .5em 1em 1em;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+.listItem-indexnumberleft {
+  margin: 1em;
+}
+.listItem {
+  padding-left: 1em;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+
+/* //////////////////////////// TESTING ////////////////////////// */
+/* //////////////////////////// TESTING ////////////////////////// */
+/* //////////////////////////// TESTING ////////////////////////// */
+
+.content-primary {
+    padding-top: 1em;
+}
+
+/*Theme user setting tab buttons*/
+div[data-role="controlgroup"] a.ui-btn-active {
+  background: rgba(0, 0, 0, 0.5) !important;
+  color: white !important;
+}
+
+div[data-role="controlgroup"] a[data-role="button"] {
+  display: table-cell !important;
+  margin: 0 !important;
+}
+
+/*Mobile tweaks*/
+.layout-mobile .detailPagePrimaryContainer {
+    background: transparent;
+}
+.layout-mobile .adminDrawerLogo {
+    border-bottom: none;
+}
+
+/*Stop covers from being scrolled*/
+.detailImageContainer .card {
+    position: fixed;
+}	
+/*Top "task bar" enlarge text*/
+.headerTabs.sectionTabs {
+  text-size-adjust: 110%;
+  font-size: 110%;
+}
+.pageTitle {
+  margin-top: auto; 
+  margin-bottom: auto;
+}
+
+/*Theme process progress ring*/
+.progressring-spiner {
+  border-color: rgba(var(--accent));
+  border-width: .35em;
+}
+.progressring {
+    margin: .4em;
+}
+.progressring-bg {
+   display: none;
+}
+
+/*Theme link color*/
+#itemDetailPage .button-link {color: inherit !important;}
+
+@media all and (min-width: 70em){
+  .cardOverlayFab-primary {
+    background-color: #00000000;
+  }
+  .cardOverlayButtonIcon {
+    background-color: #00000000 !important;
+  }
+  .cardOverlayContainer {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+@media all and (max-width: 70em){
+  .cardOverlayButtonIcon {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+  .cardOverlayButton {
+    padding: 0.5em;
+  }
+}
+
+/*Media player*/
+.nowPlayingPageImage {
+  border: none;
+}
+
+.upNextDialog-countdownText {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Remove background on some icons*/
+.listItemIcon {
+    background: #0000 !important;
+}
+
+/*Remove divider on list items*/
+.listItem-border {
+    border-color: rgba(255, 255, 255, 0) !important;
+}
+
+/*Fix footers/headers displaying on small pop-ups*/
+.formDialogFooter-clear,
+.formDialogHeader-clear,
+.innerCardFooterClear {
+    background-color: transparent !important;
+}
