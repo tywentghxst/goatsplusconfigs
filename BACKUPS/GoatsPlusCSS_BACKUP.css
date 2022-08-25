@@ -2,6 +2,13 @@
 @import url("https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/Font%20Awesome/regular.css");
 
 
+
+
+/*----------------------------------------------remove My Media title */
+.section0 .sectionTitle {display: none}
+
+
+
 /*----------------------------------------------Changes top my media cards (movies/shows/collections) */
 .layout-mobile
 .section0 .cardScalable {
@@ -11,10 +18,6 @@
 .section0 .cardScalable {
     display: none
 }
-
-
-/*----------------------------------------------remove My Media title */
-.section0 .sectionTitle {display: none}
 
 .layout-desktop
 .section0 .itemsContainer {
@@ -34,6 +37,8 @@
 .section0 .itemsContainer {
     margin-top: 0px;
 }
+
+
 
 /*----------------------------------------------media section buttons*/
 .layout-desktop
@@ -115,15 +120,17 @@ position: relative;
 }
 
 
+
 /*----------------------------------------------Change watched indicator color*/
 .playedIndicator { background: #5dd000; }
+
 
 
 /*----------------------------------------------Background site wide*/
 .backdropImage { display: none; }
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("https://static.wixstatic.com/media/e1e776_d29dc1ef4c9642f99bfeed30344e92e7~mv2.gif");
+  background-image: url("https://static.wixstatic.com/media/e1e776_31b61eb7499240fbbe3bf6efa3c1b0b2~mv2.jpg/v1/fill/w_982,h_552,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bg_jpg_5ec89a45cb7f184e2ee7c80ed02a7831.jpg");
   filter: blur(17px);
   background-size: cover;
 }
@@ -141,6 +148,7 @@ position: relative;
 .headerTabs.sectionTabs {text-size-adjust: 110%;  font-size: 110%;}
 .pageTitle {margin-top: auto; margin-bottom: auto;}
 .emby-tab-button {padding: 1.75em 1.7em;}
+
 
 
 /*----------------------------------------------Universal - Rounded corners and square hover buttons*/
@@ -163,18 +171,22 @@ position: relative;
 {border-radius: 10px !important;}
 
 
+
 /*----------------------------------------------Library Page - Align Posters to Center */
 .layout-desktop
 .padded-right-withalphapicker {padding-right:2.5% !important;}
+
 
 
 /*----------------------------------------------transparent top bar*/
 .skinHeader-withBackground {background-color: #20202000 !important;}
 
 
+
 /*----------------------------------------------Partialy transparent side bar*/
 div.mainDrawer {background: rgb(63,94,251);
-background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379726890756303) 100%); !important;}
+background: rgba(63,94,251,1); !important;}
+
 
 
 /*----------------------------------------------Center the play and pause rewind and fast forward button (MOBILE)*/
@@ -275,23 +287,25 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 }
 
 
-
 /*----------------------------------------------Tv background wallpaper*/
 .layout-tv
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("https://static.wixstatic.com/media/e1e776_f890af4b1ae94e578f84b7cb72a55f8f~mv2.png/v1/fill/w_560,h_314,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/ddwzfge-f71202e3-9ee1-4a25-8ad6-4c42f09ac1db.png");
+  background-image: url("https://static.wixstatic.com/media/e1e776_31b61eb7499240fbbe3bf6efa3c1b0b2~mv2.jpg/v1/fill/w_982,h_552,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bg_jpg_5ec89a45cb7f184e2ee7c80ed02a7831.jpg");
   filter: blur(1px);
   background-size: cover;
 }
+
 
 /*----------------------------------------------Remove Alphabet column for Tv*/
 .layout-tv
 .alphaPicker {display: none;}
 
+
 /*----------------------------------------------center aligning posters on Tv*/
 .layout-tv
 .padded-right-withalphapicker {padding-right:4% !important;}
+
 
 /*----------------------------------------------Item Page for TV - resize episode preview images in a more compact way*/
 .layout-tv
@@ -302,9 +316,72 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 .secondary.listItem-overview.listItemBodyText {height: 61px; margin: 0;}
 
 
+/*-----------------------------------------------Remove Underline on Hover-------------------------------*/
+.itemAction:hover { text-decoration: none; }
 
 
-/*----------------------------------------------END OF MY CODE ALL BELOW IS TEST CODE*/
+
+
+
+/*-----------------------------------------------Removes 3 Dots from cards Mobile------------------------*/
+button.listItemButton.itemAction.paper-icon-button-light {display: none;}
+
+
+
+/*-----------------------------------------------Remove My Media Arrows----------------------------------*/
+#homeTab > div > div.verticalSection.section0.emby-scroller-container > div.emby-scrollbuttons.padded-right {display: none;}
+
+
+
+/*-----------------------------------------------Add GroupPlay Wording to Sync Button--------------------*/
+.headerSyncButton.syncButton.headerButton.headerButtonRight.paper-icon-button-light:after {
+  content: 'GroupPlay';
+font-size: 15px;
+font-weight: normal;
+}
+
+
+
+
+
+/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
+/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
+/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
+/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
+/* //////////////////////////// disable code ////////////////////////// */
+/* //////////////////////////// disable code ////////////////////////// */
+/* //////////////////////////// disable code ////////////////////////// */
+
+/* Hide "manual" and "forgot" buttons */
+/*
+#loginPage .raised.cancel.block.btnManual.emby-button {display: none}
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {display: none}
+#loginPage .raised.cancel.block.btnQuick.emby-button {display: none}
+*/
+
+
+
+/*-----------------------------------------------Removes titles from home page my media items------------*/
+/*
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(1) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(2) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(3) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(4) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(5) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(6) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(7) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(8) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
+*/
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -312,6 +389,31 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 
 /*----------------------------------------------ALL CODE BELOW IS STILL WORK IN PROGRESS TESTING CODE*/
 
+/* //////////////////////////// TESTING ////////////////////////// */
+/* //////////////////////////// TESTING ////////////////////////// */
+/* //////////////////////////// TESTING ////////////////////////// */
+
+
+
+
+/*-----------------------------------------------Input Fields no Border----------------------------------*/
+/*No borders, background highlights*/
+.infoBanner {
+    background: rgba(var(--selection), 0.15) !important;
+}
+fieldset {
+    border: 1px solid rgba(var(--selection), 0.3);
+}
+.checkboxOutline,
+.emby-input,
+.emby-textarea,
+.emby-select-withcolor {
+  border: none !important;
+  background: rgba(0, 0, 0, 0.5); 
+}
+#itemDetailPage .emby-select-withcolor {
+  background: rgba(0, 0, 0, 0.2);
+}
 
 
 
