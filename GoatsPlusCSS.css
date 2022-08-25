@@ -1,8 +1,8 @@
-/*MY CODE */
+/*----------------------------------------------MY CODE */
 @import url("https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons/Font%20Awesome/regular.css");
 
 
-/* Changes top my media cards (movies/shows/collections) */
+/*----------------------------------------------Changes top my media cards (movies/shows/collections) */
 .layout-mobile
 .section0 .cardScalable {
     display: none
@@ -13,7 +13,7 @@
 }
 
 
-/* remove My Media title */
+/*----------------------------------------------remove My Media title */
 .section0 .sectionTitle {display: none}
 
 .layout-desktop
@@ -35,7 +35,7 @@
     margin-top: 0px;
 }
 
-/*media section buttons*/
+/*----------------------------------------------media section buttons*/
 .layout-desktop
 .section0 button.itemAction.textActionButton {
     height: 3.5em;
@@ -115,11 +115,11 @@ position: relative;
 }
 
 
-/*Change watched indicator color*/
+/*----------------------------------------------Change watched indicator color*/
 .playedIndicator { background: #5dd000; }
 
 
-/*Background site wide*/
+/*----------------------------------------------Background site wide*/
 .backdropImage { display: none; }
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
@@ -130,12 +130,12 @@ position: relative;
 
 
 
-/*APP LOGO*/
+/*----------------------------------------------APP LOGO*/
 .adminDrawerLogo img { content: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; } imgLogoIcon { content: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; } .pageTitleWithLogo { background-image: url(https://static.wixstatic.com/media/e1e776_776bbc0a445e424ca5331f947641957d~mv2.png/v1/fill/w_976,h_382,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c690cf1c92114151a1ef9c32ec786d59-Full.png) !important; }
 
 
 
-/*Banner transparency and larger font, adjust both "size-adjust" and "size" to modify font size*/
+/*----------------------------------------------Banner transparency and larger font, adjust both "size-adjust" and "size" to modify font size*/
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {background:none; background-color:rgba(0, 0, 0, 0);}
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {background:none; background-color: rgba(0, 0, 0, 0);}
 .headerTabs.sectionTabs {text-size-adjust: 110%;  font-size: 110%;}
@@ -143,7 +143,7 @@ position: relative;
 .emby-tab-button {padding: 1.75em 1.7em;}
 
 
-/*Universal - Rounded corners and square hover buttons*/
+/*----------------------------------------------Universal - Rounded corners and square hover buttons*/
 .cardContent-button, 
 .cardContent-shadow, 
 .itemDetailImage, 
@@ -163,21 +163,21 @@ position: relative;
 {border-radius: 10px !important;}
 
 
-/*Library Page - Align Posters to Center */
+/*----------------------------------------------Library Page - Align Posters to Center */
 .layout-desktop
 .padded-right-withalphapicker {padding-right:2.5% !important;}
 
 
-/*transparent top bar*/
+/*----------------------------------------------transparent top bar*/
 .skinHeader-withBackground {background-color: #20202000 !important;}
 
 
-/*Partialy transparent side bar*/
+/*----------------------------------------------Partialy transparent side bar*/
 div.mainDrawer {background: rgb(63,94,251);
 background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379726890756303) 100%); !important;}
 
 
-/*Center the play and pause rewind and fast forward button (MOBILE)*/
+/*----------------------------------------------Center the play and pause rewind and fast forward button (MOBILE)*/
 .layout-mobile
 .btnPause {
     position: fixed;
@@ -226,7 +226,7 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 }
 
 
-/*Center the play and pause rewind and fast forward button (DESKTOP)*/
+/*----------------------------------------------Center the play and pause rewind and fast forward button (DESKTOP)*/
 .layout-desktop
 .btnPause {
     position: fixed;
@@ -276,7 +276,7 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 
 
 
-/* Tv background wallpaper*/
+/*----------------------------------------------Tv background wallpaper*/
 .layout-tv
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
@@ -285,15 +285,15 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
   background-size: cover;
 }
 
-/*Remove Alphabet column for Tv*/
+/*----------------------------------------------Remove Alphabet column for Tv*/
 .layout-tv
 .alphaPicker {display: none;}
 
-/*center aligning posters on Tv*/
+/*----------------------------------------------center aligning posters on Tv*/
 .layout-tv
 .padded-right-withalphapicker {padding-right:4% !important;}
 
-/*Item Page for TV - resize episode preview images in a more compact way*/
+/*----------------------------------------------Item Page for TV - resize episode preview images in a more compact way*/
 .layout-tv
 .listItemImage.listItemImage-large.itemAction.lazy {height: 110px;}
 .layout-tv
@@ -304,13 +304,13 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 
 
 
-/*END OF MY CODE ALL BELOW IS TEST CODE*/
+/*----------------------------------------------END OF MY CODE ALL BELOW IS TEST CODE*/
 
 
 
 
 
-/*ALL CODE BELOW IS STILL WORK IN PROGRESS TESTING CODE*/
+/*----------------------------------------------ALL CODE BELOW IS STILL WORK IN PROGRESS TESTING CODE*/
 
 
 
