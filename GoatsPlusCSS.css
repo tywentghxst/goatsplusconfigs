@@ -329,6 +329,16 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 #homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(7) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
 #homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(8) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
 
+
+
+/*-----------------------------------------------Removes 3 Dots from cards Mobile------------------------*/
+button.listItemButton.itemAction.paper-icon-button-light {display: none;}
+
+
+
+
+
+
 /*----------------------------------------------END OF MY CODE ALL BELOW IS TEST CODE*/
 
 
