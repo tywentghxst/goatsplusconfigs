@@ -346,6 +346,13 @@ font-weight: normal;
 
 
 
+/*-----------------------------------------------takes mobile posters from 3 to 2---------------------*/
+.layout-mobile
+.portraitCard {width: 49.333333%;
+}
+
+
+
 
 /* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
 /* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
