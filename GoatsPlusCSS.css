@@ -301,7 +301,8 @@ background: linear-gradient(166deg, rgba(63,94,251,1) 0%, rgba(252,70,223,0.8379
 .layout-tv
 .secondary.listItem-overview.listItemBodyText {height: 61px; margin: 0;}
 
-
+/*-----------------------------------------------Remove Underline on Hover-------------------------------*/
+.itemAction:hover { text-decoration: none; }
 
 
 /*----------------------------------------------END OF MY CODE ALL BELOW IS TEST CODE*/
