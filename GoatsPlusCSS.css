@@ -129,7 +129,7 @@ position: relative;
 .backdropImage { display: none; }
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("https://static.wixstatic.com/media/e1e776_d29dc1ef4c9642f99bfeed30344e92e7~mv2.gif");
+  background-image: url("https://static.wixstatic.com/media/e1e776_31b61eb7499240fbbe3bf6efa3c1b0b2~mv2.jpg/v1/fill/w_982,h_552,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bg_jpg_5ec89a45cb7f184e2ee7c80ed02a7831.jpg");
   filter: blur(17px);
   background-size: cover;
 }
