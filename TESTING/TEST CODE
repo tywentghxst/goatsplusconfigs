@@ -1,1 +1,12 @@
 /*TEST CODE*/
+
+
+
+
+
+/* movies my media section up higher on tv*/
+.layout-tv .section0 .itemsContainer {
+    align-items: center;
+    justify-content: center;
+    margin-top: -68px;
+}
