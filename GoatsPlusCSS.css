@@ -354,6 +354,37 @@ font-weight: normal;
 
 
 
+
+
+/*-----------------------------------------------moves my media section up higher on tv*/
+.layout-tv .section0 .itemsContainer {
+    margin-top: -31px;
+}
+
+
+
+/*-----------------------------------------------moves home-favorites section up higher on tv*/
+.layout-tv  .headerTabs.sectionTabs {
+margin-top: -40px;
+}
+
+
+
+/*-----------------------------------------------moves movies and shows section page padding higher on tv*/
+.layout-tv
+.padded-top {
+    padding-top: 0em;
+}
+.layout-tv
+.padded-bottom {
+    padding-bottom: 0em;
+}
+
+
+
+
+
+
 /* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
 /* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
 /* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
