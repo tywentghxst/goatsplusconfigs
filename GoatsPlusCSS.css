@@ -200,7 +200,7 @@ background: rgba(63,94,251,1); !important;}
 }
 .layout-mobile
 .material-icons.pause:before {
-    font-size: 5em;
+    font-size: 3em;
 }
 .layout-mobile
 .xlargePaperIconButton.material-icons.play_arrow:before {
@@ -249,7 +249,7 @@ background: rgba(63,94,251,1); !important;}
 }
 .layout-desktop
 .material-icons.pause:before {
-    font-size: 5em;
+    font-size: 2em;
 }
 .layout-desktop
 .xlargePaperIconButton.material-icons.play_arrow:before {
