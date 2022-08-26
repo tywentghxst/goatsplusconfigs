@@ -288,11 +288,11 @@
 }
 
 .material-icons.fast_rewind:before {
-	content: "\f04a";
+	content: "\f0e2";
 }
 
 .material-icons.fast_forward:before {
-	content: "\f04e";
+	content: "\f051";
 }
 
 .material-icons.audiotrack:before {
@@ -336,7 +336,7 @@
 }
 
 .material-icons.skip_next::before {
-	content: "\f051";
+	content: "\f04e";
 }
 
 .material-icons.repeat::before {
@@ -537,7 +537,7 @@
 }
 
 .material-icons.undo:before {
-	content: "\f0e2";
+	content: "\f04a";
 }
 
 .material-icons.redo:before {
