@@ -197,14 +197,15 @@ background: rgba(63,94,251,1); !important;}
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+       padding: 30px;
 }
 .layout-mobile
 .material-icons.pause:before {
-    font-size: 3em;
+    font-size: 2.1em;
 }
 .layout-mobile
 .xlargePaperIconButton.material-icons.play_arrow:before {
-    font-size: 5em;
+    font-size: 3.5em;
 }
 .layout-mobile
 .btnRewind {
@@ -213,6 +214,7 @@ background: rgba(63,94,251,1); !important;}
     left: 25%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+       padding: 30px;
 }
 .layout-mobile
 .btnFastForward {
@@ -221,14 +223,15 @@ background: rgba(63,94,251,1); !important;}
     left: 75%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+       padding: 30px;
 }
 .layout-mobile
 .xlargePaperIconButton.material-icons.fast_forward {
-    font-size: 5em;
+    font-size: 3.5em;
 }
 .layout-mobile
 .xlargePaperIconButton.material-icons.fast_rewind {
-    font-size: 5em;
+    font-size: 3.5em;
 }
 .layout-mobile
 @media (max-width: 50em) {
@@ -246,14 +249,15 @@ background: rgba(63,94,251,1); !important;}
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+   padding: 30px;
 }
 .layout-desktop
 .material-icons.pause:before {
-    font-size: 2em;
+    font-size: 2.1em;
 }
 .layout-desktop
 .xlargePaperIconButton.material-icons.play_arrow:before {
-    font-size: 5em;
+    font-size: 3.5em;
 }
 .layout-desktop
 .btnRewind {
@@ -262,6 +266,7 @@ background: rgba(63,94,251,1); !important;}
     left: 25%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+    padding: 30px;
 }
 .layout-desktop
 .btnFastForward {
@@ -270,14 +275,15 @@ background: rgba(63,94,251,1); !important;}
     left: 75%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
+    padding: 30px;
 }
 .layout-desktop
 .xlargePaperIconButton.material-icons.fast_forward {
-    font-size: 5em;
+    font-size: 3.5em;
 }
 .layout-desktop
 .xlargePaperIconButton.material-icons.fast_rewind {
-    font-size: 5em;
+    font-size: 3.5em;
 }
 .layout-desktop
 @media (max-width: 50em) {
