@@ -389,6 +389,30 @@ margin-top: -40px;
 
 
 
+/*-----------------------------------------------fixes height on music player/remote control on mobile*/
+.layout-mobile
+.nowPlayingPageImageContainer {
+    margin: 0px auto 2.5em;
+}
+.layout-mobile
+.nowPlayingInfoButtons {
+    margin-bottom: 78px;
+}
+.layout-mobile
+.infoContainer, .sliderContainer {
+    margin-bottom: 29px;
+}
+.layout-mobile .playlistSectionButton {
+    height: 8.2em;
+}
+.layout-mobile .playlistSection .playlist {
+    bottom: 7.2em;
+}
+.nowPlayingBarInfoContainer {
+    height: 129%;
+}
+
+
 
 
 /* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
