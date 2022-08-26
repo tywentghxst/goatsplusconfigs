@@ -193,7 +193,7 @@ background: rgba(63,94,251,1); !important;}
 .layout-mobile
 .btnPause {
     position: fixed;
-    top: 42%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -210,7 +210,7 @@ background: rgba(63,94,251,1); !important;}
 .layout-mobile
 .btnRewind {
     position: fixed;
-    top: 42%;
+    top: 45%;
     left: 25%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -219,7 +219,7 @@ background: rgba(63,94,251,1); !important;}
 .layout-mobile
 .btnFastForward {
     position: fixed;
-    top: 42%;
+    top: 45%;
     left: 75%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
