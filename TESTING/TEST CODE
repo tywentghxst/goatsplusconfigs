@@ -2,3 +2,27 @@
 
 
 
+
+/*-----------------------------------------------fixes height on music player/remote control on mobile*/
+@media (orientation: portrait) and (max-width: 43em)
+<style>
+.remoteControlContent {
+    height: 88%;
+}
+.nowPlayingPageImage {
+    margin-top: 35px;
+}
+.nowPlayingSecondaryButtons {
+    padding: 8px;
+}
+@media (orientation: portrait) and (max-width: 43em)
+<style>
+.nowPlayingInfoContainerMedia {
+    text-align: center!important;
+    margin-left: 56px;
+}
+@media (orientation: portrait) and (max-width: 43em)
+<style>
+.nowPlayingInfoControls .nowPlayingPageUserDataButtonsTitle {
+    margin: auto;
+}
