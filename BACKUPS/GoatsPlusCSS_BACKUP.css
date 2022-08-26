@@ -417,8 +417,34 @@ margin-top: -40px;
 }
 
 
+/*-----------------------------------------------Replace "Latest Movies" text with Custom Text such as "Recently Added Movies"-----------------------------------------------*/
+#homeTab > div > div.section6 > div:nth-child(1) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
+#homeTab > div > div.section6 > div:nth-child(1) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
+#homeTab > div > div.section6 > div:nth-child(1) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
+content: 'Recently Added Movies ›';
+font-size: 24px;
+font-weight: normal;
+}
 
 
+/*-----------------------------------------------Replace Latest TV Shows text with Custom Text such as "Recently Added TV Shows"-----------------------------------------------*/
+#homeTab > div > div.section6 > div:nth-child(3) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
+#homeTab > div > div.section6 > div:nth-child(3) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
+#homeTab > div > div.section6 > div:nth-child(3) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
+content: 'Recently Added TV Shows ›';
+font-size: 24px;
+font-weight: normal;
+}
+
+
+/*-----------------------------------------------Replace Latest music text with Custom Text such as "Recently Added songs"-----------------------------------------------*/
+#homeTab > div > div.section6 > div:nth-child(2) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
+#homeTab > div > div.section6 > div:nth-child(2) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
+#homeTab > div > div.section6 > div:nth-child(2) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
+content: 'Recently Added Songs ›';
+font-size: 24px;
+font-weight: normal;
+}
 
 
 
@@ -520,6 +546,19 @@ fieldset {
 #itemDetailPage .emby-select-withcolor {
   background: rgba(0, 0, 0, 0.2);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
