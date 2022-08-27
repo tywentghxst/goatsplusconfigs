@@ -3,6 +3,67 @@
 
 
 
+/*for next up*/
+.upNextContainer {
+    -webkit-touch-callout: none;
+    background-color: rgba(0,0,0,.7);
+    bottom: 0;
+    color: #fff;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    margin: 0 2em 2em 0;
+    padding: 1em;
+    position: fixed;
+    right: 0;
+    transition: opacity .3s ease-out;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 29em;
+    will-change: transform,opacity;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*-----------------------------------------------fixes height on music player/remote control on mobile*/
 @media (orientation: portrait) and (max-width: 43em)
 <style>
