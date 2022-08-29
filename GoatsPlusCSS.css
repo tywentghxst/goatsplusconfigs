@@ -444,7 +444,28 @@ font-weight: normal;
 }
 
 
+/*-----------------------------------------------introskip button-----------------------------------------------*/
+.skipIntro {
+    border: 3px solid;
+    border-radius: 20px;
+    padding: 0 4px;
+}
+.layout-mobile
+.skipIntro {
+    bottom: 7em;
+}
 
+
+
+/*-----------------------------------------------upnext-----------------------------------------------*/
+.upNextContainer {
+        background-color: #0c0c0cb0;
+    border-radius: 47px;
+    width: 30em;
+}
+.emby-button {
+    border-radius: 1.2em;
+}
 
 
 
