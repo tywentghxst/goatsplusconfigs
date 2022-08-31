@@ -16,6 +16,21 @@
     display: none;
 }
 
+
+/*-----------------------------------------------fixes the favorites/home tab on TV-----------------------------------------------*/
+.layout-tv .sectionTabs {
+    width: 58%;
+    margin: auto;
+}
+.layout-tv .headerTabs.sectionTabs {
+    margin-top: -92px;
+}
+.layout-tv .padded-bottom {
+    margin-top: -89px;
+}
+
+
+
 /*----------------------------------------------Changes top my media cards (movies/shows/collections) */
 
 .layout-desktop
@@ -279,7 +294,6 @@ background: rgba(63,94,251,1); !important;}
 
 
 
-
 /*-----------------------------------------------Removes 3 Dots from cards Mobile------------------------*/
 button.listItemButton.itemAction.paper-icon-button-light {display: none;}
 
@@ -290,12 +304,7 @@ button.listItemButton.itemAction.paper-icon-button-light {display: none;}
 
 
 
-/*-----------------------------------------------Add GroupPlay Wording to Sync Button--------------------*/
-.headerSyncButton.syncButton.headerButton.headerButtonRight.paper-icon-button-light:after {
-  content: 'GroupPlay';
-font-size: 15px;
-font-weight: normal;
-}
+
 
 
 /*-----------------------------------------------Narrow the login form */
@@ -315,7 +324,7 @@ font-weight: normal;
 
 /*-----------------------------------------------moves my media section up higher on tv*/
 .layout-tv .section0 .itemsContainer {
-    margin-top: -31px;
+    margin-top: -43px;
 }
 
 
@@ -429,33 +438,37 @@ visibility:hidden;
 
 
 
-/*-----------------------------------------------fixes the favorites/home tab on TV-----------------------------------------------*/
-.layout-tv .sectionTabs {
-    width: 76%;
-    margin: auto;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////// disable code ////////////////////////// */
+/* //////////////////////////// disable code ////////////////////////// */
+/* //////////////////////////// disable code ////////////////////////// */
+/* //////////////////////////// disable code ////////////////////////// */
+/* //////////////////////////// disable code ////////////////////////// */
+/* //////////////////////////// disable code ////////////////////////// */
+
+
+/*-----------------------------------------------Add GroupPlay Wording to Sync Button--------------------*/
+/*
+.headerSyncButton.syncButton.headerButton.headerButtonRight.paper-icon-button-light:after {
+  content: 'GroupPlay';
+font-size: 15px;
+font-weight: normal;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* //////////////////////////// disable code ////////////////////////// */
-/* //////////////////////////// disable code ////////////////////////// */
-/* //////////////////////////// disable code ////////////////////////// */
-/* //////////////////////////// disable code ////////////////////////// */
-/* //////////////////////////// disable code ////////////////////////// */
-/* //////////////////////////// disable code ////////////////////////// */
+*/
 
 /* Hide "manual" and "forgot" buttons */
 /*
