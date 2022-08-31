@@ -18,6 +18,13 @@
 
 
 
+/*-----------------------------------------------removes empty space on home page-----------------------------------------------*/
+.sectionTitleContainer-cards {
+    margin: 0;
+    padding-top: 0;
+}
+
+
 
 /*----------------------------------------------Changes top my media cards (movies/shows/collections) */
 
@@ -554,6 +561,12 @@ fieldset {
 #itemDetailPage .emby-select-withcolor {
   background: rgba(0, 0, 0, 0.2);
 }
+
+
+
+
+
+
 
 
 
