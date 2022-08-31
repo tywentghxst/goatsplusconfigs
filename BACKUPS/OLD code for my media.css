@@ -1,0 +1,109 @@
+/*----------------------------------------------Changes top my media cards (movies/shows/collections) */
+.layout-mobile
+.section0 .cardScalable {
+    display: none
+}
+.layout-desktop
+.section0 .cardScalable {
+    display: none
+}
+
+.layout-desktop
+.section0 .itemsContainer {
+    align-items: center;
+ justify-content: center;
+    margin-top: 0px;
+}
+
+.layout-tv
+.section0 .itemsContainer {
+    align-items: center;
+ justify-content: center;
+    margin-top: 0px;
+}
+
+.layout-mobile
+.section0 .itemsContainer {
+    margin-top: 0px;
+}
+
+
+
+/*----------------------------------------------media section buttons*/
+.layout-desktop
+.section0 button.itemAction.textActionButton {
+    height: 3.5em;
+position: relative;
+  color: var(--textColor2);
+  border-radius: 25px;
+  background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
+  background-size: 400%;
+  background-position: 0% 0%;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 20px;
+letter-spacing: 5px;
+word-spacing: 3px;
+color: #FFFFFF;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: uppercase;
+}
+
+
+.layout-mobile
+.section0 button.itemAction.textActionButton {
+    height: 3.5em;
+position: relative;
+  color: var(--textColor2);
+  border-radius: 25px;
+  background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
+  background-size: 400%;
+  background-position: 0% 0%;
+}
+
+
+.layout-tv
+.section0 button.itemAction.textActionButton {
+    height: 3.5em;
+position: relative;
+  color: var(--textColor2);
+  border-radius: 25px;
+  background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
+  background-size: 400%;
+  background-position: 0% 0%;
+}
+
+
+.layout-tv
+.section0 .overflowBackdropCard,
+.section0 .overflowSmallBackdropCard {
+    max-width: 19vw
+}
+
+.layout-mobile
+.section0 .overflowBackdropCard,
+.section0 .overflowSmallBackdropCard {
+    max-width: 33vw
+}
+
+.layout-desktop
+.section0 .overflowBackdropCard,
+.section0 .overflowSmallBackdropCard {
+    max-width: 40vw
+}
+
+.section0 .emby-scroller {
+    margin-right: 0
+}
+
+.section0 .section0 .itemsContainer {
+    flex-wrap: wrap
+}
+
+@media (max-width:75em) and (orientation:auto) {
+    .section0 {
+        display: none
+    }
+}
