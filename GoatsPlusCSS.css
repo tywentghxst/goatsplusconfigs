@@ -468,6 +468,13 @@ font-weight: normal;
 }
 
 
+/*-----------------------------------------------Card padder overflow (removes background for transparent png my medias) -----------------------------------------------*/
+
+.cardBox-bottompadded .cardScalable .cardPadder-overflowBackdrop{
+
+visibility:hidden;
+
+}
 
 
 /* //////////////////////////// disable code ////////////////////////// */
