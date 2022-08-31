@@ -17,18 +17,6 @@
 }
 
 
-/*-----------------------------------------------fixes the favorites/home tab on TV-----------------------------------------------*/
-.layout-tv .sectionTabs {
-    width: 58%;
-    margin: auto;
-}
-.layout-tv .headerTabs.sectionTabs {
-    margin-top: -92px;
-}
-.layout-tv .padded-bottom {
-    margin-top: -89px;
-}
-
 
 
 /*----------------------------------------------Changes top my media cards (movies/shows/collections) */
@@ -324,7 +312,7 @@ button.listItemButton.itemAction.paper-icon-button-light {display: none;}
 
 /*-----------------------------------------------moves my media section up higher on tv*/
 .layout-tv .section0 .itemsContainer {
-    margin-top: -43px;
+    margin-top: -31px;
 }
 
 
@@ -436,9 +424,18 @@ visibility:hidden;
 
 }
 
+/*-----------------------------------------------fixes the favorites/home tab on TV-----------------------------------------------*/
 
-
-
+.layout-tv .sectionTabs {
+    width: 58%;
+    margin: auto;
+}
+.layout-tv .headerTabs.sectionTabs {
+    margin-top: -92px;
+}
+.layout-tv .libraryPage:not(.noSecondaryNavPage) {
+    padding-top: 4.5em!important;
+}
 
 
 
@@ -557,8 +554,6 @@ fieldset {
 #itemDetailPage .emby-select-withcolor {
   background: rgba(0, 0, 0, 0.2);
 }
-
-
 
 
 
