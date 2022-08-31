@@ -118,7 +118,7 @@
 .blurhash-canvas,
 .actionSheetMenuItem:hover,
 .dialog
-{border-radius: 10px !important;}
+{border-radius: 7px !important;}
 
 
 
@@ -244,13 +244,14 @@ background: rgba(63,94,251,1); !important;}
 
 
 /*----------------------------------------------Tv background wallpaper*/
+/*
 .layout-tv
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
   background-image: url("https://static.wixstatic.com/media/e1e776_31b61eb7499240fbbe3bf6efa3c1b0b2~mv2.jpg/v1/fill/w_982,h_552,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bg_jpg_5ec89a45cb7f184e2ee7c80ed02a7831.jpg");
   filter: blur(1px);
   background-size: cover;
-}
+}*/
 
 
 /*----------------------------------------------Remove Alphabet column for Tv*/
@@ -425,6 +426,28 @@ font-weight: normal;
 visibility:hidden;
 
 }
+
+
+
+/*-----------------------------------------------fixes the favorites/home tab on TV-----------------------------------------------*/
+.layout-tv .sectionTabs {
+    width: 76%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* //////////////////////////// disable code ////////////////////////// */
