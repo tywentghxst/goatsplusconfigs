@@ -8,16 +8,12 @@
 .section0 .sectionTitle {display: none}
 
 
+/*----------------------------------------------removes my media titles below cards */
+.section0 .cardText>.textActionButton {
+    display: none;
+}
 
 /*----------------------------------------------Changes top my media cards (movies/shows/collections) */
-.layout-mobile
-.section0 .cardScalable {
-    display: none
-}
-.layout-desktop
-.section0 .cardScalable {
-    display: none
-}
 
 .layout-desktop
 .section0 .itemsContainer {
@@ -37,55 +33,6 @@
 .section0 .itemsContainer {
     margin-top: 0px;
 }
-
-
-
-/*----------------------------------------------media section buttons*/
-.layout-desktop
-.section0 button.itemAction.textActionButton {
-    height: 3.5em;
-position: relative;
-  color: var(--textColor2);
-  border-radius: 25px;
-  background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
-  background-size: 400%;
-  background-position: 0% 0%;
-font-family: "Arial Black", Gadget, sans-serif;
-font-size: 20px;
-letter-spacing: 5px;
-word-spacing: 3px;
-color: #FFFFFF;
-font-weight: 400;
-text-decoration: none;
-font-style: normal;
-font-variant: normal;
-text-transform: uppercase;
-}
-
-
-.layout-mobile
-.section0 button.itemAction.textActionButton {
-    height: 3.5em;
-position: relative;
-  color: var(--textColor2);
-  border-radius: 25px;
-  background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
-  background-size: 400%;
-  background-position: 0% 0%;
-}
-
-
-.layout-tv
-.section0 button.itemAction.textActionButton {
-    height: 3.5em;
-position: relative;
-  color: var(--textColor2);
-  border-radius: 25px;
-  background-image: linear-gradient(90deg, #0065ff, #6942ef, #6554c0, #008cff, #0065ff, #6942ef);
-  background-size: 400%;
-  background-position: 0% 0%;
-}
-
 
 .layout-tv
 .section0 .overflowBackdropCard,
@@ -468,6 +415,13 @@ font-weight: normal;
 }
 
 
+/*-----------------------------------------------Card padder overflow (removes background for transparent png my medias) -----------------------------------------------*/
+
+.cardBox-bottompadded .cardScalable .cardPadder-overflowBackdrop{
+
+visibility:hidden;
+
+}
 
 
 /* //////////////////////////// disable code ////////////////////////// */
