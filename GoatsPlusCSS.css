@@ -117,7 +117,6 @@
 .itemDetailImage, 
 .cardOverlayButton-hover, 
 .cardOverlayContainer,
-.cardImageContainer,
 .cardPadder,
 .listItemImage,
 .listItemImageButton,
@@ -126,6 +125,7 @@
 .paper-icon-button-light,
 .innerCardFooter,
 .blurhash-canvas,
+.cardImageContainer,
 .actionSheetMenuItem:hover,
 .dialog
 {border-radius: 7px !important;}
@@ -443,7 +443,9 @@ visibility:hidden;
 .layout-tv .libraryPage:not(.noSecondaryNavPage) {
     padding-top: 4.5em!important;
 }
-
+.emby-button-foreground {
+    position: initial;
+}
 
 
 
@@ -495,6 +497,30 @@ font-weight: normal;
 #homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(8) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
 */
 
+
+
+/*-----------------------------------------------Input Fields no Border----------------------------------*/
+/*No borders, background highlights*/
+/* 
+.infoBanner {
+    background: rgba(var(--selection), 0.15) !important;
+}
+fieldset {
+    border: 1px solid rgba(var(--selection), 0.3);
+}
+.checkboxOutline,
+.emby-input,
+.emby-textarea,
+.emby-select-withcolor {
+  border: none !important;
+  background: rgba(0, 0, 0, 0.5); 
+}
+#itemDetailPage .emby-select-withcolor {
+  background: rgba(0, 0, 0, 0.2);
+} */
+
+
+
 /* //////////////////////////// disable code ////////////////////////// */
 /* //////////////////////////// disable code ////////////////////////// */
 /* //////////////////////////// disable code ////////////////////////// */
@@ -542,25 +568,6 @@ font-weight: normal;
 
 
 
-
-/*-----------------------------------------------Input Fields no Border----------------------------------*/
-/*No borders, background highlights*/
-.infoBanner {
-    background: rgba(var(--selection), 0.15) !important;
-}
-fieldset {
-    border: 1px solid rgba(var(--selection), 0.3);
-}
-.checkboxOutline,
-.emby-input,
-.emby-textarea,
-.emby-select-withcolor {
-  border: none !important;
-  background: rgba(0, 0, 0, 0.5); 
-}
-#itemDetailPage .emby-select-withcolor {
-  background: rgba(0, 0, 0, 0.2);
-}
 
 
 
