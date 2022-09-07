@@ -2,11 +2,36 @@
 
 
 
+/*-----------------------------------------------Remove top text from collections page-------------------*/
+body > div.mainAnimatedPages.skinBody > div.view.flex.flex-direction-column.page.libraryPage.noSecondaryNavPage.mainAnimatedPage > div.flex-grow.padded-left.padded-right.pageContainerTopPadding > div.flex.align-items-center.focuscontainer-x.itemsViewSettingsContainer.padded-top.padded-bottom.flex-wrap-wrap {display: none;}
+/*-------------------------------------------------------------------------------------------------------*/
 
 
 
+/*-----------------------------------------------Fade As Images Load------------------------======-------*/
+.blurhash-canvas {
+    transition: 0.2s;
+}
+.cardImageContainer {
+    transition: 0.7s;
+}
+.checkboxOutline,
+.emby-input,
+.emby-textarea,
+.emby-select-withcolor,
+.selectLabel
+.inputLabel,
+.textareaLabel {
+  transition: 0.1s;
+}
+/*-------------------------------------------------------------------------------------------------------*/
 
 
+
+/*Fix top right user icon when using a profile image*/
+.headerUserButtonRound {
+  border-radius: 50px !important;
+}
 
 
 
