@@ -2,7 +2,7 @@
 /*
 
 .emby-tabs-slider::before {
-    content: "Server Maintenance at 6AM";
+    content: "Server Under Maintenance";
     color: red;
     font-weight: bold;
     position: absolute;
@@ -11,14 +11,10 @@
     width: 100%;
     text-align: center;
 }
-.emby-tab-button {
-  padding-top: 2.5em;
-}
-.libraryPage {
-    padding-top: 8.5em !important;
-}
 
 */
+
+
 
 
 
