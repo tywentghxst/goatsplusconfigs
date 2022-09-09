@@ -1,3 +1,25 @@
+/*------------------------SERVER ANNOUNCEMENTS------------------------*/
+.emby-tabs-slider::before {
+    content: "Server Maintenance at 6AM";
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    top: 0.5em;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.emby-tab-button {
+  padding-top: 2.5em;
+}
+.libraryPage {
+    padding-top: 8.5em !important;
+}
+
+
+
+
+
 /*----------------------------------------------MY CODE */
 @import url("https://tywentghxst.github.io/goatsplusconfigs/ICONS4goatsplus.css");
 
@@ -401,15 +423,18 @@ font-weight: normal;
 
 /*-----------------------------------------------introskip button-----------------------------------------------*/
 .skipIntro {
-    border: 3px solid;
+    border: 5px solid;
     border-radius: 20px;
     padding: 0 4px;
 }
 .layout-mobile
 .skipIntro {
-    bottom: 7em;
+  bottom: 7em;
 }
-
+.layout-tv 
+.skipIntro {
+ bottom: 6em;
+}
 
 
 /*-----------------------------------------------upnext-----------------------------------------------*/
