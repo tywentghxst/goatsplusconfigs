@@ -424,7 +424,7 @@ font-weight: normal;
 #homeTab > div > div.section6 > div:nth-child(4) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
 #homeTab > div > div.section6 > div:nth-child(4) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
 #homeTab > div > div.section6 > div:nth-child(4) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
-content: 'Recently Added Books & Comics ›';
+content: 'Recently Added Books/Comics ›';
 font-size: 24px;
 font-weight: normal;
 }
