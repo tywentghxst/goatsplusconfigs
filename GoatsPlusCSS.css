@@ -482,13 +482,31 @@ visibility:hidden;
 
 
 
-/*------------+-----+-++++--------------Display external links in mobile layout*/
+/*-----------------------------------------------Display external links in mobile layout*/
 .layout-mobile .itemExternalLinks {
     display: block !important;
 }
 
 
 
+
+
+/*-----------------------------------------------RESIZE THE UPNEXT SCREEN-----------------------------------------------*/ 
+
+.layout-mobile
+.upNextContainer {
+    background-color: #0c0c0cb0;
+    border-radius: 23px;
+    width: 30em;
+    font-size: 73%;
+}
+.layout-tv
+.upNextContainer {
+    background-color: #0c0c0cb0;
+    border-radius: 23px;
+    width: 30em;
+    font-size: 73%;
+}
 
 
 
