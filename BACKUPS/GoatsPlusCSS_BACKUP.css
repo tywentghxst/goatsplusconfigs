@@ -1,8 +1,12 @@
+/*----------------------------------------------MY CODE */
+@import url("https://tywentghxst.github.io/goatsplusconfigs/ICONS4goatsplus.css");
+
+
 /*------------------------SERVER ANNOUNCEMENTS------------------------*/
-/*
+/*Server Under Maintenance*/
 
 .emby-tabs-slider::before {
-    content: "Server Under Maintenance";
+    content: "Maintenance Oct.15-20th";
     color: red;
     font-weight: bold;
     position: absolute;
@@ -12,15 +16,11 @@
     text-align: center;
 }
 
-*/
 
 
 
 
 
-
-/*----------------------------------------------MY CODE */
-@import url("https://tywentghxst.github.io/goatsplusconfigs/ICONS4goatsplus.css");
 
 
 
@@ -495,18 +495,40 @@ visibility:hidden;
 
 .layout-mobile
 .upNextContainer {
-    background-color: #0c0c0cb0;
-    border-radius: 23px;
+    background-color: rgb(52 52 52 / 55%);
+    border-radius: 20px;
     width: 30em;
-    font-size: 73%;
+    font-size: 70%;
 }
 .layout-tv
 .upNextContainer {
-    background-color: #0c0c0cb0;
-    border-radius: 23px;
+    background-color: rgb(52 52 52 / 55%);
+    border-radius: 20px;
     width: 30em;
-    font-size: 73%;
+    font-size: 50%;
 }
+.upNextDialog-nextVideoText, .upNextDialog-title {
+    font-weight: bolder;
+}
+.mediaInfoItem {
+    margin-bottom: -2em;
+}
+.upNextDialog-buttons {
+    width: 25.75em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
