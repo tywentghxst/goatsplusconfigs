@@ -1,3 +1,24 @@
+/*------------------------SERVER ANNOUNCEMENTS------------------------*/
+/*
+
+.emby-tabs-slider::before {
+    content: "Server Under Maintenance";
+    color: red;
+    font-weight: bold;
+    position: absolute;
+    top: 0.5em;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+*/
+
+
+
+
+
+
 /*----------------------------------------------MY CODE */
 @import url("https://tywentghxst.github.io/goatsplusconfigs/ICONS4goatsplus.css");
 
@@ -117,7 +138,6 @@
 .itemDetailImage, 
 .cardOverlayButton-hover, 
 .cardOverlayContainer,
-.cardImageContainer,
 .cardPadder,
 .listItemImage,
 .listItemImageButton,
@@ -126,6 +146,7 @@
 .paper-icon-button-light,
 .innerCardFooter,
 .blurhash-canvas,
+.cardImageContainer,
 .actionSheetMenuItem:hover,
 .dialog
 {border-radius: 7px !important;}
@@ -399,17 +420,29 @@ font-weight: normal;
 }
 
 
+/*-----------------------------------------------Replace Latest books and comics text with Custom Text such as "Recently Added Books and Comics"-----------------------------------------------*/
+#homeTab > div > div.section6 > div:nth-child(4) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
+#homeTab > div > div.section6 > div:nth-child(4) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
+#homeTab > div > div.section6 > div:nth-child(4) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
+content: 'Recently Added Books/Comics ›';
+font-size: 24px;
+font-weight: normal;
+}
+
 /*-----------------------------------------------introskip button-----------------------------------------------*/
 .skipIntro {
-    border: 3px solid;
+    border: 5px solid;
     border-radius: 20px;
     padding: 0 4px;
 }
 .layout-mobile
 .skipIntro {
-    bottom: 7em;
+  bottom: 7em;
 }
-
+.layout-tv 
+.skipIntro {
+ bottom: 6em;
+}
 
 
 /*-----------------------------------------------upnext-----------------------------------------------*/
@@ -443,11 +476,37 @@ visibility:hidden;
 .layout-tv .libraryPage:not(.noSecondaryNavPage) {
     padding-top: 4.5em!important;
 }
+.emby-button-foreground {
+    position: initial;
+}
+
+
+
+/*-----------------------------------------------Display external links in mobile layout*/
+.layout-mobile .itemExternalLinks {
+    display: block !important;
+}
 
 
 
 
 
+/*-----------------------------------------------RESIZE THE UPNEXT SCREEN-----------------------------------------------*/ 
+
+.layout-mobile
+.upNextContainer {
+    background-color: #0c0c0cb0;
+    border-radius: 23px;
+    width: 30em;
+    font-size: 73%;
+}
+.layout-tv
+.upNextContainer {
+    background-color: #0c0c0cb0;
+    border-radius: 23px;
+    width: 30em;
+    font-size: 73%;
+}
 
 
 
@@ -495,6 +554,30 @@ font-weight: normal;
 #homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(8) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
 */
 
+
+
+/*-----------------------------------------------Input Fields no Border----------------------------------*/
+/*No borders, background highlights*/
+/* 
+.infoBanner {
+    background: rgba(var(--selection), 0.15) !important;
+}
+fieldset {
+    border: 1px solid rgba(var(--selection), 0.3);
+}
+.checkboxOutline,
+.emby-input,
+.emby-textarea,
+.emby-select-withcolor {
+  border: none !important;
+  background: rgba(0, 0, 0, 0.5); 
+}
+#itemDetailPage .emby-select-withcolor {
+  background: rgba(0, 0, 0, 0.2);
+} */
+
+
+
 /* //////////////////////////// disable code ////////////////////////// */
 /* //////////////////////////// disable code ////////////////////////// */
 /* //////////////////////////// disable code ////////////////////////// */
@@ -539,31 +622,6 @@ font-weight: normal;
 /* //////////////////////////// TESTING ////////////////////////// */
 /* //////////////////////////// TESTING ////////////////////////// */
 /* //////////////////////////// TESTING ////////////////////////// */
-
-
-
-
-/*-----------------------------------------------Input Fields no Border----------------------------------*/
-/*No borders, background highlights*/
-.infoBanner {
-    background: rgba(var(--selection), 0.15) !important;
-}
-fieldset {
-    border: 1px solid rgba(var(--selection), 0.3);
-}
-.checkboxOutline,
-.emby-input,
-.emby-textarea,
-.emby-select-withcolor {
-  border: none !important;
-  background: rgba(0, 0, 0, 0.5); 
-}
-#itemDetailPage .emby-select-withcolor {
-  background: rgba(0, 0, 0, 0.2);
-}
-
-
-
 
 
 
