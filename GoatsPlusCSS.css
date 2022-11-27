@@ -519,6 +519,9 @@ visibility:hidden;
 
 
 
+/*-----------------------------------------------(TV-MODE) changes the movies and shows poster to bigger---------------*/
+.itemsContainer-tv > .overflowPortraitCard{ 
+width:25%;} 
 
 
 
@@ -654,16 +657,7 @@ fieldset {
 
 
 
-/*this should resize some of the main poster cards on the home screen and also makes the posters smaller on the main library pages*/
 
-.itemsContainer-tv > .portraitCard, 
-.itemsContainer-tv > .overflowPortraitCard,
-.itemsContainer-tv > .squareCard,
-.itemsContainer-tv > .overflowSquareCard{ 
-width:10%;}
-.itemsContainer-tv > .overflowBackdropCard,
-.itemsContainer-tv > .backdropCard {
-width:20%;}
 
 
 
