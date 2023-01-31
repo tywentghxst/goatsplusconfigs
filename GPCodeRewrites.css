@@ -235,6 +235,11 @@ div#itemDetailPage {
   align-items: center;
   justify-content: flex-start;
   text-align: left;
+  padding-bottom: 3%;
+}
+
+.layout-mobile .trackSelections .layout-mobile .selectContainer {
+  margin: 0 0 -1.7em!important;
 }
 
 .layout-mobile .nameContainer {
@@ -516,7 +521,7 @@ div#itemDetailPage {
   justify-content: flex-start;
   align-content: flex-end;
   margin-top: 0 !important;
-  height: 100vh !important;
+  height: 52vh !important;
   z-index: 1;
 }
 
