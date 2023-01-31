@@ -83,7 +83,7 @@
 .layout-desktop
 .section0 .overflowBackdropCard,
 .section0 .overflowSmallBackdropCard {
-    max-width: 40vw
+    max-width: 17vw
 }
 
 .section0 .emby-scroller {
@@ -111,8 +111,8 @@
 .backdropImage { display: none; }
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("https://static.wixstatic.com/media/e1e776_31b61eb7499240fbbe3bf6efa3c1b0b2~mv2.jpg/v1/fill/w_982,h_552,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bg_jpg_5ec89a45cb7f184e2ee7c80ed02a7831.jpg");
-  filter: blur(17px);
+  background-image: url("https://i.postimg.cc/bvY9YSSN/imageonline-gifspeed-7675635-1.gif");
+  filter: blur(8px);
   background-size: cover;
 }
 
