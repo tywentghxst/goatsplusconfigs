@@ -2663,13 +2663,6 @@ span.material-icons.detailButton-icon.favorite.ratingbutton-icon-withrating {
   font-size: 135%;
 }
 
-.layout-tv #itemDetailPage:not(.noBackdrop) .detailPagePrimaryContainer {
-  width: 95vw !important;
-  margin-top: 10vh;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
 
 
 
@@ -2713,4 +2706,3 @@ span.material-icons.detailButton-icon.favorite.ratingbutton-icon-withrating {
   transform: none !important;
   background: none !important;
 }
-
