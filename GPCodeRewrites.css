@@ -877,77 +877,6 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 }
 
 
-/*Banner transparency*/
-#dashboardPage,
-#dashboardGeneralPage,
-#userProfilesPage,
-#devicesPage,
-#serverActivityPage,
-#liveTvStatusPage,
-#liveTvSettingsPage,
-#networkingPage,
-#apiKeysPage,
-#logPage,
-#notificationSettingsPage,
-#scheduledTasksPage, {
-  mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 60px, rgb(0, 0, 0) 90px);
-  -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 60px, rgb(0, 0, 0) 90px);
-  overflow: scroll;
-}
-
-@media all and (min-width: 100em){
-  #indexPage,
-  #moviesPage,
-  #tvRecommendedPage,
-  #musicRecommendedPage {
-    mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 70px, rgb(0, 0, 0) 120px);
-    -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 70px, rgb(0, 0, 0) 120px);
-    overflow: scroll;
-  }
-  #encodingSettingsPage,
-  #mediaLibraryPage,
-  #dlnaSettingsPage,
-  #pluginsPage {
-    mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 60px, rgb(0, 0, 0) 90px);
-    -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 60px, rgb(0, 0, 0) 90px);
-    overflow: scroll;
-  }
-}
-
-@media all and (max-width: 100em){
-  #indexPage,
-  #moviesPage,
-  #tvRecommendedPage,
-  #encodingSettingsPage,
-  #mediaLibraryPage,
-  #dlnaSettingsPage,
-  #pluginsPage,
-  #musicRecommendedPage {
-    mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 100px, rgb(0, 0, 0) 130px);
-    -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 100px, rgb(0, 0, 0) 135px);
-    overflow: scroll;
-    margin-top: 30px;
-  }
-}
-
-@media all and (max-width: 100em){
-  #indexPage,
-    #moviesPage,
-    #tvRecommendedPage,
-    #encodingSettingsPage,
-    #mediaLibraryPage,
-    #dlnaSettingsPage,
-    #pluginsPage,
-    #musicRecommendedPage {
-    mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 100px, rgb(0, 0, 0) 130px);
-    -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,0) 0px, rgba(0, 0, 0, 0) 100px, rgb(0, 0, 0) 130px);
-    overflow: scroll;
-    margin-top: 20px;
-  }
-}
-
-
-
 /*Narrow the login form, size according to display size (bigger on mobile)*/
 #loginPage .readOnlyContent,
 #loginPage form {
@@ -2506,3 +2435,282 @@ span.material-icons.detailButton-icon.favorite.ratingbutton-icon-withrating {
     border-radius: var(--rounding);
     color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------TV MODE- MAKES CHANGES TO TV*/
+
+
+.layout-tv .homeLibraryButton:focus,
+.layout-tv .card:focus {
+  transform: none !important;
+}
+
+.layout-tv .card {
+  border-radius: 10px !important;
+  margin: 0px !important;
+  background: transparent !important;
+}
+
+.layout-tv .card:focus {
+  background: transparent !important;
+}
+
+.layout-tv .card[data-type="Actor"] {
+  padding: 10px;
+  position: relative;
+  height: 16em;
+}
+
+.layout-tv .card[data-type="Actor"] .cardPadder {
+  display: none !important;
+}
+
+.layout-tv .emby-scroller {
+  overflow: hidden !important;
+}
+
+.layout-tv .card::before,
+.layout-tv .emby-tab-button::before,
+.layout-tv .paper-icon-button-light::after,
+.layout-tv .listItem::after,
+.layout-tv .raised::after,
+.layout-tv #itemDetailPage .emby-button::after {
+  box-sizing: border-box;
+  content: "";
+
+  width: 112%;
+  height: 110%;
+
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border: 10px solid white;
+  transform: translateY(100%);
+  visibility: hidden;
+  z-index: 1000;
+  will-change: transform;
+  transition: all 0.1s;
+  border-radius: 15px;
+}
+
+.layout-tv .raised::after {
+  transition: transform 0.275s, visiblity 0s 0.275s;
+}
+
+.layout-tv .cardBox {
+  height: 100%;
+  padding: 8px !important;
+}
+
+.layout-tv .card:focus::before,
+.layout-tv .emby-tab-button:focus::before,
+.layout-tv .paper-icon-button-light:focus::after,
+.layout-tv .listItem:focus::after,
+.layout-tv a.show-focus[is="emby-linkbutton"]:focus > .listItem::after,
+.layout-tv .raised:focus::after,
+.layout-tv #itemDetailPage .emby-button:focus::after {
+  transform: translateX(0) !important;
+  visibility: visible;
+}
+
+.layout-tv .card:focus ~ .card::before,
+.layout-tv .emby-tab-button:focus ~ .emby-tab-button::before,
+.layout-tv .paper-icon-button-light:focus ~ .paper-icon-button-light::after,
+.layout-tv .raised:focus ~ .raised::after,
+.layout-tv #itemDetailPage .emby-button:focus ~ .emby-button::after {
+  transform: translateX(-100%) !important;
+}
+
+.layout-tv .verticalSection:focus-within ~ .verticalSection .card::before,
+.layout-tv .verticalSection:focus-within ~ .section5 .card::before,
+.layout-tv .listItem:focus ~ .listItem::after,
+.layout-tv
+  a.show-focus[is="emby-linkbutton"]:focus
+  ~ a.show-focus[is="emby-linkbutton"]
+  > .listItem::after,
+.layout-tv .verticalSection:focus-within ~ .verticalSection .raised::after {
+  transform: translateY(-100%);
+}
+
+.layout-tv .verticalSection:focus-within .card::before,
+.layout-tv *:focus-within > .emby-tab-button::before,
+.layout-tv *:focus-within > .paper-icon-button-light::after,
+.layout-tv *:focus-within > .raised::after,
+.layout-tv #itemDetailPage *:focus-within > .emby-button::after {
+  transform: translateX(100%);
+}
+
+.layout-tv .emby-tab-button:focus,
+.layout-tv .paper-icon-button-light:focus,
+.layout-tv .emby-button:focus {
+  transform: none !important;
+  background: none !important;
+}
+
+.layout-tv a.show-focus[is="emby-linkbutton"]:focus {
+  transform: none !important;
+}
+
+.layout-tv .raised:focus {
+  background: var(--accent) !important;
+  transform: none !important;
+}
+
+
+.layout-tv div[data-role="page"]:not(#itemDetailPage)::after {
+  background: rgb(20, 20, 20);
+  overflow: visible;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+.layout-tv .vertical-wrap .card::before {
+  transform: none !important;
+  visibility: visible;
+  opacity: 0;
+}
+
+.layout-tv .vertical-wrap .card:focus::before {
+  transform: none !important;
+  opacity: 1;
+}
+
+.layout-tv .vertical-wrap .card:focus ~ .card::before {
+  transform: none !important;
+}
+
+.layout-tv .card[data-type="Actor"] .cardText {
+  position: absolute;
+  background: transparent !important;
+  opacity: 1;
+  width: calc(100% - 10px);
+  padding: 0 5px !important;
+}
+
+.layout-tv .card[data-type="Actor"] .cardText-first {
+  bottom: 31.5px;
+  height: 22px;
+}
+
+.layout-tv .card[data-type="Actor"] .cardText-secondary {
+  bottom: 8px;
+  border-radius: 0px 0px 10px 10px;
+  height: 22px;
+}
+
+.layout-tv .card[data-type="Actor"] .cardScalable {
+  overflow: hidden;
+  border-radius: var(--rounding);
+  height: inherit;
+  padding-top: 0 !important;
+}
+
+.layout-tv .card[data-type="Actor"] .cardBox {
+  padding: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.layout-tv #itemDetailPage:not(.noBackdrop) .detailPagePrimaryContainer, {
+  position: relative;
+  top: 0;
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+  background: transparent;
+  font-size: 20px;
+  max-width: 95%;
+  margin-top: 10vh;
+  padding: 0 !important;
+  height: 20vh;
+  font-size: 135%;
+}
+
+.layout-tv #itemDetailPage:not(.noBackdrop) .detailPagePrimaryContainer {
+  width: 95vw !important;
+  margin-top: 10vh;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+
+
+.layout-tv #itemDetailPage .itemName.infoText.parentNameLast {
+  display: block;
+}
+
+
+.layout-tv #itemDetailPage .vertical-list {
+  grid-template-columns: 1fr;
+}
+
+.layout-tv .emby-scroller {
+  overflow: hidden !important;
+}
+
+.layout-tv .listItem[data-type="Episode"] {
+  padding: 7.5px !important;
+}
+
+
+.layout-tv .listItemBodyText {
+  font-size: 100% !important;
+}
+
+.layout-tv .listItemBodyText.listItem-overview {
+  line-height: 1.2;
+}
+
+.layout-tv .listItemImage.listItemImage-large::after {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: auto;
+  width: 55px;
+  height: 100%;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.8) 5%, transparent 95%);
+}
+
+.layout-tv .listItem:focus {
+  transform: none !important;
+  background: none !important;
+}
+
