@@ -120,17 +120,49 @@
 
 
 
+/*---------------------------DISABLED-------------------Background site wide*/
 
+/*
 
-
-/*----------------------------------------------Background site wide*/
 .backdropImage { display: none; }
 .backgroundContainer {
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("https://i.postimg.cc/bvY9YSSN/imageonline-gifspeed-7675635-1.gif");
+  background-image: url("");
   filter: blur(8px);
   background-size: cover;
 }
+*/
+
+
+/*---------------------------DISABLED-------------------LOGIN PAGE*/
+
+/*Narrow the login form, size according to display size (bigger on mobile)*/
+#loginPage .readOnlyContent,
+#loginPage form {
+  max-width: 22em;
+}
+
+/*Hide "please login" text, margin is to prevent login form moving too far up*/
+#loginPage h1 {
+  display: none
+}
+#loginPage .padded-left.padded-right.padded-bottom-page {
+  margin-top: 50px
+}
+
+/*Hide "manual" and "forgot" buttons}*/
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
+  display: none
+}
+
+/*Login background----DISABLED*/
+/*
+#loginPage {
+  background: url(https://i.imgur.com/xAZT1qd.jpg) !important; 
+  background-size: cover !important;
+}
+*/
+
 
 
 
@@ -278,7 +310,7 @@
 }
 
 
-/*----------------------------------------------Tv background wallpaper*/
+/*---------------------DISABLED-------------------------Tv background wallpaper*/
 /*
 .layout-tv
 .backgroundContainer {
@@ -876,31 +908,6 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     }
 }
 
-
-/*Narrow the login form, size according to display size (bigger on mobile)*/
-#loginPage .readOnlyContent,
-#loginPage form {
-  max-width: 22em;
-}
-
-/*Hide "please login" text, margin is to prevent login form moving too far up*/
-#loginPage h1 {
-  display: none
-}
-#loginPage .padded-left.padded-right.padded-bottom-page {
-  margin-top: 50px
-}
-
-/*Hide "manual" and "forgot" buttons}*/
-#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
-  display: none
-}
-
-/*Login background*/
-#loginPage {
-  background: url(https://i.imgur.com/xAZT1qd.jpg) !important; 
-  background-size: cover !important;
-}
 
 /*Make watched icon, footer on chapter thumnails (and other things), and count indicator dark and transparent*/
 .innerCardFooter,
