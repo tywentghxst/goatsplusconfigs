@@ -446,11 +446,11 @@ font-weight: normal;
 }
 
 
-/*-----------------------------------------------Replace Latest music text with Custom Text such as "Recently Added songs"-----------------------------------------------*/
+/*-----------------------------------------------Replace Latest music text with Custom Text such as "Recently Added Anime"-----------------------------------------------*/
 #homeTab > div > div.section6 > div:nth-child(3) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > h2 {display: none;}
 #homeTab > div > div.section6 > div:nth-child(3) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a > span {display: none;}
 #homeTab > div > div.section6 > div:nth-child(3) > div.sectionTitleContainer.sectionTitleContainer-cards.padded-left > a:after {
-content: 'Recently Added Songs ›';
+content: 'Recently Added Anime ›';
 font-size: 24px;
 font-weight: normal;
 }
