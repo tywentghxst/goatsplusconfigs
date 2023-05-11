@@ -207,107 +207,75 @@
 
 
 /*----------------------------------------------Center the play and pause rewind and fast forward button (MOBILE)*/
-.layout-mobile
-.btnPause {
-    position: fixed;
-    top: 49%;
-    left: 49%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-       padding: 30px;
+div.videoOsdBottom.videoOsdBottom-maincontrols {
+      
+  /* ----- If you want bigger or smaller buttons, change these -----*/
+  /* ----- please use vw values so they will scale with the window autoamtically -----*/
+  /* ----- as you increase the sizes, decreaes the offset -----*/
+  /* ----- and as you decrease the sizes, increase the offset -----*/
+  --btn-size: 5vw;
+  --font-size: 6vw;
+  --ff-rw-offset: 28%;
+  
+  /* ----- set this to 1 if you want your buttons the same size ----- */
+  /* ----- The larger the value, the bigger the play button relative to the ff/rw buttons ----- */
+  --play-btn-multiplier: 2;
+  
+  /* ----- opacity of the buton's background, default 0 -----*/
+  /* ----- change this if you want the buttons to have a faint background for better accessibility (recommended value 0.1) -----*/
+  --button-background-opacity: 0;
+  
 }
-.layout-mobile
-.material-icons.pause:before {
-    font-size: 2.1em;
+div.videoOsdBottom.videoOsdBottom-maincontrols .btnPause {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: calc(var(--btn-size) * var(--play-btn-multiplier));
+  height: calc(var(--btn-size) * var(--play-btn-multiplier));
+  transform: translate(-50%, -50%);
 }
-.layout-mobile
-.xlargePaperIconButton.material-icons.play_arrow:before {
-    font-size: 3.5em;
+div.videoOsdBottom.videoOsdBottom-maincontrols .btnFastForward {
+  position: fixed;
+  top: 50%;
+  right: var(--ff-rw-offset);
+  width: var(--btn-size);
+  height: var(--btn-size);
+  transform: translateY(-50%);
 }
-.layout-mobile
-.btnRewind {
-    position: fixed;
-    top: 49%;
-    left: 24%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-       padding: 30px;
+div.videoOsdBottom.videoOsdBottom-maincontrols .btnRewind {
+  position: fixed;
+  top: 50%;
+  left: var(--ff-rw-offset);
+  width: var(--btn-size);
+  height: var(--btn-size);
+  transform: translateY(-50%);
 }
-.layout-mobile
-.btnFastForward {
-    position: fixed;
-    top: 49%;
-    left: 74%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-       padding: 30px;
+@media (max-width:50em) {
+  div.videoOsdBottom.videoOsdBottom-maincontrols .btnFastForward,
+  div.videoOsdBottom.videoOsdBottom-maincontrols .btnRewind {
+   display: inline-flex !important;
+  }
+ }
+div.videoOsdBottom.videoOsdBottom-maincontrols .btnPause > span {
+  font-size: calc(var(--font-size) * var(--play-btn-multiplier));
 }
-.layout-mobile
-.xlargePaperIconButton.material-icons.fast_forward {
-    font-size: 3.5em;
+
+div.videoOsdBottom.videoOsdBottom-maincontrols .btnRewind > span,
+div.videoOsdBottom.videoOsdBottom-maincontrols .btnFastForward > span {
+  font-size: var(--font-size);
 }
-.layout-mobile
-.xlargePaperIconButton.material-icons.fast_rewind {
-    font-size: 3.5em;
-}
-.layout-mobile
-@media (max-width: 50em) {
-.videoOsdBottom .btnFastForward, .videoOsdBottom .btnRewind {
-  display: block !important;
-}
+
+div.videoOsdBottom.videoOsdBottom-maincontrols .btnRewind:not(:hover),
+div.videoOsdBottom.videoOsdBottom-maincontrols .btnPause:not(:hover),
+div.videoOsdBottom.videoOsdBottom-maincontrols .btnFastForward:not(:hover)
+{
+  background-color: rgba(0,0,0, var(--button-background-opacity));
 }
 
 
-/*----------------------------------------------Center the play and pause rewind and fast forward button (DESKTOP)*/
-.layout-desktop
-.btnPause {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-   padding: 30px;
-}
-.layout-desktop
-.material-icons.pause:before {
-    font-size: 2.1em;
-}
-.layout-desktop
-.xlargePaperIconButton.material-icons.play_arrow:before {
-    font-size: 3.5em;
-}
-.layout-desktop
-.btnRewind {
-    position: fixed;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    padding: 30px;
-}
-.layout-desktop
-.btnFastForward {
-    position: fixed;
-    top: 50%;
-    left: 75%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    padding: 30px;
-}
-.layout-desktop
-.xlargePaperIconButton.material-icons.fast_forward {
-    font-size: 3.5em;
-}
-.layout-desktop
-.xlargePaperIconButton.material-icons.fast_rewind {
-    font-size: 3.5em;
-}
-.layout-desktop
-@media (max-width: 50em) {
-.videoOsdBottom .btnFastForward, .videoOsdBottom .btnRewind {
-  display: block !important;
-}
-}
+
+
+
 
 
 /*---------------------DISABLED-------------------------Tv background wallpaper*/
