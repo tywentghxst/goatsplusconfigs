@@ -568,2148 +568,417 @@ width:25%;}
 
 
 
+/*#####################################################################################################################
+          the badass code https://www.reddit.com/r/jellyfin/comments/12wpxry/my_custom_css_for_moviestv_show_sections/
+
+######################################################################################################################*/
 
 
 
 
-
-
-
-
-
-/* //////////////////////////// disable code ////////////////////////// */
-/* //////////////////////////// disable code ////////////////////////// */
-/* //////////////////////////// disable code ////////////////////////// */
-/* //////////////////////////// disable code ////////////////////////// */
-/* //////////////////////////// disable code ////////////////////////// */
-/* //////////////////////////// disable code ////////////////////////// */
-
-
-/*-----------------------------------------------Add GroupPlay Wording to Sync Button--------------------*/
-/*
-.headerSyncButton.syncButton.headerButton.headerButtonRight.paper-icon-button-light:after {
-  content: 'GroupPlay';
-font-size: 15px;
-font-weight: normal;
-}
-*/
-
-/* Hide "manual" and "forgot" buttons */
-/*
-#loginPage .raised.cancel.block.btnManual.emby-button {display: none}
-#loginPage .raised.cancel.block.btnForgotPassword.emby-button {display: none}
-#loginPage .raised.cancel.block.btnQuick.emby-button {display: none}
-*/
-
-
-
-/*-----------------------------------------------Removes titles from home page my media items------------*/
-/*
-#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(1) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
-#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(2) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
-#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(3) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
-#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(4) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
-#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(5) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
-#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(6) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
-#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(7) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
-#homeTab > div > div.verticalSection.section0 > div > div > div:nth-child(8) > div > div.cardText.cardTextCentered.cardText-first {display: none;}
-*/
-
-
-
-/*-----------------------------------------------Input Fields no Border----------------------------------*/
-/*No borders, background highlights*/
-/* 
-.infoBanner {
-    background: rgba(var(--selection), 0.15) !important;
-}
-fieldset {
-    border: 1px solid rgba(var(--selection), 0.3);
-}
-.checkboxOutline,
-.emby-input,
-.emby-textarea,
-.emby-select-withcolor {
-  border: none !important;
-  background: rgba(0, 0, 0, 0.5); 
-}
-#itemDetailPage .emby-select-withcolor {
-  background: rgba(0, 0, 0, 0.2);
-} */
-
-
-
-/* //////////////////////////// disable code ////////////////////////// */
-/* //////////////////////////// disable code ////////////////////////// */
-/* //////////////////////////// disable code ////////////////////////// */
-/* //////////////////////////// disable code ////////////////////////// */
-/* //////////////////////////// disable code ////////////////////////// */
-/* //////////////////////////// disable code ////////////////////////// */
-
-
-
-
-
-
-
-
-
-
-
-
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-/* //////////////////////////// END OF MY CODE ALL BELOW IS TEST CODE ////////////////////////// */
-
-
-/*----------------------------------------------ALL CODE BELOW IS STILL WORK IN PROGRESS TESTING CODE*/
-
-/* //////////////////////////// TESTING ////////////////////////// */
-/* //////////////////////////// TESTING ////////////////////////// */
-/* //////////////////////////// TESTING ////////////////////////// */
-
-
-
-
-
-
-
-
-
-
-
-
-/* ALLL NEW CODE */
-
-/*Rounded corners on pretty much everything*/
-.formDialogHeader {
-  border-top-left-radius: var(--rounding);
-  border-top-right-radius: var(--rounding);
-}
-.formDialogFooter {
-  border-bottom-left-radius: var(--rounding);
-  border-bottom-right-radius: var(--rounding);
-}
-.cardOverlayContainer {
-    border-radius: var(--rounding) !important;
-}
-.primaryImageWrapper > img,
-.toast,
-.paperList,
-.cardContent,
-.sessionNowPlayingInnerContent, 
-.listItem:hover, 
-.cardImage,
-.fab,
-.raised,
-.multiSelectCheckboxOutline,
-.itemSelectionPanel,
-.cardContent-button, 
-.cardContent-shadow, 
-.itemDetailImage, 
-.cardOverlayButton-hover,
-.cardImageContainer,
-.cardPadder,
-.listItemImage,
-.listItemImageButton,
-.listItemButton,
-.headerButton,
-.paper-icon-button-light,
-.innerCardFooter,
-.blurhash-canvas,
-.dialog,
-.countIndicator,
-.playedIndicator,
-.listItemIcon,
-.listItem-border,
-.button-flat,
-.visualCardBox,
-.checkboxOutline,
-.emby-select-withcolor,
-.chapterThumbTextContainer,
-.chapterThumbContainer,
-.chapterThumb,
-.emby-input, 
-.emby-textarea, 
-.emby-select-withcolor,
-.nowPlayingPageImage,
-.upNextDialog-poster-img,
-.upNextContainer,
-.cardOverlayButtonIcon {
-  border-radius: var(--rounding) !important;
-}
-.osdPoster img {
-  border-radius: var(--rounding); border: none;
-}
-.mdl-slider::-moz-range-thumb {
-  border-radius: var(--rounding);
-}
-.mdl-slider::-ms-thumb {
-  border-radius: var(--rounding);
-}
-.mdl-slider::-webkit-slider-thumb {
-  border-radius: var(--rounding);
-}
-
-div[data-role="controlgroup"] a[data-role="button"]:first-child {
-    border-bottom-left-radius: var(--rounding);
-    border-top-left-radius: var(--rounding);
-}
-div[data-role="controlgroup"] a[data-role="button"]:last-child {
-    border-bottom-right-radius: var(--rounding);
-    border-top-right-radius: var(--rounding);
-}
-#dashboardPage .cardContent, #dashboardPage .sessionNowPlayingInnerContent {
-    border-radius: var(--rounding) var(--rounding) 0 0 !important;
-}
-#divVirtualFolders .cardImageContainer, #divVirtualFolders .cardContent {
-    border-radius: var(--rounding) var(--rounding) 0 0 !important;
-}
-#userProfilesPage .cardImage, #userProfilesPage .cardContent {
-    border-radius: var(--rounding) var(--rounding) 0 0 !important;
-}
-
-
-
-/*Narrow margins, theme main page*/
-.cardBox-bottompadded {
-    margin-bottom: 0.6em !important;
-}
-.itemsContainer > .card > .cardBox {
-    margin-right: 0.8em;
-}
-.raised.homeLibraryButton {
-    background: rgba(0, 0, 0, 0.3) !important;
-}
-.raised.homeLibraryButton:hover {
-    background: rgba(0, 0, 0, 0.5) !important;
-}
-.raised.homeLibraryButton:hover {transition: filter 0.2s}
-.raised.homeLibraryButton {transition: filter 0.2s}
-.homeLibraryButton {
-    min-width: 12em;
-    margin: 0.4em;
-}
-
-/*Blur backdrops, feel free to edit the intensity of the blur/saturation/dimming*/
-.backdropImage {
-  filter: blur(6px) saturate(200%) contrast(160%) brightness(25%);
-}
-.backgroundContainer.withBackdrop {
-  background-color: rgba(0,0,0,0);
-}
-
-/*Shrink and square (or round) cast thumnails*/
-@media all and (min-width: 131.25em){
-  #castContent .card.overflowPortraitCard {
-    width: 6.3vw !important; 
-    font-size: 90% !important;
-  }
-}
-@media all and (min-width: 120em) and (max-width: 131.25em){
-  #castContent .card.overflowPortraitCard {
-    width: 6.4vw !important; 
-    font-size: 90% !important;
-  }
-}
-@media all and (min-width: 100em) and (max-width: 120em){
-  #castContent .card.overflowPortraitCard {
-    width: 7.6vw !important; 
-    font-size: 90% !important;
-  }
-}
-@media all and (min-width: 87.5em) and (max-width: 100em){
-  #castContent .card.overflowPortraitCard {
-    width: 9.3vw !important; 
-    font-size: 90% !important;
-  }
-}
-@media all and (min-width: 75em) and (max-width: 87.5em){
-  #castContent .card.overflowPortraitCard {
-    width: 10.5vw !important; 
-    font-size: 90% !important;
-  }
-}
-@media all and (min-width: 50em) and (max-width: 75em){
-  #castContent .card.overflowPortraitCard {
-    width: 15vw !important;
-    font-size: 90% !important;
-  }
-}
-@media all and (min-width: 43.75em) and (max-width: 50em){
-  #castContent .card.overflowPortraitCard {
-    width: 20.1vw !important; 
-    font-size: 90% !important;
-  }
-}
-@media all and (min-width: 25em) and (max-width: 43.75em){
-  #castContent .card.overflowPortraitCard {
-    width: 31.2vw !important; 
-    font-size: 90% !important;
-  }
-}
-@media all and (max-width: 25em){
-  #castContent .card.overflowPortraitCard {
-    width: 40vw !important; 
-    font-size: 90% !important;
-  }
-}
-
-.cardPadder {
-  background-color: #0000 !important; box-shadow: none !important;
-}
-
-
-/*Tweak series/movie/album title screen*/
-.detailImageContainer .card {
-  position:fixed;
-}
-
-.mainDetailButtons {
-    font-size: 120%;
-}
-
-}
-
-.detailSectionContent {
-  max-width: 66em;
-}
-.trackSelections {
+/* LOGIN Section */
+/* Narrow the login form */
+#loginPage .readOnlyContent,
+#loginPage form {
   max-width: 22em;
 }
-.detailLogo {
-  display: visible;
-}
-.detailPagePrimaryContainer {
-  background: rgba(0,0,0,0) !important;
-}
-@media all and (min-width: 32em){
-  .itemBackdrop {
-    display: none;
-  }
-    .layout-desktop .detailRibbon {
-    margin-top: 25vh;
-    }
-}
-
-
-/*Make watched icon, footer on chapter thumnails (and other things), and count indicator dark and transparent*/
-.innerCardFooter,
-.countIndicator, 
-.playedIndicator {
-  background: rgba(0,0,0,0.4); 
-  box-shadow: none;
-}
-.countIndicator {
-  box-shadow: none;
-}
-
-/*Rounded corners on pretty much everything*/
-.formDialogHeader {
-  border-top-left-radius: var(--rounding);
-  border-top-right-radius: var(--rounding);
-}
-.formDialogFooter {
-  border-bottom-left-radius: var(--rounding);
-  border-bottom-right-radius: var(--rounding);
-}
-.cardOverlayContainer {
-    border-radius: var(--rounding) !important;
-}
-.primaryImageWrapper > img,
-.toast,
-.paperList,
-.cardContent,
-.sessionNowPlayingInnerContent, 
-.listItem:hover, 
-.cardImage,
-.fab,
-.raised,
-.multiSelectCheckboxOutline,
-.itemSelectionPanel,
-.cardContent-button, 
-.cardContent-shadow, 
-.itemDetailImage, 
-.cardOverlayButton-hover,
-.cardImageContainer,
-.cardPadder,
-.listItemImage,
-.listItemImageButton,
-.listItemButton,
-.headerButton,
-.paper-icon-button-light,
-.innerCardFooter,
-.blurhash-canvas,
-.dialog,
-.countIndicator,
-.playedIndicator,
-.listItemIcon,
-.listItem-border,
-.button-flat,
-.visualCardBox,
-.checkboxOutline,
-.emby-select-withcolor,
-.chapterThumbTextContainer,
-.chapterThumbContainer,
-.chapterThumb,
-.emby-input, 
-.emby-textarea, 
-.emby-select-withcolor,
-.nowPlayingPageImage,
-.upNextDialog-poster-img,
-.upNextContainer,
-.cardOverlayButtonIcon {
-  border-radius: var(--rounding) !important;
-}
-.osdPoster img {
-  border-radius: var(--rounding); border: none;
-}
-.mdl-slider::-moz-range-thumb {
-  border-radius: var(--rounding);
-}
-.mdl-slider::-ms-thumb {
-  border-radius: var(--rounding);
-}
-.mdl-slider::-webkit-slider-thumb {
-  border-radius: var(--rounding);
-}
-
-div[data-role="controlgroup"] a[data-role="button"]:first-child {
-    border-bottom-left-radius: var(--rounding);
-    border-top-left-radius: var(--rounding);
-}
-div[data-role="controlgroup"] a[data-role="button"]:last-child {
-    border-bottom-right-radius: var(--rounding);
-    border-top-right-radius: var(--rounding);
-}
-#dashboardPage .cardContent, #dashboardPage .sessionNowPlayingInnerContent {
-    border-radius: var(--rounding) var(--rounding) 0 0 !important;
-}
-#divVirtualFolders .cardImageContainer, #divVirtualFolders .cardContent {
-    border-radius: var(--rounding) var(--rounding) 0 0 !important;
-}
-#userProfilesPage .cardImage, #userProfilesPage .cardContent {
-    border-radius: var(--rounding) var(--rounding) 0 0 !important;
-}
-
-/*Homepage modifications, transparent footerplayer and fixed sectiontitles*/
-.appfooter {
-    background: rgba(0,0,0,0.9);
-}
-
-/*Modify subtitle settings page*/
-.subtitleappearance-preview {
-  background: linear-gradient(140deg,#444,#111) !important;
-}
-
-/*Fix weird shevron off centering*/
-.layout-mobile :not(.sectionTitleContainer-cards)>.sectionTitle-cards {
- padding-top:0em;
-}
-.sectionTitle {
-    margin-left: .4em !important;
-    margin-top: .2em !important;
-    margin-bottom: .2em !important;
-}
-.sectionTitleTextButton > .material-icons {
-    margin: 0;
-}
-.layout-mobile .sectionTitleTextButton > .material-icons {
-    padding-top: .2em;
-}
-
-/*Fix the UI shifting around*/
-.nowPlayingBarCurrentTime {
-    width: 6em;
-}
-.osdTextContainer {
-    margin: 0 !important;
-    margin-top: 0.2em !important;
-    padding-left: 0.5em !important;
-    padding-right: 0.5em !important;
-}
-
-/*Fix top right user icon when using a profile image*/
-.headerUserButtonRound {
-  border-radius: 50px !important;
-}
-
-/*Modified progress bar, play and item menu buttons*/
-
-.itemProgressBar {
-  height: 100%;
-  background: rgba(0, 0, 0, 0);
-}
-
-.innerCardFooter {
-  height: 6px;
-  background: rgba(255, 255, 255, 0.6);
-  width: 95%;
-  left: 50%;
-  transform: translate(-50%, -7px);
-  border-radius: var(--rounding);
-}
-
-.itemProgressBarForeground {
-  background: var(--accent) !important;
-}
-
-
-.playbackProgress>div {
-  background-color: rgba(255,255,255,0.75);
-}
-.transcodingProgress>div, .itemProgressBarForeground {
-  background-color: rgba(255,255,255,0.3);
-}
-
-
-
-/*Accommodate mobile and set positions, I think*/
-.cardIndicators,
-.listItemIndicators {
-  right: 0.3em; 
-  top: 0.3em;
-}
-
-@media all and (min-width: 70em){
-  .cardOverlayFab-primary {
-    background-color: #00000000;
-  }
-  .cardOverlayButtonIcon {
-    background-color: #00000000 !important;
-  }
-  .cardOverlayContainer {
-    background-color: rgba(0, 0, 0, 0.7);
-  }
-}
-@media all and (max-width: 70em){
-  .cardOverlayButtonIcon {
-    background-color: rgba(0, 0, 0, 0.5) !important;
-  }
-  .cardOverlayButton {
-    padding: 0.3em;
-  }
-}
-
-/*ANIMATIONS*/
-/*Hover background for buttons*/
-.button-flat:hover {
-    background: rgba(0,0,0,0.4);
-}
-.button-flat {
-  padding: .5em !important;
-  margin: .2em !important;
-}
-
-/*Some themeing for the dashboard*/
-
-#user_usage_report_table,
-.detailTable {
-    background: rgba(0,0,0,.5);
-    border-radius: var(--rounding);
-}
-.detailTableBodyRow-shaded {
-    background: #0000 !important;
-}
-
-.infoBanner {
-    background: #101010;
-}
-.navMenuOptionText {
-    margin-top: 0;
-}
-.backgroundProgress > div {
-    background-color: #0000;
-}
-
-.visualCardBox, .cardImageContainer {
-  box-shadow: none;
-}
-
-.mdl-switch__input:checked + .mdl-switch__label + .mdl-switch__trackContainer > .mdl-switch__track {
-    background: rgba(120, 120, 120, 0.6);
-}
-.mdl-switch__input:checked + .mdl-switch__label + .mdl-switch__trackContainer > .mdl-switch__thumb {
-    background: white;
-}
-
-.dashboardSection h3 {
-  margin-left: 0.5em;
-}
-.sessionCardFooter {
-  border: none;
-}
-.paperList, 
-.visualCardBox {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-.listItem-border {
-  border-color: rgba(255, 255, 255, 0) !important; 
-}
-fieldset {
-  border: 1px solid rgba(40, 40, 40, 0.8); 
-  border-radius: 0.4em;
-}
-/*Theme the library scan progress bar*/
-progress {
-  background: rgba(0, 0, 0, 0.5) !important;
-  border-radius: var(--rounding);
-  border: 1px solid rgba(255, 255, 255, 0.22);
-}
-progress::-webkit-progress-bar {
-  background: rgba(0, 0, 0, 0.5) !important;
-  border-radius: var(--rounding);
-  border: 0px solid rgba(255, 255, 255, 0.22);
-}
-progress::-moz-progress-bar {
-  background-color: rgba(255,255,255,0.75);
-  border-radius: var(--rounding);
-}
-progress::-webkit-progress-value {
-  background-color: rgba(255,255,255,0.75);
-  border-radius: var(--rounding);
-}
-#divRunningTasks span {
-  color: rgba(255,255,255,0.75) !important;
-}
-
-.taskProgressOuter,
-.taskProgressInner {
-  border-radius: var(--rounding) !important;
-}
-.taskProgressOuter {
-  background: rgba(0, 0, 0, 0.5) !important;
-  border: 1px solid rgba(255, 255, 255, 0.22);
-}
-.taskProgressInner {
-  background: rgba(255,255,255,0.75) !important;
-}
-#scheduledTasksPage span {
-  color: rgba(255,255,255,0.75) !important;
-}
-
-
-/*Shrink the mouseover chapter image when scrobbling*/
-.chapterThumb {
-    height: 14vh;
-    min-width: 14vh;
-}
-.chapterThumbText {
-    font-size: 1em;
-}
-.sliderBubble {
-  background: #0000;
-}
-
-
-/*Color theming*/
-
-/*Theme process progress ring*/
-.progressring-spiner {
-  border-color: var(--deftraback);
-  border-width: .35em;
-}
-.progressring {
-    margin: .4em;
-}
-.progressring-bg {
-   display: none;
-}
-
-/*Affects blurhash to remove the saturated colors to fit overall look*/
-.blurhash-canvas {
-    filter: opacity(60%) saturate(60%);
-}
-
-/*Theme user setting tab buttons*/
-div[data-role="controlgroup"] a.ui-btn-active {
-    background: rgba(0, 0, 0, 0.5) !important;
-    color: white !important;
-}
-a[data-role="button"]:hover {
-    background: rgba(80, 80, 80, 0.8) !important;
-}
-
-div[data-role=controlgroup] a[data-role=button]+a[data-role=button] {
-    margin: 0 !important;
-}
-
-/*Rating star, normally yellow*/
-.starIcon {
-    color: rgba(255,255,255,.8);
-}
-
-
-/*Theme media player*/
-.startTimeText, .endTimeText {
-    width: 3.4em;
-    display: block;
-    text-align: center;
-}
-.osdTitle {
-  margin-left: 0.5em;
-}
-.mdl-slider-background-lower {
-  background-color: rgb(255, 255, 255);
-}
-.mdl-slider::-moz-range-thumb {
-  background: rgb(255, 255, 255);
-}
-.mdl-slider::-ms-thumb {
-  background: rgb(255, 255, 255);
-}
-.mdl-slider::-webkit-slider-thumb {
-  background: rgb(255, 255, 255);
-}
-.iconOsdProgressInner {
-  background: rgb(255, 255, 255);
-}
-
-.videoOsdBottom {
-    background: rgba(0,0,0,.7);
-    padding-top: 1em;
-}
-.skinHeader-withBackground.osdHeader {
-    background: rgba(0,0,0,.7) !important;
-    height: 5em;
-}
-
-.nowPlayingPageImage {
-  border: none;
-}
-
-.upNextDialog-countdownText {
-  color: white;
-}
-
-/*Theme syncplay*/
-.syncPlayIconCircle {
-  color: rgba(255,255,255,1) !important;
-  text-shadow: none !important;
-}
-
-@-webkit-keyframes pulse {
- 0% {
-  -webkit-transform:scale(.95);
-  transform:scale(.95);
-  color:rgba(0,0,0,.7);
-  background:rgba(0,0,0,.3);
-  box-shadow:0 0 0 0 rgba(0,0,0,.3)
- }
- 70% {
-  -webkit-transform:scale(1);
-  transform:scale(1);
-  color:rgba(0,0,0,.6);
-  background:rgba(0,0,0,0);
-  box-shadow:0 0 0 60px rgba(0,0,0,0)
- }
- to {
-  -webkit-transform:scale(.95);
-  transform:scale(.95);
-  color:rgba(0,0,0,.7);
-  background:rgba(0,0,0,.3);
-  box-shadow:0 0 0 0 rgba(0,0,0,0)
- }
-}
-@keyframes pulse {
- 0% {
-  -webkit-transform:scale(.95);
-  transform:scale(.95);
-  color:rgba(0,0,0,.7);
-  background:rgba(0,0,0,.3);
-  box-shadow:0 0 0 0 rgba(0,0,0,.3)
- }
- 70% {
-  -webkit-transform:scale(1);
-  transform:scale(1);
-  color:rgba(0,0,0,.6);
-  background:rgba(0,0,0,0);
-  box-shadow:0 0 0 60px rgba(0,0,0,0)
- }
- to {
-  -webkit-transform:scale(.95);
-  transform:scale(.95);
-  color:rgba(0,0,0,.7);
-  background:rgba(0,0,0,.3);
-  box-shadow:0 0 0 0 rgba(0,0,0,0)
- }
-}
-@-webkit-keyframes infinite-pulse {
- 0% {
-  -webkit-transform:scale(.95);
-  transform:scale(.95);
-  color:rgba(0,0,0,.7);
-  background:rgba(0,0,0,.3);
-  box-shadow:0 0 0 0 rgba(0,0,0,.3)
- }
- 70% {
-  -webkit-transform:scale(1);
-  transform:scale(1);
-  color:rgba(0,0,0,.6);
-  background:rgba(0,0,0,0);
-  box-shadow:0 0 0 60px rgba(0,0,0,0)
- }
- to {
-  -webkit-transform:scale(.95);
-  transform:scale(.95);
-  color:rgba(0,0,0,.7);
-  background:rgba(0,0,0,.3);
-  box-shadow:0 0 0 0 rgba(0,0,0,0)
- }
-}
-@keyframes infinite-pulse {
- 0% {
-  -webkit-transform:scale(.95);
-  transform:scale(.95);
-  color:rgba(0,0,0,.7);
-  background:rgba(0,0,0,.3);
-  box-shadow:0 0 0 0 rgba(0,0,0,.3)
- }
- 70% {
-  -webkit-transform:scale(1);
-  transform:scale(1);
-  color:rgba(0,0,0,.6);
-  background:rgba(0,0,0,0);
-  box-shadow:0 0 0 60px rgba(0,0,0,0)
- }
- to {
-  -webkit-transform:scale(.95);
-  transform:scale(.95);
-  color:rgba(0,0,0,.7);
-  background:rgba(0,0,0,.3);
-  box-shadow:0 0 0 0 rgba(0,0,0,0)
- }
-}
-
-
-
-/*Theme buttons and cards*/
-.navMenuOption-selected,
-.selectionCommandsPanel {
-  background: var(--accent) !important;
-}
-
-
-
-#itemDetailPage .button-link {color: inherit !important;}
-
-.listItemIcon {
-    background: #0000 !important;
-}
-
-.raised,
-.fab,
-a[data-role="button"] {
-  background: rgba(40, 40, 40, 0.8) !important;
-    transition: all 0.2s !important;
-}
-
-.paper-icon-button-light:hover {
-  background-color: rgba(0, 0, 0, 0.4) !important;
-}
-
-.raised:hover,
-.fab:hover,
-.navMenuOption:hover,
-.actionSheetMenuItem:hover {
-  background: rgba(80, 80, 80, 0.8) !important;
-}
-
-
-/*Theme dialogues, drop downs, toast*/
-.dialog, 
-.toast {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.actionSheetMenuItem:hover {
-  background-color: rgba(0, 164, 220, 0.2);
-}
-.mainDrawer {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.navMenuOption:hover {
-  background: rgba(0, 164, 220, 0.2);
-}
-.formDialogHeader, .formDialogFooter {
-  background-color: #101010 !important;
-}
-.formDialogHeader.formDialogHeader-clear.justify-content-center,
-.formDialogFooter.formDialogFooter-clear.formDialogFooter-flex,
-.collapseContent {
-  background-color: #0000 !important;
-}
-
-
-/*Improve some menu alignments*/
-.formDialogContent {
-  margin-bottom: 6.2em;
-}
-.dialogContentInner {
-  padding: .5em 1em 1em;
-  padding-right: 1em;
-  padding-left: 1em;
-}
-.listItem-indexnumberleft {
-  margin: 1em;
-}
-.listItem {
-  padding-left: 1em;
-}
-
-/*Tweak entry fields, checkamarks*/
-.emby-input,
-.emby-textarea {
-  padding: .4em .55em;
-}
-.emby-select {
-  padding: .35em 1.9em .35em .35em;
-}
-.selectArrow {
-    margin-top: 1.05em;
-}
-.checkboxOutline,
-.emby-input,
-.emby-textarea,
-.emby-select-withcolor {
-  background: rgba(0, 0, 0, 0.2); 
-  border: 0.01em solid rgba(255, 255, 255, 0.22);
-}
-.emby-input:focus,
-.emby-textarea:focus,
-.emby-select-withcolor:focus {
-  background: rgba(0, 0, 0, 0.5) !important; 
-}
-
-.emby-textarea:focus,
-.emby-select-withcolor:focus,
-.emby-input:focus,
-.itemSelectionPanel {
-  border: 0.01em solid rgba(40, 40, 40, 0.8) !important;
-}
-.emby-checkbox:checked + span + .checkboxOutline {
-  background-color: rgba(20, 20, 20, 0.8) !important;
-  border: 0.01em solid rgba(255, 255, 255, 0.22) !important;
-}
-
-/*Colors for loading spinner, placeholders, scroll bars*/
-.mdl-spinner__layer-1 {border-color: rgba(255, 255, 255, 1);}
-.mdl-spinner__layer-2 {border-color: rgba(128, 128, 128, 1);}
-.mdl-spinner__layer-3 {border-color: rgba(40, 40, 40, 1);}
-.mdl-spinner__layer-4 {border-color: rgba(0, 0, 0, 1);}
-
-::-webkit-scrollbar-track-piece {
-  background-color: #0000;
-}
-::-webkit-scrollbar-corner {
-  background-color: #0000;
-}
-::-webkit-scrollbar-thumb {
-  background: var(--deftraback) !important;
-  border-radius: var(--rounding);
-}
-
-* {
-  scrollbar-color: rgba(120,120,120,0.6) #0000 !important;
-}
-
-.defaultCardBackground1 {
-    background-color: #0a0a0a;
-}
-.defaultCardBackground2 {
-    background-color: #141414;
-}
-.defaultCardBackground3 {
-    background-color: #212121;
-}
-.defaultCardBackground4 {
-    background-color: #333333;
-}
-.defaultCardBackground5 {
-    background-color: #666666;
-}
-
-
-
-
-/*Scroll Bar theme*/
-
-::-webkit-scrollbar-thumb {
-  background: var(--accent) !important;
-}
-.page {
-  padding-bottom: 0 !important;
-}
-
-::-webkit-scrollbar-track-piece {
-  background-color: rgba(0, 0, 0, 0) !important;
-}
-
-
-
-.button-link {
-  color: white !important;
-}
-
-
-/*Theming video page*/
-
-.videoOsdBottom {
-  font-size: 110%;
-}
-
-.osdHeader {
-  background: linear-gradient(
-    180deg,
-    rgba(16, 16, 16, 0.75),
-    rgba(16, 16, 16, 0)
-  ) !important;
-}
-
-.layout-desktop .osdControls {
-  max-width: 100%;
-}
-
-.mdl-slider::-webkit-slider-thumb {
-  background: var(--accent);
-}
-
-
-
-/*Square Cards and Portrait Cards*/
-
-
-
-.layout-mobile .portraitCard {
-  width: 50%;
-}
-
-@media all and (min-width: 32em) and (max-width: 100em) {
-  .layout-mobile .portraitCard {
-    width: 50%;
-  }
-}
-
-.emby-input:focus,
-.emby-textarea:focus {
-  border-color: var(--accent);
-}
-
-#itemDetailPage
-  button.cardImageContainer.coveredImage.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast {
-  border-radius: 5px;
-}
-
-
-
-
-
-/*Theming Indicators*/
-
-.playedIndicator,
-.countIndicator {
-  border-radius: 5px;
-  box-shadow: 0 0 15px -2px black;
-}
-
-.countIndicator,
-.fullSyncIndicator,
-.playedIndicator {
-  background: #ffffff;
-  color: var(--accent);
-}
-
-.playedIndicator {
-  background: var(--accent);
-  color: #ffffff;
-  box-shadow: 0 0 15px -2px black;
-}
-
-button.emby-tab-button.emby-button.emby-tab-button-active:hover {
-  color: var(--accent) !important;
-}
-
-.emby-tab-button.show-focus:focus,
-.emby-tab-button:hover {
-  color: var(--accent) !important;
-}
-
-
-
-/*Progress Bar*/
-
-.emby-checkbox:checked + span + .checkboxOutline {
-  background-color: var(--accent) !important;
-}
-
-
-/*video Page*/
-
-div#videoOsdPage {
-  overflow: hidden !important;
-  margin-top: 0 !important;
-}
-
-
-.mdl-slider-background-lower {
-  background-color: var(--accent) !important;
-}
-
-.sliderBubble {
-  background: var(--deftraback) !important;
-  border-radius: 10px;
-}
-
-
-/*Rounded corners and square hover buttons*/
-
-.cardContent-button,
-.cardContent-shadow,
-.itemDetailImage,
-.cardOverlayButton-hover,
-.cardOverlayContainer,
-.cardImageContainer,
-.cardPadder,
-.listItemImage,
-.listItemImageButton,
-.listItemButton,
-.headerButton,
-.paper-icon-button-light,
-.innerCardFooter,
-.blurhash-canvas,
-.actionSheetMenuItem:hover,
-.dialog {
-  border-radius: var(--rounding) !important;
-}
-
-.dialog {
-  background-color: rgba(0, 0, 0, 0.4);
-  backdrop-filter: blur(60px) !important;
-  -webkit-backdrop-filter: blur(60px) !important;
-  -moz-backdrop-filter: blur (60px) !important;
-  -o-backdrop-filter: blur(60px) !important;
-  box-shadow: 0 0 0 2000vw rgb(0 0 0 / 45%), 0 0 20px 4px black;
-}
-
-
-/*Blur backdrops, feel free to edit the intensity of the filter values*/
 
-.backdropImage {
-  -webkit-filter: blur(4px) saturate(150%) contrast(130%) brightness(40%);
-  filter: blur(4px) saturate(150%) contrast(130%) brightness(40%);
+/* Hide "please login" text, margin is to prevent login form moving too far up */
+#loginPage h1 {
+  display: none;
 }
 
 
-
-/*cardbox border-radius change*/
-
-#indexPage
-  button.cardImageContainer.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast,
-.emby-scroller button.cardImageContainer.coveredImage.cardContent,
-.childrenItemsContainer button.cardImageContainer.coveredImage.cardContent,
-.nextUpItems
-  button.cardImageContainer.cardContent.itemAction.lazy.blurhashed.lazy-image-fadein-fast,
-.vertical-wrap button.cardImageContainer.coveredImage.cardContent,
-.emby-scroller button.cardImageContainer {
-  border-radius: 7px 7px 7px 7px !important;
-}
-
-.cardBox:not(.visualCardBox) .cardPadder,
-.cardContent-shadow {
-  box-shadow: none;
-}
-
-.cardBox.cardBox-bottompadded {
-  background: rgba(0, 0, 0, 0.25);
-}
-
-
-
-
-.emby-checkbox:checked + span + .checkboxOutline,
-.itemProgressBarForeground {
-  background-color: var(--deftraback) !important;
-}
-
-.cardBox {
-  box-shadow: 0px 0px 9px 0px rgb(0 0 0);
-}
-
-.paper-icon-button-light:hover:not(:disabled) {
-  color: var(--accent);
-  background-color: #2020208c;
-  box-shadow: 0 0 15px -2px black;
-}
-
-
-
-/*fixing Poster Margin*/
-
-.itemsContainer > .card > .cardBox {
-  margin: 6px !important;
-}
-
-.sectionTitleContainer.flex {
-  box-shadow: 0 0 black !important;
-}
-
-
-.card[data-type="Actor"] .cardBox {
-  background: none;
-  position: relative;
-}
-
-.card[data-type="Actor"] .cardScalable {
-  height: 0;
-  overflow: hidden;
-  padding-top: 100%;
-  border-radius: var(--rounding);
-}
-
-.card[data-type="Actor"] .cardText {
-  position: absolute;
-  background: transparent !important;
-}
-
-.card[data-type="Actor"] .cardImageContainer::after {
-  content: "";
-  background: linear-gradient(360deg, rgba(0, 0, 0, 0.75), transparent 70%);
-  width: 100%;
-  bottom: 0;
-  position: absolute;
-  padding-top: 100%;
-}
-
-.card[data-type="Actor"] .cardText-secondary {
-  bottom: 0%;
-  width: -webkit-fill-available;
-  border-radius: 0px 0px 10px 10px;
-  height: 22px;
-}
-
-.card[data-type="Actor"] .cardText-first {
-  bottom: 23.5px;
-  width: -webkit-fill-available;
-  height: 22px;
-}
-
-.layout-mobile .card[data-type="Actor"] .cardText-first {
-  color: white !important;
-}
-
-.card[data-type="Actor"] .cardScalable {
-  overflow: hidden;
-  border-radius: var(--rounding);
-  height: 3rem;
-}
-
-.card[data-type="Actor"] .cardOverlayButton-br {
-  position: absolute;
-  bottom: 23%;
-  right: 0;
-}
-
-.card[data-type="Actor"] .cardPadder {
-  background: none;
-}
-
-.card[data-type="Actor"] .cardImageIcon {
-  bottom: 41%;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-
-
-
-
-
-/*fancy link*/
-
-.button-link::after {
-  content: "";
-  width: 100%;
-  height: 1px;
-  background: #00a4dc;
-  position: absolute;
-  bottom: 0;
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.2s ease;
-}
-
-.button-link:hover {
-  text-decoration: none;
-}
-
-.button-link:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
-}
-
-#itemDetailPage .button-link::after {
-  background: white;
-  height: 2px;
-}
-
-/*fancy link end*/
-
-.listItem.listItem-border:hover {
-  border-color: rgba(0, 0, 0, 0) !important;
-  background: #3f3f3f;
-}
-
-.listItem-border {
-  transition: border-color 0.2s, background 0.2s;
-}
-
-div#divRunningTasks:hover {
-  transform: scale(1.1);
-}
-
-div#divRunningTasks {
-  transition: transform 0.2s, background 0.2s;
-}
-
-.navMenuOption-selected {
-  background: var(--accent-selected) !important;
-}
-
-.detailPageContent {
-  text-shadow: 0 0 5px black;
-}
-
-select {
-  box-shadow: 0 0 6px 0px black !important;
-  background: rgba(0, 0, 0, 0.2) !important;
-  backdrop-filter: blur(50px) !important;
-  -webkit-backdrop-filter: blur(50px);
-  text-shadow: 0 0 5px black !important;
+#loginPage .padded-left.padded-right.padded-bottom-page {
+  margin-top: 50px;
 }
 
-
-
-/*Mini My media*/
-
-
-#indexPage .raised.emby-button:hover {
-  background: rgb(0, 0, 0, 0.75) !important;
-  box-shadow: 0px 5px 9px 0px black;
-}
-.section0 .itemsContainer.scrollSlider.focuscontainer-x.animatedScrollX {
-  align-content: flex-start;
-  flex: 1 1 80px !important;
+/* Hide "manual" and "forgot" buttons */
+#loginPage .raised.cancel.block.btnManual.emby-button {
+  display: none;
 }
-
-
-.section0 .emby-scrollbuttons {
-display: visible;
-}
-
-#indexPage .raised.emby-button {
-  background: rgb(0, 0, 0, 0.25) !important;
-  box-shadow: 0px 0px 9px 0px black;
-  transition: background 0.15s ease-out, box-shadow 0.15s ease-out;
-  border-radius: var(--rounding);
-}
-
-.raised {
-  border-radius: 50vh;
-  overflow: hidden;
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
+  display: none;
 }
 
 .backgroundContainer,
 .dialog,
-.nowPlayingPlaylist,
-.nowPlayingContextMenu,
-.mainDrawer,
-.drawer-open,
 html {
-  background: rgb(0 60 80 / 10%);
+  background-color: #181818;
 }
 
-.layout-tv body {
-  overflow-y: scroll !important;
+/*#####################################################################################################################
+            LAYOUT DESKTOP
+
+######################################################################################################################*/
+
+.layout-desktop .detailLogo {
+  left: 5%;
+  background-position: top left;
 }
 
-.layout-tv div[data-role="page"] {
-  margin: 0;
-  overflow: visible;
-}
-
-/* My Media Styling */
-
-.section0 button.itemAction.textActionButton {
-  height: 2.5em;
-  background: rgba(0, 0, 0, 0);
-  border-radius: var(--rounding);
-}
-
-.section0 .overflowBackdropCard,
-.section0 .overflowSmallBackdropCard {
-  max-width: 90vw;
-}
-
-.section0 .emby-scroller {
-  margin-right: 0;
-}
-
-
-/*Theme some dialogues*/
-
-
-.layout-desktop .mainDrawer.drawer-open {
-  background-color: rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 0 1000vh rgb(0 0 0 / 45%), 0 0 20px 0px black;
-}
-
-
-.mainDrawer {
-  background-color: rgba(0, 0, 0, 0.1);
-  box-shadow: none;
-  transition: all 0.2s !important;
-  -webkit-backdrop-filter: blur(60px);
-  -moz-backdrop-filter: blur(60px);
-  -o-backdrop-filter: blur(60px);
-  backdrop-filter: blur(60px);
-  -webkit-transition: all 0.2s !important;
-  -moz-transition: all 0.2s !important;
-  -ms-transition: all 0.2s !important;
-  -o-transition: all 0.2s !important;
-}
-
-
-/*Hover items*/
-
-.emby-input,
-.emby-textarea {
-  color: inherit;
-  border: 0.07em solid #7b7b7b;
-  border-radius: 5px;
-  box-shadow: 0 0 8px 0px black !important;
-  background: rgba(0, 0, 0, 0.2) !important;
-  backdrop-filter: blur(60px);
-  -webkit-backdrop-filter: blur(60px);
-  text-shadow: 0 0 5px black;
-}
-
-.emby-select-withcolor {
-  border: 0.07em solid #7b7b7b;
-}
-
-
-.cardBox {
-  background: rgba(0, 0, 0, 0.25);
-  border-radius: 10px;
-  box-shadow: 0px 0px 0px 0px rgb(0 0 0);
-  transition: background 0.15s ease-out, box-shadow 0.15s ease-out;
-}
-
-
-
-.cardScalable {
-  overflow: hidden;
-}
-
-.layout-mobile .card:hover .cardBox {
-  background: rgba(0, 0, 0, 0.25) !important;
-}
-
-.layout-mobile .cardImageContainer {
+.layout-desktop .itemBackdrop {
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
+  width: 80vw;
+  position: relative;
+  right: -20%;
 }
 
-.layout-mobile .card:hover .cardImageContainer {
+.layout-desktop .itemBackdrop:after {
+  background: url("../../themes/mytheme/mask.png");
   background-size: cover;
-}
-
-.overflowSquareCard .cardImageContainer {
-  background-size: 180%;
-}
-
-.overflowSquareCard:hover .cardImageContainer {
-  background-size: 200%;
-}
-
-.overflowSquareCard .cardImageContainer::before {
-  content: "";
-  background: inherit;
-  width: 130%;
-  height: 130%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  background-size: cover;
-  -webkit-filter: brightness(40%) blur(10px);
-  filter: brightness(40%) blur(10px);
-  z-index: 0;
-  transform: translate(-50%, -50%);
-}
-
-.overflowSquareCard .cardImageContainer::after {
-  content: "";
-  background: inherit;
-  z-index: 0;
-  position: absolute;
   width: 100%;
   height: 100%;
-  background-size: 100%;
-  transition: all 0.15s;
 }
 
-.overflowSquareCard:hover .cardImageContainer::after {
-  background-size: 120%;
+.layout-desktop .detailPageWrapperContainer {
+  margin-top: -65vh; /* inicial: 73 */
 }
 
-:not(.detailImageContainer)
-  > .card:not(.overflowSquareCard)
-  .cardImageContainer::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: inherit;
-  transition: 0.15s;
+.layout-desktop .detailImageContainer .card,
+.layout-desktop .itemTags,
+.layout-desktop .itemExternalLinks {
+  display: none;
 }
 
-.card:not(.overflowSquareCard):hover .cardImageContainer::before {
-  transform: scale(1);
+.layout-desktop .detailPagePrimaryContainer,
+.layout-desktop .detailPageContent {
+  padding-left: 5%;
 }
 
-.layout-mobile
-  .card:not(.overflowSquareCard):hover
-  .cardImageContainer::before {
-  transform: scale(1);
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
+.layout-desktop .detailPagePrimaryContent {
+  width: 45%;
 }
 
-.progressring-bg {
-  border: 0.25em solid transparent;
-  background: transparent;
+.layout-desktop .detailPagePrimaryContainer {
+  display: inline-table;
+  z-index: 2;
+  left: 5%;
 }
 
-.itemName.parentNameLast {
-  font-size: 35px;
+.layout-desktop .detailPageSecondaryContainer {
+  margin: 0 0 1.25em 0;
 }
 
-#itemDetailPage .button-flat:hover {
-  transform: scale(1.5);
+.layout-desktop .itemDetailsGroup {
+  margin-top:  0;
 }
 
-.button-flat {
-  border-radius: 5px !important;
+.layout-desktop a.overview-expand.emby-button {
+  margin: none;
+  padding: none;
 }
 
-.detailButton-content {
-  -webkit-filter: drop-shadow(0px 3px 3px black);
-  filter: drop-shadow(0px 3px 3px black);
+.layout-desktop form.trackSelections,
+.layout-desktop .itemName.originalTitle {
+  display: none;
 }
 
-.navMenuOption {
-  background: transparent !important;
+.layout-desktop .itemName,
+.layout-mobile .itemName {
+  font-weight: normal;
 }
 
-.navMenuOption::before {
-  content: "";
+/* buttons section styles */
+
+.layout-desktop .mainDetailButtons {
+  margin-top: 1.5em;
+}
+
+.layout-desktop .btnPlay {
+    /*border: 2px solid #cecece;*/
+    border-radius: 2em;
+    /*width: 7vw;*/
+    background-color: white;
+    /*padding: 0.4em!important;*/
+    /*margin-right: 30%!important;*/
+}
+
+.layout-desktop .btnPlay:hover {
+  background-color: #00a4dc;
+}
+
+.layout-desktop .btnPlay::after {
+  content : attr(title);
+  margin: 0 10px 0 2px;
+  color: black;
+}
+
+.layout-desktop .material-icons.detailButton-icon.play_arrow {
+  color: black;
+}
+
+.layout-desktop .btnPlay.detailButton {
+  flex-direction: row;
+}
+
+.layout-desktop .listViewUserDataButtons {
+  display: none;
+}
+
+/*  season section  */
+.layout-desktop .vertical-list {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.layout-desktop .listItem-withContentWrapper {
+  align-items: flex-start;
+  flex-direction: column;
+  width: 32%;
+}
+
+.layout-desktop .listItem-content {
+  display: flex;
   width: 100%;
-  height: 100%;
-  position: absolute;
-  background: var(--accent);
-  z-index: -1;
-  left: 0;
-  opacity: 0%;
-  transition: opacity 0.2s;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.navMenuOption:hover::before {
-  opacity: 100%;
-}
-
-.navMenuOption .navMenuOptionIcon {
-  transition: margin-right 0.2s;
-}
-
-.navMenuOption:hover .navMenuOptionIcon {
-  margin-right: 1.5em;
-}
-
-.listItem-border.emby-button:hover {
-  background: black;
-}
-
-.listItem-border.emby-button:hover .listItemIcon {
-  margin-right: 0.65rem;
-}
-
-.listItem-border.emby-button .listItemIcon {
-  transition: margin-right 0.2s;
-}
-
-
-.defaultCardBackground {
-  background: transparent;
-}
-
-.cardImageIcon {
-  background: var(--accent);
-  color: transparent;
-  -webkit-background-clip: text !important;
-  background-clip: text !important;
-}
-
-.navMenuOption-selected {
-  background: var(--accent-selected) !important;
-}
-
-span.material-icons.detailButton-icon.check.playstatebutton-icon-played,
-span.material-icons.detailButton-icon.favorite.ratingbutton-icon-withrating {
-  background: var(--accent-text);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: #d60000;
-}
-
-.raised::before {
-  content: "";
+.layout-desktop .listItemImage-large {
+  height: 16vw;
   width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  position: absolute;
-  z-index: -1;
-  background: var(--accent);
-  border-radius: 5px;
-  opacity: 0;
-  transition: opacity 0.2s ease-in-out;
-}
-
-.raised:hover::before {
-  opacity: 100%;
-}
-
-.dashboardSection .defaultCardBackground {
-  color: white;
-}
-
-#indexPage .raised::before {
-  background: transparent;
 }
 
 
 
+/*#####################################################################################################################
+            LAYOUT MOBILE
 
+######################################################################################################################*/
 
-
-
-
-
-
-
-
-
-
-/* fixed height for the bottom row */
-:root {
-  --element-fixed-top: 95px;
+.layout-mobile .headerHomeButton,
+.layout-mobile .headerCastButton,
+.layout-mobile .headerSyncButton {
+    display: none;
 }
 
-/* Now playing bar in the footer */
-.nowPlayingBar {
-       width: 650px;
-       z-index: 10;
-       position: fixed;
-       top: 300px;
-       height: 120px;
-      border-style: solid;
-      border-color: white;
-      background-color: black;
-      margin-left: 50%;
+.layout-mobile .mainDrawerButton {
+  display: block!important;
 }
 
-/* Only child of nowPlayingBar */
-.nowPlayingBarTop {
-     height: 5px !important;
-     max-width: 500px
-     top: 10px;
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {
+  background: none;
+  background-color: rgba(0, 0, 0, 0);
+}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {
+  background: none;
+  background-color: rgba(0, 0, 0, 0);
 }
 
-/* Song progress seekbar */
-.nowPlayingBarPositionContainer {
-     position: relative;
-     top: 1.0em !important;
+.headerTabs.sectionTabs {
+  text-size-adjust: 110%;
+  font-size: 110%;
+}
+.pageTitle {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.emby-tab-button {
+  padding: 1.75em 1.7em;
 }
 
-/* Container that holds album thumbnail, artist and album name */
-.nowPlayingBarInfoContainer {
-     position: fixed !important;
-     left: 12px;
-     top: 34px;
-     height: 60px;
-     width: 1100px;
+/* Seccion Peliculas/Series */
+
+.layout-mobile .itemTags,
+.layout-mobile .itemExternalLinks,
+.layout-mobile .trackSelections,
+.layout-mobile .itemName.originalTitle,
+.layout-mobile .directorsGroup,
+.layout-mobile .writersGroup,
+#seriesAirTime {
+    display: none;
 }
 
-/* Holds the next, previous track, play/pause, next and time elements */
-.nowPlayingBarCenter {
-     position: relative !important;
-     left: 32px;
-     top: var(--element-fixed-top);
-     min-width: 500px;
+/* Quitamos imagen de poster */
+.layout-mobile .detailImageContainer .card,
+.layout-mobile .detailImageContainer .card.backdropCard,
+.layout-mobile .detailImageContainer .card.squareCard {
+    top: auto;
+    display: none;
 }
 
-/* Hold mute, volume slider container, repeat, favorite and remote control buttons */
-.nowPlayingBarRight {
-     width: 402px !important;
-     left: -60px;
+/* Mostrando Logo y posicionandolo */
+.layout-mobile .detailLogo {
+    display: block;
+    width: 15em;
+    left: 5%;
+    top: 17vh;
 }
 
-/* Mute button */
-.muteButton {
-    position: relative;
-    top: var(--element-fixed-top);
+/* Mismo color de fondo a franja gris */
+.detailRibbon {
+    background: rgba(32, 32, 32, 0);
 }
 
-/* Volume slider */
-.nowPlayingBarVolumeSliderContainer {
-     position: relative;
-     left: -4px;
-     top: var(--element-fixed-top);
-}
-
-/* Toggle repeat */
-.toggleRepeatButton {
-     position: relative !important;
-     left: -20px;
-     top: var(--element-fixed-top);
-}
-
-/* Favorite */
-.nowPlayingBarUserDataButtons {
-     position: relative;
-     left: -4px;
-     top: var(--element-fixed-top);
-}
-
-/* Remote control */
-.remoteControlButton {
-     left: -110px;
-     top: var(--element-fixed-top);
+/* Sipnosis tamano de 5 lineas */
+.detail-clamp-text {
+    -webkit-line-clamp: 4;
 }
 
 
-
-
-
-
-
-
-
-
-
-/*Size episode preview images in a more compact way*/
-
-.childrenItemsContainer.itemsContainer.padded-right.vertical-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.layout-mobile .infoWrapper {
+    padding-left: 0;
+    margin-top: 6em;
 }
 
-@media all and (max-width: 1001px) {
-  .childrenItemsContainer.itemsContainer.padded-right.vertical-list {
-    grid-template-columns: 1fr 1fr;
-  }
+.layout-mobile .itemMiscInfo,
+.layout-mobile .itemName,
+.layout-mobile .mainDetailButtons,
+.layout-mobile .parentName {
+    text-align: left;
 }
 
-
-#itemDetailPage .listItem-content {
-  background: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  overflow: hidden;
-  transition: background 0.15s ease-in-out;
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
-  flex-flow: column;
-  -webkit-transition: background 0.15s ease-in-out;
-  -moz-transition: background 0.15s ease-in-out;
-  -ms-transition: background 0.15s ease-in-out;
-  -o-transition: background 0.15s ease-in-out;
+.layout-mobile .itemMiscInfo, 
+.layout-mobile .itemName, 
+.layout-mobile .mainDetailButtons, 
+.layout-mobile .parentName {
+    justify-content: left;
+    text-align: left;
 }
 
-.listItemImage.listItemImage-large {
-  width: 100%;
-  margin: 0;
+/* Titulo Original y removiendo el titulo actual */
+.layout-mobile .itemName.parentNameLast.withOriginalTitle {
+    margin: 0.6em 0;
 }
 
-.listItem-overview.listItemBodyText {
-  height: 2.5em !important;
-  font-size: 1em !important;
-  -webkit-mask: linear-gradient(to top, transparent, black 1.2em);
-  mask: linear-gradient(to top, transparent, black 1.2em);
+/* moviendo a la Izq Contenedor de botones de pelicula*/
+.layout-mobile .mainDetailButtons {
+    padding-left: 0;
 }
 
-#itemDetailPage .listItem:hover .listItem-content {
-  background: rgba(0, 0, 0, 0.8);
+/* arregalndo padding y margin y aumentando tamano de fanart y agregando degradado */
+.layout-mobile .itemBackdrop {
+    height: 40vh;/*30*/
+    margin-top: 0;
 }
 
-.listItemImageButton-icon {
-  padding: 0;
+.layout-mobile .itemBackdrop::before {
+    content: '';
+    right: 0;
+    left: 0;
+    /*top: 0;*/
+    bottom: 0;
+    height: 25vh;
+    position: absolute;
+    z-index: -1;
+    /*background: linear-gradient(0deg, #181818 15%, #18181800 65%);*/
+    background: linear-gradient(0deg, #181818 10%, #18181800 65%);
 }
 
-#itemDetailPage .listItem {
-  position: relative;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-  overflow: hidden;
-  margin-bottom: 1.5rem;
-  border-radius: var(--rounding);
+.layout-mobile .detailPageWrapperContainer {
+  top: -5em;
 }
 
-#itemDetailPage .secondary.listItem-overview.listItemBodyText {
-  height: 100%;
-  margin: 0;
+.layout-mobile .infoWrapper {
+    margin-top: 0;
 }
 
-.listItem[data-mediatype="Audio"] {
-  padding: 0 1em;
-  border-radius: 15px !important;
-  -webkit-border-radius: 15px !important;
-  -moz-border-radius: 15px !important;
-  -ms-border-radius: 15px !important;
-  -o-border-radius: 15px !important;
+.layout-mobile .itemName.parentNameLast.withOriginalTitle {
+    margin: 0 0 0.6em 0;
 }
 
-.listItemImageButton {
-  margin: auto;
-  font-size: 2em !important;
+.layout-mobile .detailPageSecondaryContainer {
+    margin: 0 0 1em 0;
 }
 
-
-
-
-.layout-mobile .listItemImage.listItemImage-large.itemAction.lazy {
-  transition: filter 0.2s
-}
-.layout-mobile .listItemImageButton-icon {
-  padding: 0;
-}
-.layout-mobile .secondary.listItem-overview.listItemBodyText {
-  height: 61px; 
-  margin: 0;
-}
-.layout-mobile .listItemImageButton {
-  margin: auto; 
-  font-size: 2em !important;
+.layout-mobile .overview-expand {
+    padding: 0 1em 0.3em 1em;
 }
 
-
-
-.layout-mobile .listItemImage.listItemImage-large.itemAction.lazy {
-    height: 110px;
-  }
-
- .layout-mobile .secondary.listItem-overview.listItemBodyText {
-    height: 4em; 
-    margin: 0; }
- 
-.layout-mobile .listItemImage.listItemImage-large.itemAction.lazy {height: 175px;}
-
-.layout-mobile .secondary.listItem-overview.listItemBodyText {height: 2.5em; margin: 0;}
-
-
-.layout-mobile  .missingIndicator, .unairedIndicator {
-    background: #ae3030eb;
-    padding: .3em .6em;
-    border-radius: var(--rounding);
-    color: #fff;
+/* play boton */
+.layout-mobile .mainDetailButtons {
+  margin-top: 1.5em;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*---------------TV MODE- MAKES CHANGES TO TV*/
-
-
-.layout-tv .homeLibraryButton:focus,
-.layout-tv .card:focus {
-  transform: none !important;
+.layout-mobile .btnPlay {
+  border-radius: 2em;
+  /*width: 7vw;*/
+  background-color: white;
+  /*padding: 0.4em!important;*/
+  /*margin-right: 30%!important;*/
 }
 
-.layout-tv .card {
-  border-radius: 10px !important;
-  margin: 0px !important;
-  background: transparent !important;
+.layout-mobile .btnPlay::after {
+  content : attr(title);
+  margin: 0 10px 0 2px;
+  color: black;
 }
 
-.layout-tv .card:focus {
-  background: transparent !important;
+.layout-mobile .btnPlay.detailButton {
+  flex-direction: row;
 }
 
-.layout-tv .card[data-type="Actor"] {
-  padding: 10px;
-  position: relative;
-  height: 16em;
+.layout-mobile .btnShuffle,
+.layout-desktop .btnShuffle {
+  display: none;
 }
 
-.layout-tv .card[data-type="Actor"] .cardPadder {
-  display: none !important;
+.layout-mobile .material-icons.detailButton-icon.play_arrow {
+  color: black;
 }
 
-.layout-tv .emby-scroller {
-  overflow: hidden !important;
+.layout-mobile .listViewUserDataButtons {
+  display: none;
 }
 
-.layout-tv .card::before,
-.layout-tv .emby-tab-button::before,
-.layout-tv .paper-icon-button-light::after,
-.layout-tv .listItem::after,
-.layout-tv .raised::after,
-.layout-tv #itemDetailPage .emby-button::after {
-  box-sizing: border-box;
-  content: "";
-
-  width: 112%;
-  height: 110%;
-
-  background: transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  border: 10px solid white;
-  transform: translateY(100%);
-  visibility: hidden;
-  z-index: 1000;
-  will-change: transform;
-  transition: all 0.1s;
-  border-radius: 15px;
-}
-
-.layout-tv .raised::after {
-  transition: transform 0.275s, visiblity 0s 0.275s;
-}
-
-.layout-tv .cardBox {
-  height: 100%;
-  padding: 8px !important;
-}
-
-.layout-tv .card:focus::before,
-.layout-tv .emby-tab-button:focus::before,
-.layout-tv .paper-icon-button-light:focus::after,
-.layout-tv .listItem:focus::after,
-.layout-tv a.show-focus[is="emby-linkbutton"]:focus > .listItem::after,
-.layout-tv .raised:focus::after,
-.layout-tv #itemDetailPage .emby-button:focus::after {
-  transform: translateX(0) !important;
-  visibility: visible;
-}
-
-.layout-tv .card:focus ~ .card::before,
-.layout-tv .emby-tab-button:focus ~ .emby-tab-button::before,
-.layout-tv .paper-icon-button-light:focus ~ .paper-icon-button-light::after,
-.layout-tv .raised:focus ~ .raised::after,
-.layout-tv #itemDetailPage .emby-button:focus ~ .emby-button::after {
-  transform: translateX(-100%) !important;
-}
-
-.layout-tv .verticalSection:focus-within ~ .verticalSection .card::before,
-.layout-tv .verticalSection:focus-within ~ .section5 .card::before,
-.layout-tv .listItem:focus ~ .listItem::after,
-.layout-tv
-  a.show-focus[is="emby-linkbutton"]:focus
-  ~ a.show-focus[is="emby-linkbutton"]
-  > .listItem::after,
-.layout-tv .verticalSection:focus-within ~ .verticalSection .raised::after {
-  transform: translateY(-100%);
-}
-
-.layout-tv .verticalSection:focus-within .card::before,
-.layout-tv *:focus-within > .emby-tab-button::before,
-.layout-tv *:focus-within > .paper-icon-button-light::after,
-.layout-tv *:focus-within > .raised::after,
-.layout-tv #itemDetailPage *:focus-within > .emby-button::after {
-  transform: translateX(100%);
-}
-
-.layout-tv .emby-tab-button:focus,
-.layout-tv .paper-icon-button-light:focus,
-.layout-tv .emby-button:focus {
-  transform: none !important;
-  background: none !important;
-}
-
-.layout-tv a.show-focus[is="emby-linkbutton"]:focus {
-  transform: none !important;
-}
-
-.layout-tv .raised:focus {
-  background: var(--accent) !important;
-  transform: none !important;
-}
-
-
-.layout-tv div[data-role="page"]:not(#itemDetailPage)::after {
-  background: rgb(20, 20, 20);
-  overflow: visible;
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-
-.layout-tv .vertical-wrap .card::before {
-  transform: none !important;
-  visibility: visible;
-  opacity: 0;
-}
-
-.layout-tv .vertical-wrap .card:focus::before {
-  transform: none !important;
-  opacity: 1;
-}
-
-.layout-tv .vertical-wrap .card:focus ~ .card::before {
-  transform: none !important;
-}
-
-.layout-tv .card[data-type="Actor"] .cardText {
-  position: absolute;
-  background: transparent !important;
-  opacity: 1;
-  width: calc(100% - 10px);
-  padding: 0 5px !important;
-}
-
-.layout-tv .card[data-type="Actor"] .cardText-first {
-  bottom: 31.5px;
-  height: 22px;
-}
-
-.layout-tv .card[data-type="Actor"] .cardText-secondary {
-  bottom: 8px;
-  border-radius: 0px 0px 10px 10px;
-  height: 22px;
-}
-
-.layout-tv .card[data-type="Actor"] .cardScalable {
-  overflow: hidden;
-  border-radius: var(--rounding);
-  height: inherit;
-  padding-top: 0 !important;
-}
-
-.layout-tv .card[data-type="Actor"] .cardBox {
-  padding: 0 !important;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.layout-tv #itemDetailPage:not(.noBackdrop) .detailPagePrimaryContainer, {
-  position: relative;
-  top: 0;
-  width: -webkit-fit-content !important;
-  width: -moz-fit-content !important;
-  width: fit-content !important;
-  background: transparent;
-  font-size: 20px;
-  max-width: 95%;
-  margin-top: 10vh;
-  padding: 0 !important;
-  height: 20vh;
-  font-size: 135%;
-}
-
-
-
-
-.layout-tv #itemDetailPage .itemName.infoText.parentNameLast {
+.layout-mobile .listItem-content {
   display: block;
 }
 
-
-.layout-tv #itemDetailPage .vertical-list {
-  grid-template-columns: 1fr;
+.layout-mobile .listItem-content .listItemBody {
+  padding: 0.85em 0;
 }
 
-.layout-tv .emby-scroller {
-  overflow: hidden !important;
+.layout-mobile .listItem-content .listItemImage-large {
+  height: 30vw;
+  width: 86vw;
 }
 
-.layout-tv .listItem[data-type="Episode"] {
-  padding: 7.5px !important;
+.layout-mobile .listItem-content .listItemImage-large .listItemImageButton, .listItemIndicators {
+  font-size: 1em!important;
+}
+
+.layout-mobile .listItem-bottomoverview {
+  font-size: 100%;
+}
+
+.layout-mobile .detailPagePrimaryContent {
+  position: relative;
+  margin-top: 1em;
 }
 
 
-.layout-tv .listItemBodyText {
-  font-size: 100% !important;
+
+/********************************************************************************************************
+      general layout
+********************************************************************************************/
+/* cast & crew circular */
+#castContent .cardImageContainer.coveredImage.cardContent.itemAction.lazy.non-blurhashable.lazy-image-fadein-fast,
+#castContent .cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground1.cardContent.itemAction {
+  border-radius: 50%;
 }
 
-.layout-tv .listItemBodyText.listItem-overview {
-  line-height: 1.2;
+#castContent .cardPadder.cardPadder-overflowPortrait.lazy-hidden-children,
+#castContent .cardPadder-mixedPortrait, 
+#castContent .cardPadder-overflowPortrait, 
+#castContent .cardPadder-portrait, 
+#castContent .overflowPortraitCard-textCardPadder {
+  border-radius: 50%;
+  padding-bottom: 100%;
 }
 
-.layout-tv .listItemImage.listItemImage-large::after {
-  top: 0;
+#castContent .cardOverlayButton-br {
   bottom: 0;
-  right: 0;
-  left: auto;
-  width: 55px;
-  height: 100%;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0.8) 5%, transparent 95%);
+  position: absolute;
+  left: 38%;
 }
 
-.layout-tv .listItem:focus {
-  transform: none !important;
-  background: none !important;
+#castContent .cardOverlayContainer {
+  border-radius: 50%;
 }
+
