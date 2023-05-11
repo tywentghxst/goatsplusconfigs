@@ -65,6 +65,35 @@
 
 
 
+
+
+
+/*-----------------------------------------------resizes home media sections-----------------------------------------------*/
+
+/*
+
+.section2 .card.overflowBackdropCard.card-hoverable.card-withuserdata {
+width:11vw
+}
+
+.section1 .card.overflowBackdropCard.card-hoverable.card-withuserdata {
+width:17vw
+}
+
+#childrenCollapsible .card.overflowPortraitCard.card-hoverable.card-withuserdata {
+width:6vw
+}
+
+.section1 .emby-scrollbuttons.padded-right {
+    margin-top: -1.5vh;
+}
+
+*/
+
+
+
+
+
 /*----------------------------------------------Changes top my media cards (movies/shows/collections) */
 
 .layout-desktop
