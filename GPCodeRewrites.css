@@ -543,6 +543,11 @@ width:25%;}
 
 
 
+/* Color de fondo general */
+/* definicion de variables */
+:root {
+    --margin-page: 7%;
+}
 
 /* LOGIN Section */
 /* Narrow the login form */
@@ -556,170 +561,193 @@ width:25%;}
   display: none;
 }
 
-
 #loginPage .padded-left.padded-right.padded-bottom-page {
   margin-top: 50px;
 }
 
 /* Hide "manual" and "forgot" buttons */
-/*
 #loginPage .raised.cancel.block.btnManual.emby-button {
   display: none;
-} */
+}
 #loginPage .raised.cancel.block.btnForgotPassword.emby-button {
   display: none;
 }
 
-.backgroundContainer,
 .dialog,
 html {
   background-color: #030000;
 }
 
-/*#####################################################################################################################
-            LAYOUT DESKTOP
-
-######################################################################################################################*/
-
-.layout-desktop .detailLogo {
-  left: 5%;
-  background-position: top left;
+/****************************************************************
+                        LAYOUT DESKTOP 
+****************************************************************/
+/* header section */
+.skinHeader.semiTransparent {
+    background-color: rgba(0, 0, 0, 0.0);
 }
 
-.layout-desktop .itemBackdrop {
-  background-attachment: scroll;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  width: 80vw;
-  position: relative;
-  right: -20%;
+.skinHeader-withBackground {
+    background-color: transparent;
 }
 
-.layout-desktop .itemBackdrop:after {
-  background: url("../../themes/mytheme/mask.png");
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.layout-desktop .detailPageWrapperContainer {
-  margin-top: -65vh; /* inicial: 73 */
-}
-
+/* removemos info innecesaria */
 .layout-desktop .detailImageContainer .card,
 .layout-desktop .itemTags,
-.layout-desktop .itemExternalLinks {
-  display: none;
-}
-
-.layout-desktop .detailPagePrimaryContainer,
-.layout-desktop .detailPageContent {
-  padding-left: 5%;
-}
-
-.layout-desktop .detailPagePrimaryContent {
-  width: 45%;
-}
-
-.layout-desktop .detailPagePrimaryContainer {
-  display: inline-table;
-  z-index: 2;
-  left: 5%;
-}
-
-.layout-desktop .detailPageSecondaryContainer {
-  margin: 0 0 1.25em 0;
-}
-
-.layout-desktop .itemDetailsGroup {
-  margin-top:  0;
-}
-
-.layout-desktop a.overview-expand.emby-button {
-  margin: none;
-  padding: none;
-}
-
+.layout-desktop .itemExternalLinks,
 .layout-desktop form.trackSelections,
 .layout-desktop .itemName.originalTitle {
   display: none;
 }
 
-.layout-desktop .itemName,
-.layout-mobile .itemName {
-  font-weight: normal;
+/* reposicionando elementos */
+.layout-desktop .detailLogo {
+    left: var(--margin-page);
+    background-position: top left;
+    top: 38vh;
 }
 
-/* buttons section styles */
-
-.layout-desktop .mainDetailButtons {
-  margin-top: 1.5em;
+.layout-desktop .itemBackdrop {
+    height: 70vh;
 }
 
-.layout-desktop .btnPlay {
+.layout-desktop .detailRibbon {
+    background: none;
+}
+
+.layout-desktop .detailPagePrimaryContainer,
+.layout-desktop .detailPageContent {
+    padding-left: var(--margin-page);
+}
+
+.detailPageSecondaryContainer {
+    margin: 0;
+}
+
+.backgroundContainer.withBackdrop {
+    background-color: rgba(0, 0, 0, 0.62);
+}
+
+.withSectionTabs .backgroundContainer.withBackdrop {
+    background-color: #181818!important;
+}
+
+.layout-desktop .detailPageWrapperContainer {
+    background: linear-gradient(0deg, black, transparent);
+}
+
+.layout-desktop .detailPagePrimaryContent {
+    width: 60%;
+}
+
+.layout-desktop .detailButton {
     /*border: 2px solid #cecece;*/
     border-radius: 2em;
+    font-weight: bold;
     /*width: 7vw;*/
-    background-color: white;
-    /*padding: 0.4em!important;*/
-    /*margin-right: 30%!important;*/
+    background-color: rgba(255, 255, 255, 0.20);
+    padding: 1em 2em!important;
+    margin-right: 3%!important;
+    color: rgb(255, 255, 255);
 }
 
-.layout-desktop .btnPlay:hover {
-  background-color: #00a4dc;
+.layout-desktop .detailButton:hover {
+    background-color: #ffffff; 
+    color: #181818;
 }
 
+/* btns remove icons */
+.layout-desktop .material-icons.detailButton-icon.play_arrow,
+.layout-desktop .material-icons.detailButton-icon.replay {
+    display: none;
+}
+
+/* btns adding text */
 .layout-desktop .btnPlay::after {
-  content : attr(title);
-  margin: 0 10px 0 2px;
-  color: black;
+    content : attr(title);
+    /*margin: 0 10px 0 2px;*/
 }
 
-.layout-desktop .material-icons.detailButton-icon.play_arrow {
-  color: black;
+/*material-icons detailButton-icon replay*/
+.layout-desktop .btnReplay::after {
+    content : attr(title);
+    /*margin: 0 10px 0 2px;*/
 }
 
-.layout-desktop .btnPlay.detailButton {
-  flex-direction: row;
+.layout-desktop .btntheaters::after {
+    content : attr(title);
+    /*margin: 0 10px 0 2px;*/
 }
 
-.layout-desktop .listViewUserDataButtons {
-  display: none;
+.layout-desktop .detailButton {
+    flex-direction: row;
+}
+
+.layout-desktop .detailRibbon {
+    height: unset!important;
+}
+
+.layout-desktop .detailPagePrimaryContainer {
+    /*-webkit-align-content: center;*/
+    align-content: flex-start;
+    /*-webkit-align-items: center;*/
+    /*display: -webkit-flex;*/
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.layout-desktop h3.itemName {
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.layout-desktop .itemMiscInfo, .nameContainer {
+    margin-bottom: 0.5em;
+}
+
+.layout-desktop .tagline,
+.layout-desktop #seriesAirTime {
+    display: none;
+}
+
+.layout-desktop .detail-clamp-text {
+    -webkit-line-clamp: 4;
 }
 
 /*  season section  */
 .layout-desktop .vertical-list {
-  flex-direction: row;
-  flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
-
+  
 .layout-desktop .listItem-withContentWrapper {
-  align-items: flex-start;
-  flex-direction: column;
-  width: 32%;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 32%;
 }
-
+  
 .layout-desktop .listItem-content {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: flex-start;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
 }
-
+  
 .layout-desktop .listItemImage-large {
-  height: 16vw;
-  width: 100%;
+    height: 16vw;
+    width: 100%;
 }
 
+.layout-desktop .listItem-withContentWrapper:hover {
+    background-color: rgba(255, 255, 255, 0.10);
+}
 
-
-/*#####################################################################################################################
-            LAYOUT MOBILE
-
-######################################################################################################################*/
-
+/****************************************************************
+                        LAYOUT MOBILE 
+****************************************************************/
 .layout-mobile .headerHomeButton,
 .layout-mobile .headerCastButton,
 .layout-mobile .headerSyncButton {
@@ -921,18 +949,16 @@ html {
   margin-top: 1em;
 }
 
-
-
-/********************************************************************************************************
-      general layout
-********************************************************************************************/
-/* cast & crew circular */
-#castContent .cardImageContainer.coveredImage.cardContent.itemAction.lazy.non-blurhashable.lazy-image-fadein-fast,
+/****************************************************************
+                        LAYOUT general 
+****************************************************************/
+  /* cast & crew circular */
+#castContent .cardImageContainer.coveredImage.cardContent.itemAction.lazy.non-blurhashable,
 #castContent .cardImageContainer.coveredImage.defaultCardBackground.defaultCardBackground1.cardContent.itemAction {
   border-radius: 50%;
 }
 
-#castContent .cardPadder.cardPadder-overflowPortrait.lazy-hidden-children,
+#castContent .cardPadder.cardPadder-overflowPortrait,
 #castContent .cardPadder-mixedPortrait, 
 #castContent .cardPadder-overflowPortrait, 
 #castContent .cardPadder-portrait, 
@@ -941,13 +967,12 @@ html {
   padding-bottom: 100%;
 }
 
+#castContent .cardOverlayContainer {
+  border-radius: 50%;
+}
+
 #castContent .cardOverlayButton-br {
   bottom: 0;
   position: absolute;
   left: 38%;
 }
-
-#castContent .cardOverlayContainer {
-  border-radius: 50%;
-}
-
