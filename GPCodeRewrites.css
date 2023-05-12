@@ -1,18 +1,12 @@
-@import url("https://cdn.jsdelivr.net/gh/prayag17/Jellyfin-Icons@latest/Font%20Awesome/light.css");
-@import url("./src/Raleway.css");
-@import url("./src/Montserrat.css");
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap'); body, h1, h2, h3, h4 {
-  font-family: 'Quicksand', sans-serif;
+
+/*--------change main color-----------*/
+.backgroundContainer,
+.dialog,
+html {
+  background-color: #000000;
 }
 
-:root {
-  --deftraback: rgba(232, 94, 0) !important;
-  --rounding: 6px;
-  --accent: #e85e00;
-}
-
-
-
+.backdropImage { display: none; }
 
 
 
@@ -120,18 +114,6 @@
 
 
 
-/*---------------------------DISABLED-------------------Background site wide*/
-
-/*
-
-.backdropImage { display: none; }
-.backgroundContainer {
-  background-color: rgba(0, 0, 0, 0);
-  background-image: url("");
-  filter: blur(8px);
-  background-size: cover;
-}
-*/
 
 
 /*---------------------------DISABLED-------------------LOGIN PAGE*/
@@ -177,29 +159,6 @@
 .headerTabs.sectionTabs {text-size-adjust: 110%;  font-size: 110%;}
 .pageTitle {margin-top: auto; margin-bottom: auto;}
 .emby-tab-button {padding: 1.75em 1.7em;}
-
-
-
-/*----------------------------------------------Universal - Rounded corners and square hover buttons*/
-.cardContent-button, 
-.cardContent-shadow, 
-.itemDetailImage, 
-.cardOverlayButton-hover, 
-.cardOverlayContainer,
-.cardPadder,
-.listItemImage,
-.listItemImageButton,
-.listItemButton,
-.headerButton,
-.paper-icon-button-light,
-.innerCardFooter,
-.blurhash-canvas,
-.cardImageContainer,
-.actionSheetMenuItem:hover,
-.dialog
-{border-radius: 7px !important;}
-
-
 
 
 
@@ -460,13 +419,15 @@ font-weight: normal;
 }
 
 
-/*-----------------------------------------------Card padder overflow (removes background for transparent png my medias) -----------------------------------------------*/
-
+/*---------------------------DISABLED--------------------Card padder overflow (removes background for transparent png my medias) -----------------------------------------------*/
+/*
 .cardBox-bottompadded .cardScalable .cardPadder-overflowBackdrop{
 
 visibility:hidden;
 
 }
+*/
+
 
 /*-----------------------------------------------fixes the favorites/home tab on TV-----------------------------------------------*/
 
@@ -571,10 +532,7 @@ width:25%;}
   display: none;
 }
 
-.dialog,
-html {
-  background-color: #030000;
-}
+
 
 /****************************************************************
                         LAYOUT DESKTOP 
