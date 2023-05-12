@@ -514,9 +514,7 @@ visibility:hidden;
 .upNextDialog-nextVideoText, .upNextDialog-title {
     font-weight: bolder;
 }
-.mediaInfoItem {
-    margin-bottom: -2em;
-}
+
 .upNextDialog-buttons {
     width: 25.75em;
 }
