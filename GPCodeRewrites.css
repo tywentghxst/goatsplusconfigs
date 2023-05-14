@@ -6,7 +6,30 @@ html {
   background-color: #000000;
 }
 
-.backdropImage { display: none; }
+
+
+
+
+
+
+
+.layout-desktop .detailRibbon {
+    height: 7.2em;
+    margin-top: -6.2em;
+}
+
+
+
+
+.layout-desktop .itemBackdrop {
+    height: 100vh;
+}
+
+
+
+
+
+
 
 
 
