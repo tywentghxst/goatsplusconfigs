@@ -13,20 +13,6 @@ html {
 
 
 
-.layout-desktop .detailRibbon {
-    height: 7.2em;
-    margin-top: -6.2em;
-}
-
-
-
-
-.layout-desktop .itemBackdrop {
-    height: 100vh;
-}
-
-
-
 
 
 
@@ -585,9 +571,7 @@ width:25%;}
     top: 38vh;
 }
 
-.layout-desktop .itemBackdrop {
-    height: 70vh;
-}
+
 
 .layout-desktop .detailRibbon {
     background: none;
@@ -612,6 +596,11 @@ width:25%;}
 
 .layout-desktop .detailPageWrapperContainer {
     background: linear-gradient(0deg, black, transparent);
+    margin-top: -22.0em;
+}
+
+.layout-desktop .itemBackdrop {
+    height: 100vh;
 }
 
 .layout-desktop .detailPagePrimaryContent {
